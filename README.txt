@@ -3,9 +3,9 @@ The UD_Czech-CAC treebank is based on the Czech Academic Corpus 2.0 (CAC;
 The treebank consists of 650,000 words, annotated morphologically and
 syntactically. The first version of CAC was created by a team from the
 Institute of the Czech Language, Czechoslovak Academy of Sciences, led by
-Marie Těšitelová, in 1971-1985; its original name was "Korpus věcného stylu".
-It was reshaped and made compatible with the Prague Dependency Treebank in
-2007 (CAC 1.0) to 2008 (CAC 2.0); these corpora are distributed by the
+Marie Těšitelová, in 1971-1985; its original name was “Korpus věcného stylu”.
+It was reshaped and made compatible with the Prague Dependency Treebank between
+2007 (CAC 1.0) and 2008 (CAC 2.0); these corpora are distributed by the
 Linguistic Data Consortium. The corpus has now been converted to Universal
 Dependencies and made freely available under the CreativeCommons license
 (see LICENSE.txt).
