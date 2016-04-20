@@ -1,5 +1,5 @@
 The UD_Czech-CAC treebank is based on the Czech Academic Corpus 2.0 (CAC;
-Český akademický korpus; ČAK), created at the Charles University in Prague.
+Český akademický korpus; ČAK), created at Charles University in Prague.
 CAC consists both of written data and transcripts of spoken language. Only
 the written part is included in this treebank as no syntactic annotation is
 available for the spoken data. Out of 650,000 total CAC tokens, 493,306 appear
@@ -52,8 +52,13 @@ as well as the team responsible for the corpus' revival in 2008.
 References
 
 * Barbora Vidová Hladká, Jan Hajič, Jiří Hana, Jaroslava Hlaváčová,
-  Jiří Mírovský, Jan Votrubec: Průvodce Českým akademickým korpusem 1.0.
-  Karolinum, Praha, 2007. ISBN 978-80-246-1315-4.
+  Jiří Mírovský, Jan Votrubec: Průvodce Českým akademickým korpusem 1.0/
+  The Czech Academic Corpus 1.0 Guide. Karolinum, Praha, 2007. ISBN 978-80-246-1315-4.
+* Barbora Vidová Hladká, Jan Hajič, Jiří Hana, Jaroslava Hlaváčová,
+  Jiří Mírovský, Jan Raab: The Czech Academic Corpus 2.0 Guide.
+  In: The Prague Bulletin of Mathematical Linguistics, No. 89, 
+  Copyright © Univerzita Karlova, ISSN 0032-6585, pp. 41-96, Jun 2008.
+  https://ufal.mff.cuni.cz/pbml/89/pbml89.pdf
 * Marie Těšitelová: K jazyku věcného stylu z hlediska kvantitativního
   (On the language of non-fiction style from the quantitative point of view).
   In: Slovo a slovesnost, vol. 44, no. 4, pp. 275-283, Praha, 1983.
@@ -66,7 +71,7 @@ Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Genre: news nonfiction legal reviews medical
-Contributors: Vidová Hladká, Barbora; Zeman, Daniel
+Contributors: Hladká, Barbora; Zeman, Daniel
 ===============================================================================
-Original CAC authors: Vidová Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
+Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
 Original KVS authors: Těšitelová, Marie
