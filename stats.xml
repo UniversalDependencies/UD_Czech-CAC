@@ -9,7 +9,7 @@
   </size>
   <lemmas unique="28229" /><!-- ,, ., být, a, v, se, na, ten, s, *, z, který, i, k, tento -->
   <forms unique="62446" /><!-- ,, ., a, v, se, na, je, #, *, i, s, z, o, že, k -->
-  <fusions unique="13" /><!-- aby, abychom, kdyby, abyste, kdybychom, abych, oč, kdybych, zač, kdybys, nač, Kdybyste, Abys -->
+  <fusions unique="13" /><!-- aby, abychom, kdyby, abyste, kdybychom, abych, oč, kdybych, zač, nač, Abys, kdybys, Kdybyste -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">70528</tag><!-- velký, nový, další, jiný, pracovní, celý, každý, různý, základní, socialistický -->
@@ -146,8 +146,8 @@
     <dep name="compound">42</dep>
     <dep name="conj">32459</dep>
     <dep name="cop">8179</dep>
-    <dep name="csubj">2509</dep>
-    <dep name="csubjpass">19</dep>
+    <dep name="csubj">2357</dep>
+    <dep name="csubjpass">171</dep>
     <dep name="dep">2413</dep>
     <dep name="det">10517</dep>
     <dep name="det:numgov">367</dep>
@@ -162,8 +162,8 @@
     <dep name="name">850</dep>
     <dep name="neg">86</dep>
     <dep name="nmod">80473</dep>
-    <dep name="nsubj">25630</dep>
-    <dep name="nsubjpass">1844</dep>
+    <dep name="nsubj">24019</dep>
+    <dep name="nsubjpass">3455</dep>
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
     <dep name="parataxis">673</dep>
