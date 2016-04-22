@@ -142,10 +142,10 @@
     <dep name="auxpass:reflex">2093</dep>
     <dep name="case">48229</dep>
     <dep name="cc">26373</dep>
-    <dep name="ccomp">1944</dep>
+    <dep name="ccomp">1974</dep>
     <dep name="compound">42</dep>
     <dep name="conj">32459</dep>
-    <dep name="cop">8179</dep>
+    <dep name="cop">8149</dep>
     <dep name="csubj">2357</dep>
     <dep name="csubjpass">171</dep>
     <dep name="dep">2413</dep>
