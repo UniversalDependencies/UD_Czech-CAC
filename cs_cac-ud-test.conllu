@@ -139,7 +139,7 @@
 2	naše	můj	DET	PSHP1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	LGloss=(přivlast.)
 3	rady	rada	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Plur	4	nsubj	_	LId=rada-1|LGloss=(př._dát_někomu_dobrou_radu)
 4	nemohou	moci	VERB	VB-P---3P-NA--1	Mood=Ind|Negative=Neg|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LGloss=(mít_možnost_[něco_dělat])
-5	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	cc	_	_
+5	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	advmod	_	_
 6	obsáhnout	obsáhnout	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	4	xcomp	_	_
 7	celou	celý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	8	amod	_	_
 8	šířku	šířka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	6	dobj	_	LGloss=(jeden_z_rozměrů)
@@ -705,7 +705,7 @@
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl	_	LGloss=(zvr._zájmeno/částice)
 3	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	LId=pro-1
 4	žehlení	žehlení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	6	dobj	_	LDeriv=žehlit
-5	přece	přece	ADV	Db-------------	_	6	cc	_	_
+5	přece	přece	ADV	Db-------------	_	6	advmod	_	_
 6	rozhodnete	rozhodnout	VERB	VB-P---2P-AA---	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	6	punct	_	_
 8	pak	pak	ADV	Db-------------	_	9	advmod	_	_
@@ -1408,9 +1408,9 @@
 1	Tesil	tesil	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	3	nsubjpass	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	auxpass:reflex	_	LGloss=(zvr._zájmeno/částice)
 3	žehlí	žehlit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	jako	jako	SCONJ	J,-------------	_	6	mark	_	_
+4	jako	jako	SCONJ	J,-------------	_	3	advmod	_	_
 5	vlněná	vlněný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	6	amod	_	LDeriv=vlnit
-6	látka	látka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	3	advcl	_	_
+6	látka	látka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	4	advcl	_	_
 7	přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	LId=přes-1
 8	vlhkou	vlhký	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	9	amod	_	_
 9	látku	látka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -3368,7 +3368,7 @@
 28	sám	sám	PRON	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	27	xcomp	_	SpaceAfter=No|LGloss=(samotný)
 29	,	,	PUNCT	Z:-------------	_	31	punct	_	_
 30	a	a	CONJ	J^-------------	_	31	cc	_	LId=a-1
-31	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	cc	_	_
+31	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	advmod	_	_
 32	tužkou	tužka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	31	nmod	_	_
 33	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	34	case	_	LId=na-1
 34	okraj	okraj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	26	nmod	_	SpaceAfter=No
@@ -5194,8 +5194,8 @@
 3	všechny	všechen	PRON	PLYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	4	dobj	_	_
 4	zaujala	zaujmout	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|LGloss=(upoutat_pozornost)
 5	,	,	PUNCT	Z:-------------	_	14	punct	_	_
-6	i	i	CONJ	J^-------------	_	14	cc	_	LId=i-1
-7	když	když	SCONJ	J,-------------	_	14	mark	_	_
+6	i	i	CONJ	J^-------------	_	14	mark	_	LId=i-1
+7	když	když	SCONJ	J,-------------	_	6	mwe	_	_
 8	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	14	auxpass:reflex	_	LGloss=(zvr._zájmeno/částice)
 9	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	LId=o-1
 10	hudbě	hudba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	14	dobj	_	_
@@ -6046,7 +6046,7 @@
 # sent_id a-n20w-s63
 # orig_file_sentence n20w#63
 1	Tkví	tkvít	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	1	cc	_	_
+2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	1	advmod	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	LId=v-1
 4	kázni	kázeň	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	1	dobj	_	_
 5	pracovníků	pracovník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	4	nmod	_	SpaceAfter=No
@@ -6132,7 +6132,7 @@
 4	ztratí	ztratit	VERB	VB-P---3P-AA---	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	mladí	mladý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	6	amod	_	_
 6	lidé	člověk	NOUN	NNMP1-----A---1	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	4	nsubj	_	_
-7	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	cc	_	LDeriv=zřejmý
+7	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	advmod	_	LDeriv=zřejmý
 8	strach	strach	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	4	dobj	_	_
 9	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	10	case	_	LId=před-1
 10	podzemím	podzemí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Negative=Pos|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -6168,7 +6168,7 @@
 # orig_file_sentence n20w#69
 1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-3	snad	snad	ADV	Db-------------	_	4	cc	_	_
+3	snad	snad	ADV	Db-------------	_	4	advmod	_	_
 4	zaviněno	zavinit	VERB	VsNS---XX-AP---	Aspect=Perf|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5	nesprávně	správně	ADV	Dg-------1N----	Degree=Pos|Negative=Neg	6	advmod	_	LGloss=(podle_něj._měřítek;_př._chlap,_míra,...)|LDeriv=správný
 6	prožitými	prožitý	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	9	amod	_	LDeriv=prožít
@@ -6227,7 +6227,7 @@
 3	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	LId=od-1
 4	nového	nový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	5	dep	_	_
 5	rozeznat	rozeznat	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	7	csubj	_	_
-6	pochopitelně	pochopitelně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	7	cc	_	LDeriv=pochopit
+6	pochopitelně	pochopitelně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	7	advmod	_	LDeriv=pochopit
 7	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	LId=podle-2
 9	tvaru	tvar	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	7	nmod	_	_
@@ -6265,7 +6265,7 @@
 1	Stálí	stálý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	2	amod	_	_
 2	zaměstnanci	zaměstnanec	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	3	nsubj	_	_
 3	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	ostatně	ostatně	ADV	Db-------------	_	3	cc	_	_
+4	ostatně	ostatně	ADV	Db-------------	_	3	advmod	_	_
 5	jiný	jiný	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	6	amod	_	_
 6	poměr	poměr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	3	dobj	_	LGloss=(vztah_mezi_2_věcmi/lidmi)
 7	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	8	case	_	LId=k-1
@@ -6583,7 +6583,7 @@
 # orig_file_sentence n20w#92
 1	A	a	CONJ	J^-------------	_	4	cc	_	LId=a-1
 2	tak	tak	CONJ	J^-------------	_	4	cc	_	LId=tak-2
-3	nakonec	nakonec	ADV	Db-------------	_	4	cc	_	_
+3	nakonec	nakonec	ADV	Db-------------	_	4	advmod	_	_
 4	nelze	lze	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	než	než	SCONJ	J,-------------	_	6	mark	_	LId=než-2
 6	opakovat	opakovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	4	csubj	_	_
@@ -7603,7 +7603,7 @@
 
 # sent_id a-n20w-s129
 # orig_file_sentence n20w#129
-1	Tak	tak	ADV	Db-------------	_	5	cc	_	LId=tak-3
+1	Tak	tak	ADV	Db-------------	_	5	advmod	_	LId=tak-3
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	LGloss=(zvr._zájmeno/částice)
 4	onehdy	onehdy	ADV	Db-------------	_	5	advmod	_	_
@@ -8380,7 +8380,7 @@
 
 # sent_id a-n20w-s187
 # orig_file_sentence n20w#187
-1	Tak	tak	ADV	Db-------------	_	3	cc	_	LId=tak-3
+1	Tak	tak	ADV	Db-------------	_	3	advmod	_	LId=tak-3
 2	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	3	nsubj	_	LId=co-1
 3	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	3	punct	_	_
@@ -8441,7 +8441,7 @@
 # sent_id a-n20w-s192
 # orig_file_sentence n20w#192
 1	Honza	Honza	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Negative=Pos|Number=Sing	7	nsubj	_	_
-2	totiž	totiž	ADV	Db-------------	_	7	cc	_	_
+2	totiž	totiž	ADV	Db-------------	_	7	advmod	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	LId=v-1
 4	posledním	poslední	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	5	amod	_	_
 5	okamžiku	okamžik	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	7	nmod	_	_
@@ -8774,8 +8774,8 @@
 # orig_file_sentence s20w#1
 1	Hlavním	hlavní	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	7	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	6	punct	_	_
-3	i	i	CONJ	J^-------------	_	6	cc	_	LId=i-1
-4	když	když	SCONJ	J,-------------	_	6	mark	_	_
+3	i	i	CONJ	J^-------------	_	6	mark	_	LId=i-1
+4	když	když	SCONJ	J,-------------	_	3	mwe	_	_
 5	ne	ne	PART	TT-------------	_	6	neg	_	_
 6	jediným	jediný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	1	advmod	_	_
 7	cílem	cíl	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	10	xcomp	_	_
@@ -9127,8 +9127,8 @@
 
 # sent_id a-s20w-s14
 # orig_file_sentence s20w#14
-1	I	i	CONJ	J^-------------	_	5	cc	_	LId=i-1
-2	když	když	SCONJ	J,-------------	_	5	mark	_	_
+1	I	i	CONJ	J^-------------	_	5	mark	_	LId=i-1
+2	když	když	SCONJ	J,-------------	_	1	mwe	_	_
 3	zpravidla	zpravidla	ADV	Db-------------	_	5	advmod	_	_
 4	všechny	všechno	PRON	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	5	nsubj	_	_
 5	působí	působit	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
@@ -9417,7 +9417,7 @@
 2	možnosti	možnost	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Plur	9	nsubj	_	LDeriv=možný
 3	individua	individuum	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	2	nmod	_	_
 4	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-5	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	9	cc	_	_
+5	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	9	advmod	_	_
 6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	LId=v-1
 7	tomto	tento	DET	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	8	det	_	_
 8	smyslu	smysl	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	9	nmod	_	_
@@ -9426,8 +9426,8 @@
 
 # sent_id a-s20w-s28
 # orig_file_sentence s20w#28
-1	I	i	CONJ	J^-------------	_	3	cc	_	LId=i-1
-2	když	když	SCONJ	J,-------------	_	3	mark	_	_
+1	I	i	CONJ	J^-------------	_	3	mark	_	LId=i-1
+2	když	když	SCONJ	J,-------------	_	1	mwe	_	_
 3	nepřehlížíme	přehlížet	VERB	VB-P---1P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
 4	skutečnost	skutečnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	3	dobj	_	SpaceAfter=No|LDeriv=skutečný
 5	,	,	PUNCT	Z:-------------	_	10	punct	_	_
@@ -9644,10 +9644,10 @@
 2	sociologická	sociologický	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	3	amod	_	_
 3	šetření	šetření	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Plur	13	dobj	_	SpaceAfter=No|LDeriv=šetřit
 4	,	,	PUNCT	Z:-------------	_	10	punct	_	_
-5	i	i	CONJ	J^-------------	_	10	cc	_	LId=i-1
-6	když	když	SCONJ	J,-------------	_	10	mark	_	_
+5	i	i	CONJ	J^-------------	_	10	mark	_	LId=i-1
+6	když	když	SCONJ	J,-------------	_	5	mwe	_	_
 7	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-8	třeba	třeba	ADV	Db-------------	_	10	cc	_	LId=třeba-2|LGloss=(například)
+8	třeba	třeba	ADV	Db-------------	_	10	advmod	_	LId=třeba-2|LGloss=(například)
 9	jen	jen	PART	TT-------------	_	10	advmod:emph	_	LId=jen-1|LGloss=(pouze)
 10	popisem	popis	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	3	acl	_	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	10	punct	_	_
@@ -9672,7 +9672,7 @@
 
 # sent_id a-s20w-s38
 # orig_file_sentence s20w#38
-1	Proto	proto	SCONJ	J,-------------	_	2	cc	_	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	SCONJ	J,-------------	_	2	advmod	_	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	pravdu	pravda	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	2	dobj	_	_
 4	ti	ten	PRON	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	nsubj	_	SpaceAfter=No
@@ -9924,7 +9924,7 @@
 10	,	,	PUNCT	Z:-------------	_	1	punct	_	_
 11	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
 12	fakty	fakt	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	16	nsubj	_	_
-13	přece	přece	ADV	Db-------------	_	16	cc	_	_
+13	přece	přece	ADV	Db-------------	_	16	advmod	_	_
 14	jen	jen	PART	TT-------------	_	13	cc	_	LId=jen-1|LGloss=(pouze)
 15	základním	základní	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	16	amod	_	_
 16	lékem	lék	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	0	root	_	_
@@ -9948,7 +9948,7 @@
 11	empirismus	empirizmus	NOUN	NNIS1-----A---1	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	8	punct	_	_
 13	nebyla	být	VERB	VpQW---XR-NA---	Gender=Fem,Neut|Negative=Neg|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	16	cop	_	_
-14	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	16	cc	_	_
+14	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	16	advmod	_	_
 15	jen	jen	PART	TT-------------	_	16	advmod:emph	_	LId=jen-1|LGloss=(pouze)
 16	omylem	omyl	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	0	root	_	_
 17	embryonálního	embryonální	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	18	amod	_	_
@@ -10217,7 +10217,7 @@
 2	těchto	tento	DET	PDXP6----------	Case=Loc|Number=Plur|PronType=Dem	3	det	_	_
 3	přístupech	přístup	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Plur	6	nmod	_	_
 4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	auxpass:reflex	_	LGloss=(zvr._zájmeno/částice)
-5	zpravidla	zpravidla	ADV	Db-------------	_	6	cc	_	_
+5	zpravidla	zpravidla	ADV	Db-------------	_	6	advmod	_	_
 6	očekává	očekávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	12	punct	_	_
 8	že	že	SCONJ	J,-------------	_	12	mark	_	_
@@ -10850,7 +10850,7 @@
 
 # sent_id a-s20w-s80
 # orig_file_sentence s20w#80
-1	Například	například	ADV	Db-------------	_	4	cc	_	_
+1	Například	například	ADV	Db-------------	_	4	advmod	_	_
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	LId=v-1
 3	Leningradě	Leningrad	PROPN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Negative=Pos|Number=Sing	4	nmod	_	_
 4	usilují	usilovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11546,7 +11546,7 @@
 7	vývoj	vývoj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	5	dobj	_	_
 8	dnes	dnes	ADV	Db-------------	_	9	advmod	_	_
 9	směřují	směřovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-10	snad	snad	ADV	Db-------------	_	9	cc	_	_
+10	snad	snad	ADV	Db-------------	_	9	advmod	_	_
 11	všechny	všechno	PRON	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	15	nmod	_	_
 12	pozitivisticky	pozitivisticky	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	13	advmod	_	LDeriv=pozitivistický
 13	orientované	orientovaný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	15	amod	_	LDeriv=orientovat
@@ -11626,7 +11626,7 @@
 
 # sent_id a-s20w-s108
 # orig_file_sentence s20w#108
-1	Tak	tak	ADV	Db-------------	_	6	cc	_	LId=tak-3
+1	Tak	tak	ADV	Db-------------	_	6	advmod	_	LId=tak-3
 2	empirismus	empirizmus	NOUN	NNIS1-----A---1	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	6	nsubj	_	_
 3	bez	bez	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	LId=bez-1
 4	hodnotících	hodnotící	ADJ	AGIP2-----A----	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	LDeriv=hodnotit
@@ -11726,7 +11726,7 @@
 # sent_id a-s20w-s112
 # orig_file_sentence s20w#112
 1	Není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
-2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	7	cc	_	_
+2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	7	advmod	_	_
 3	především	především	ADV	Db-------------	_	7	advmod:emph	_	_
 4	nebo	nebo	CONJ	J^-------------	_	3	cc	_	_
 5	dokonce	dokonce	ADV	Db-------------	_	6	advmod:emph	_	_
@@ -11910,7 +11910,7 @@
 2	a	a	CONJ	J^-------------	_	1	cc	_	LId=a-1
 3	problémy	problém	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	1	conj	_	_
 4	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	auxpass	_	_
-5	zpravidla	zpravidla	ADV	Db-------------	_	6	cc	_	_
+5	zpravidla	zpravidla	ADV	Db-------------	_	6	advmod	_	_
 6	studovány	studovat	VERB	VsTP---XX-AP---	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 7	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	_	LId=z-1
 8	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	7	mwe	_	_
@@ -11949,7 +11949,7 @@
 15	jakéhokoli	jakýkoli	DET	PZZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Ind	16	det	_	_
 16	objasňování	objasňování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	14	nmod	_	LDeriv=objasňovat
 17	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
-18	vlastně	vlastně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	14	cc	_	LId=vlastně-1|LGloss=(příslušný_k_něčemu)|LDeriv=vlasí-1
+18	vlastně	vlastně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	14	advmod	_	LId=vlastně-1|LGloss=(příslušný_k_něčemu)|LDeriv=vlasí-1
 19	určování	určování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	14	nsubj	_	LDeriv=určovat
 20	vztahu	vztah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
 21	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	23	case	_	LId=mezi-1
@@ -12039,7 +12039,7 @@
 # sent_id a-s20w-s125
 # orig_file_sentence s20w#125
 1	Vzniká	vznikat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	1	cc	_	_
+2	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	1	advmod	_	_
 3	otázka	otázka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 5	jaký	jaký	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	acl	_	_
@@ -12103,8 +12103,8 @@
 10	teoretickými	teoretický	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	11	amod	_	_
 11	představami	představa	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	18	punct	_	_
-13	i	i	CONJ	J^-------------	_	18	cc	_	LId=i-1
-14	když	když	SCONJ	J,-------------	_	18	mark	_	_
+13	i	i	CONJ	J^-------------	_	18	mark	_	LId=i-1
+14	když	když	SCONJ	J,-------------	_	13	mwe	_	_
 15	nové	nový	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	17	amod	_	_
 16	teoretické	teoretický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	17	amod	_	_
 17	schéma	schéma	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	18	nsubj	_	_
@@ -12147,7 +12147,7 @@
 # orig_file_sentence s20w#129
 1	Proces	proces	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	4	nsubj	_	_
 2	objasňování	objasňování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	1	nmod	_	LDeriv=objasňovat
-3	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	cc	_	_
+3	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	4	advmod	_	_
 4	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LGloss=(mít_možnost_[něco_dělat])
 5	rozvíjet	rozvíjet	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	4	xcomp	_	_
 6	poznání	poznání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	5	dobj	_	LDeriv=poznat
@@ -12185,7 +12185,7 @@
 2	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	LId=o-1
 3	předmětu	předmět	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	1	nmod	_	_
 4	sociologie	sociologie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	_
-5	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	6	cc	_	LDeriv=zřejmý
+5	zřejmě	zřejmě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	6	advmod	_	LDeriv=zřejmý
 6	odhalila	odhalit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	22	parataxis	_	_
 7	nedostatečnost	dostatečnost	NOUN	NNFS4-----N----	Case=Acc|Gender=Fem|Negative=Neg|Number=Sing	6	dobj	_	LDeriv=dostatečný
 8	čistě	čistě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	9	advmod	_	LDeriv=čistý
@@ -12342,7 +12342,7 @@
 1	Marxistická	marxistický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	2	amod	_	_
 2	sociologie	sociologie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	5	nsubj	_	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	LGloss=(zvr._zájmeno/částice)
-4	vlastně	vlastně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	5	cc	_	LId=vlastně-1|LGloss=(příslušný_k_něčemu)|LDeriv=vlasí-1
+4	vlastně	vlastně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	5	advmod	_	LId=vlastně-1|LGloss=(příslušný_k_něčemu)|LDeriv=vlasí-1
 5	zařazuje	zařazovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	mezi	mezi	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	LId=mezi-1
 7	humanistické	humanistický	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	9	amod	_	_
@@ -12365,7 +12365,7 @@
 1	Nikdy	nikdy	ADV	Db-------------	_	5	advmod	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	LGloss=(zvr._zájmeno/částice)
 3	však	však	CONJ	J^-------------	_	5	cc	_	_
-4	asi	asi	PART	TT-------------	_	5	cc	_	_
+4	asi	asi	PART	TT-------------	_	5	advmod	_	_
 5	nestane	stát	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=stát-2|LGloss=(něco_se_přihodilo)
 6	disciplínou	disciplína	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	5	dobj	_	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	11	punct	_	_
@@ -12777,7 +12777,7 @@
 13	příliš	příliš	ADV	Db-------------	_	14	advmod	_	_
 14	nepravdivá	pravdivý	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Neg|Number=Sing	4	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	14	punct	_	_
-16	jako	jako	SCONJ	J,-------------	_	18	mark	_	_
+16	jako	jako	SCONJ	J,-------------	_	18	advmod	_	_
 17	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 18	absurdní	absurdní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	2	punct	_	_
