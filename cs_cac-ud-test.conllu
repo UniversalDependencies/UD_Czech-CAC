@@ -1408,9 +1408,9 @@
 1	Tesil	tesil	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	3	nsubjpass	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	auxpass:reflex	_	LGloss=(zvr._zájmeno/částice)
 3	žehlí	žehlit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	jako	jako	SCONJ	J,-------------	_	3	advmod	_	_
+4	jako	jako	SCONJ	J,-------------	_	6	mark	_	_
 5	vlněná	vlněný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	6	amod	_	LDeriv=vlnit
-6	látka	látka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	4	advcl	_	_
+6	látka	látka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	3	advcl	_	_
 7	přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	LId=přes-1
 8	vlhkou	vlhký	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	9	amod	_	_
 9	látku	látka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -12777,7 +12777,7 @@
 13	příliš	příliš	ADV	Db-------------	_	14	advmod	_	_
 14	nepravdivá	pravdivý	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Neg|Number=Sing	4	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	14	punct	_	_
-16	jako	jako	SCONJ	J,-------------	_	18	advmod	_	_
+16	jako	jako	SCONJ	J,-------------	_	18	mark	_	_
 17	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 18	absurdní	absurdní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	2	punct	_	_

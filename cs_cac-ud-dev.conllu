@@ -8151,7 +8151,7 @@
 20	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	LId=svůj-1
 21	duše	duše	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	18	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Z:-------------	_	7	punct	_	_
-23	jako	jako	SCONJ	J,-------------	_	31	advmod	_	_
+23	jako	jako	SCONJ	J,-------------	_	31	mark	_	_
 24	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	31	aux	_	_
 25	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	27	case	_	LId=z-1
 26	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det	_	LGloss=(přivlast.)
