@@ -155,13 +155,13 @@
     <dep name="discourse">105</dep>
     <dep name="dobj">24883</dep>
     <dep name="expl">6066</dep>
-    <dep name="foreign">130</dep>
+    <dep name="foreign">142</dep>
     <dep name="iobj">2128</dep>
     <dep name="mark">8611</dep>
     <dep name="mwe">2324</dep>
     <dep name="name">850</dep>
     <dep name="neg">86</dep>
-    <dep name="nmod">80472</dep>
+    <dep name="nmod">80460</dep>
     <dep name="nsubj">24019</dep>
     <dep name="nsubjpass">3455</dep>
     <dep name="nummod">4440</dep>
