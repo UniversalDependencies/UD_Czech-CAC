@@ -56,7 +56,7 @@ References
   The Czech Academic Corpus 1.0 Guide. Karolinum, Praha, 2007. ISBN 978-80-246-1315-4.
 * Barbora Vidová Hladká, Jan Hajič, Jiří Hana, Jaroslava Hlaváčová,
   Jiří Mírovský, Jan Raab: The Czech Academic Corpus 2.0 Guide.
-  In: The Prague Bulletin of Mathematical Linguistics, No. 89, 
+  In: The Prague Bulletin of Mathematical Linguistics, No. 89,
   Copyright © Univerzita Karlova, ISSN 0032-6585, pp. 41-96, Jun 2008.
   https://ufal.mff.cuni.cz/pbml/89/pbml89.pdf
 * Marie Těšitelová: K jazyku věcného stylu z hlediska kvantitativního
@@ -72,6 +72,7 @@ Data available since: UD v1.3
 License: CC BY-SA 4.0
 Genre: news nonfiction legal reviews medical
 Contributors: Hladká, Barbora; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
 Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
 Original KVS authors: Těšitelová, Marie
