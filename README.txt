@@ -65,6 +65,11 @@ References
   http://sas.ujc.cas.cz/archiv.php?art=2911
 
 
+Changelog
+
+  * No changes since UD release 1.3.
+
+
 === Machine-readable metadata =================================================
 Documentation status: complete
 Data source: semi-automatic
