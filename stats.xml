@@ -15,7 +15,7 @@
     <tag name="ADJ">70528</tag><!-- velký, nový, další, jiný, pracovní, celý, každý, různý, základní, socialistický -->
     <tag name="ADP">48391</tag><!-- v, na, s, z, k, o, pro, do, za, při -->
     <tag name="ADV">27490</tag><!-- také, tak, jak, již, už, ještě, kde, pak, tedy, více -->
-    <tag name="AUX">13885</tag><!-- být, bývat, moci, mít, muset, pěstovat, vyžadovat -->
+    <tag name="AUX">14244</tag><!-- být, bývat, moci, mít, muset, pěstovat, připadat, vyžadovat -->
     <tag name="CCONJ">24205</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
     <tag name="DET">11090</tag><!-- tento, jeho, svůj, můj, ten, některý, takový, jenž, několik, mnoho -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
@@ -27,7 +27,7 @@
     <tag name="PUNCT">60127</tag><!-- ,, ., -, ", :, (, ), ?, ', / -->
     <tag name="SCONJ">8802</tag><!-- že, jako, aby, když, proto, než, protože, pokud, takže, jestliže -->
     <tag name="SYM">3783</tag><!-- * -->
-    <tag name="VERB">45215</tag><!-- mít, být, moci, muset, jít, lze, stát, dát, chtít, pracovat -->
+    <tag name="VERB">44856</tag><!-- mít, být, moci, muset, jít, lze, stát, dát, chtít, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="97">

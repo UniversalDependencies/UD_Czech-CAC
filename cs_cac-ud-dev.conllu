@@ -1395,7 +1395,7 @@
 30	.	.	PUNCT	Z:-------------	_	11	punct	_	_
 
 # sent_id = a10w-s57/cs
-# text = Mimo to má zhruba polovina zemědělského půdního fondu snížené produkční schopnosti, což způsobuje ztráty na výnosech ve výši ? roční celostátní hrubé produkce rostlinné výroby.
+# text = Mimo to má zhruba polovina zemědělského půdního fondu snížené produkční schopnosti, což způsobuje ztráty na výnosech ve výši * roční celostátní hrubé produkce rostlinné výroby.
 # orig_file_sentence a10w#57
 1	Mimo	mimo	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	LId=mimo-1
 2	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	advmod	_	_
@@ -1797,7 +1797,7 @@
 32	.	.	PUNCT	Z:-------------	_	19	punct	_	_
 
 # sent_id = a10w-s70/cs
-# text = Prohloubíme realizační výstupy úkolů RVT komplexně rozpracované formou směrnic, metodik, podkladů pro normy a typizaci, ukončené formou prototypů strojů a ? .
+# text = Prohloubíme realizační výstupy úkolů RVT komplexně rozpracované formou směrnic, metodik, podkladů pro normy a typizaci, ukončené formou prototypů strojů a * .
 # orig_file_sentence a10w#70
 1	Prohloubíme	prohloubit	VERB	VB-P---1P-AA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	realizační	realizační	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
@@ -1875,7 +1875,7 @@
 20	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a10w-s73/cs
-# text = Konkrétní ? i závazky na pomoc při zavádění výsledků výzkumu do praxe jsou uvedeny v příloze a jsou nedílnou součástí tohoto kolektivního socialistického závazku.
+# text = Konkrétní * i závazky na pomoc při zavádění výsledků výzkumu do praxe jsou uvedeny v příloze a jsou nedílnou součástí tohoto kolektivního socialistického závazku.
 # orig_file_sentence a10w#73
 1	Konkrétní	konkrétní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	2	amod	_	_
 2	*	*	SYM	Xx-------------	Abbr=Yes	14	nsubj:pass	_	_
@@ -2763,7 +2763,7 @@
 5	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a10w-s112/cs
-# text = Dohoda se ? ředitelem Tomkou o spolupráci na Oravě.
+# text = Dohoda se * ředitelem Tomkou o spolupráci na Oravě.
 # orig_file_sentence a10w#112
 1	Dohoda	dohoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 2	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	5	case	_	LId=s-1
@@ -3129,7 +3129,7 @@
 10	.	.	PUNCT	Z:-------------	_	9	punct	_	_
 
 # sent_id = a10w-s134/cs
-# text = Výroba kladeče v OZSS Pardubice za ? Meliomat je zajištěna.
+# text = Výroba kladeče v OZSS Pardubice za * Meliomat je zajištěna.
 # orig_file_sentence a10w#134
 1	Výroba	výroba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	nsubj	_	_
 2	kladeče	kladeč	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	1	nmod	_	_
@@ -3309,7 +3309,7 @@
 26	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a10w-s145/cs
-# text = Úkolem sledování ? na stav podzemních vod původně určen Němec a Dvořák.
+# text = Úkolem sledování * na stav podzemních vod původně určen Němec a Dvořák.
 # orig_file_sentence a10w#145
 1	Úkolem	úkol	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	obj	_	_
 2	sledování	sledování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	1	nmod	_	LDeriv=sledovat
@@ -3404,7 +3404,7 @@
 17	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a10w-s151/cs
-# text = VÚM, ? Asingr se podílel na kolektivní práci na resortní metodice pro hodnocení ekonomické efektivnosti melioračních staveb při uplatnění výsledků výzkumu.
+# text = VÚM, * Asingr se podílel na kolektivní práci na resortní metodice pro hodnocení ekonomické efektivnosti melioračních staveb při uplatnění výsledků výzkumu.
 # orig_file_sentence a10w#151
 1	VÚM	VÚM	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|NameType=Com|Polarity=Pos	6	nsubj	_	SpaceAfter=No|LId=VÚM-1|LGloss=(Výzkumný_ústav_metalurgický)
 2	,	,	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3632,7 +3632,7 @@
 23	.	.	PUNCT	Z:-------------	_	13	punct	_	_
 
 # sent_id = a10w-s163/cs
-# text = V rámci řešení ? biotechnická ochrana hydrosféry projednána ve VÚM závěrečná zpráva ÚGG ČSAV, ? Kašpar.
+# text = V rámci řešení * biotechnická ochrana hydrosféry projednána ve VÚM závěrečná zpráva ÚGG ČSAV, * Kašpar.
 # orig_file_sentence a10w#163
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	LId=v-1
 2	rámci	rámec	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	1	fixed	_	_
@@ -3729,7 +3729,7 @@
 13	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a10w-s169/cs
-# text = Buduje se experimentální, ekonomicky vysoce efektivní a materiálově nenáročná experimentální výstavba polní cesty v délce # ? .
+# text = Buduje se experimentální, ekonomicky vysoce efektivní a materiálově nenáročná experimentální výstavba polní cesty v délce # * .
 # orig_file_sentence a10w#169
 1	Buduje	budovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pass	_	LGloss=(zvr._zájmeno/částice)
@@ -3797,7 +3797,7 @@
 11	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a10w-s173/cs
-# text = ? plněny běžně.
+# text = * plněny běžně.
 # orig_file_sentence a10w#173
 1	*	*	SYM	Xx-------------	Abbr=Yes	2	nsubj:pass	_	_
 2	plněny	plnit	VERB	VsTP---XX-AP---	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3905,7 +3905,7 @@
 10	.	.	PUNCT	Z:-------------	_	9	punct	_	_
 
 # sent_id = a10w-s182/cs
-# text = ? se řeší.
+# text = * se řeší.
 # orig_file_sentence a10w#182
 1	*	*	SYM	Xx-------------	Abbr=Yes	3	nsubj:pass	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pass	_	LGloss=(zvr._zájmeno/částice)
@@ -4029,7 +4029,7 @@
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = a10w-s191/cs
-# text = ? Haken pracoval jako garant MZVŽ pro zajištění výroby píce v jč kraji a zajišťování sklizně a rekultivačních prací.
+# text = * Haken pracoval jako garant MZVŽ pro zajištění výroby píce v jč kraji a zajišťování sklizně a rekultivačních prací.
 # orig_file_sentence a10w#191
 1	*	*	SYM	Xx-------------	Abbr=Yes	2	nmod	_	_
 2	Haken	Haken	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	nsubj	_	_
@@ -4116,7 +4116,7 @@
 14	.	.	PUNCT	Z:-------------	_	11	punct	_	_
 
 # sent_id = a10w-s197/cs
-# text = ? Smolík poskytuje metodickou pomoc při postupném zapojení # ha rekultivovaných ploch pro těžbu uhlí.
+# text = * Smolík poskytuje metodickou pomoc při postupném zapojení # ha rekultivovaných ploch pro těžbu uhlí.
 # orig_file_sentence a10w#197
 1	*	*	SYM	Xx-------------	Abbr=Yes	2	nmod	_	_
 2	Smolík	Smolík	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	nsubj	_	_
@@ -4246,7 +4246,7 @@
 18	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a10w-s202/cs
-# text = Byla navázána spolupráce uzavřenými dohodami SMS, HDP, OZS Tábor, SS Šumava a Karlovy Vary, OZS Ústí nad Orlicí, SS Tachov, AGP Pardubice, VÚV, VÚLHM, VÚLP, VÚZH, ÚGG ČSAV, ÚP ČSAV, BÚ ČSAV, ÚHH, SAV, VŠZ Praha, Brno, Nitra, s ČVUT Praha, bude jednáno s VŠT Brno, ? Hálkem.
+# text = Byla navázána spolupráce uzavřenými dohodami SMS, HDP, OZS Tábor, SS Šumava a Karlovy Vary, OZS Ústí nad Orlicí, SS Tachov, AGP Pardubice, VÚV, VÚLHM, VÚLP, VÚZH, ÚGG ČSAV, ÚP ČSAV, BÚ ČSAV, ÚHH, SAV, VŠZ Praha, Brno, Nitra, s ČVUT Praha, bude jednáno s VŠT Brno, * Hálkem.
 # orig_file_sentence a10w#202
 1	Byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	aux:pass	_	_
 2	navázána	navázat	VERB	VsQW---XX-AP---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4320,7 +4320,7 @@
 70	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a10w-s203/cs
-# text = Mezinárodní spolupráce se prohloubila v rámci úkolů řešených v RVHP a oboustrannými dohodami, zejména ? FZ Muencheberg, písčité půdy, odvodnění, rekultivace, ekonomika a přístrojová technika, IMUZ Falenty, způsoby odvodnění, toky, nádrže, IGUP Pulawy, písčité a těžké půdy, protierozní ochrana, nové hmoty, ekonomika, mapování, přístrojová technika, VNIMG Kostjakova, Moskva, odvodnění, teorie pohybu vody v půdě, odvodnění těžkých půd, přístrojová technika, VIP Dokučajeva, Moskva, písčité a těžké půdy, protierozní ochrana, ekonomika, řízení výzkumu, přístrojová technika.
+# text = Mezinárodní spolupráce se prohloubila v rámci úkolů řešených v RVHP a oboustrannými dohodami, zejména * FZ Muencheberg, písčité půdy, odvodnění, rekultivace, ekonomika a přístrojová technika, IMUZ Falenty, způsoby odvodnění, toky, nádrže, IGUP Pulawy, písčité a těžké půdy, protierozní ochrana, nové hmoty, ekonomika, mapování, přístrojová technika, VNIMG Kostjakova, Moskva, odvodnění, teorie pohybu vody v půdě, odvodnění těžkých půd, přístrojová technika, VIP Dokučajeva, Moskva, písčité a těžké půdy, protierozní ochrana, ekonomika, řízení výzkumu, přístrojová technika.
 # orig_file_sentence a10w#203
 1	Mezinárodní	mezinárodní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	spolupráce	spolupráce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_
@@ -4451,7 +4451,7 @@
 20	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = n10w-s1/cs
-# text = Na včerejším zasedání pléna Meziparlamentní unie v Římě přednesl referát o odpovědnosti poslance k voličům delegát a zpravodaj schůze, místopředseda FS ? Kučera.
+# text = Na včerejším zasedání pléna Meziparlamentní unie v Římě přednesl referát o odpovědnosti poslance k voličům delegát a zpravodaj schůze, místopředseda FS * Kučera.
 # orig_file_sentence n10w#1
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	LId=na-1
 2	včerejším	včerejší	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	_	_
@@ -4592,7 +4592,7 @@
 65	.	.	PUNCT	Z:-------------	_	63	punct	_	_
 
 # sent_id = n10w-s4/cs
-# text = Na závěr ? Kučera řekl, že stále hledáme formy a prostředky, jak lépe a účinněji spojovat zastupitelskou demokracii s demokracií přímou, a že principy, na nichž socialistická demokracie spočívá, dávají československým občanům široká demokratická práva i reálnou možnost podílet se na správě jejich země.
+# text = Na závěr * Kučera řekl, že stále hledáme formy a prostředky, jak lépe a účinněji spojovat zastupitelskou demokracii s demokracií přímou, a že principy, na nichž socialistická demokracie spočívá, dávají československým občanům široká demokratická práva i reálnou možnost podílet se na správě jejich země.
 # orig_file_sentence n10w#4
 1	Na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	LId=na-1
 2	závěr	závěr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obl	_	LGloss=(př._z_jednání,_úvah)
@@ -4717,7 +4717,7 @@
 28	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = n10w-s7/cs
-# text = Ozimé obiloviny byly začátkem tohoto týdne zasety jen na # ? , tedy na # ? ploch, což je na tuto dobu a s ohledem na agrotechnické lhůty málo.
+# text = Ozimé obiloviny byly začátkem tohoto týdne zasety jen na # * , tedy na # * ploch, což je na tuto dobu a s ohledem na agrotechnické lhůty málo.
 # orig_file_sentence n10w#7
 1	Ozimé	ozimý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	_	_
 2	obiloviny	obilovina	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	7	nsubj:pass	_	_
@@ -4786,7 +4786,7 @@
 10	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
 # sent_id = n10w-s10/cs
-# text = Dosud jsou brambory sklizeny z # ? , z toho kombajny zasáhly na # ? .
+# text = Dosud jsou brambory sklizeny z # * , z toho kombajny zasáhly na # * .
 # orig_file_sentence n10w#10
 1	Dosud	dosud	ADV	Db-------------	_	4	advmod	_	_
 2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
@@ -4806,7 +4806,7 @@
 16	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = n10w-s11/cs
-# text = Cukrovku sklidila pěstitelská JZD a státní statky zatím na # ? , a to hlavně na jižní a severní Moravě.
+# text = Cukrovku sklidila pěstitelská JZD a státní statky zatím na # * , a to hlavně na jižní a severní Moravě.
 # orig_file_sentence n10w#11
 1	Cukrovku	cukrovka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	_
 2	sklidila	sklidit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4880,7 +4880,7 @@
 44	.	.	PUNCT	Z:-------------	_	18	punct	_	_
 
 # sent_id = n10w-s13/cs
-# text = Slavnostnímu aktu byla přítomna delegace ÚV KSČ vedená tajemníkem ÚV KSČ ? Oldřichem, jejímž členem byl také místopředseda NF ? Trávníček.
+# text = Slavnostnímu aktu byla přítomna delegace ÚV KSČ vedená tajemníkem ÚV KSČ * Oldřichem, jejímž členem byl také místopředseda NF * Trávníček.
 # orig_file_sentence n10w#13
 1	Slavnostnímu	slavnostní	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
 2	aktu	akt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	_	LId=akt-1|LGloss=(čin)
@@ -4907,7 +4907,7 @@
 23	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = n10w-s14/cs
-# text = Úvodem poděkoval předseda ÚV SSM ? Varholík mladým lidem za jejich obětavou práci a zdůraznil, že jejich účast na budování organizace mládeže je i spoluúčastí na budování celé společnosti, která se řídí programem rozvoje socialismu, jenž je zárukou šťastného života mládeže.
+# text = Úvodem poděkoval předseda ÚV SSM * Varholík mladým lidem za jejich obětavou práci a zdůraznil, že jejich účast na budování organizace mládeže je i spoluúčastí na budování celé společnosti, která se řídí programem rozvoje socialismu, jenž je zárukou šťastného života mládeže.
 # orig_file_sentence n10w#14
 1	Úvodem	úvod	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	2	obl	_	_
 2	poděkoval	poděkovat	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4956,7 +4956,7 @@
 45	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = n10w-s15/cs
-# text = Poté odevzdal předseda ČÚV SSM ? Poledník státní a svazácké vyznamenání.
+# text = Poté odevzdal předseda ČÚV SSM * Poledník státní a svazácké vyznamenání.
 # orig_file_sentence n10w#15
 1	Poté	poté	ADV	Db-------------	_	2	advmod	_	_
 2	odevzdal	odevzdat	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4972,7 +4972,7 @@
 12	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = n10w-s16/cs
-# text = Za dlouholetou a obětavou práci v dětském a mládežnickém hnutí udělil president republiky státní vyznamenání Za zásluhy o výstavbu ? Kratochvílovi, řediteli ODPM v Olomouci.
+# text = Za dlouholetou a obětavou práci v dětském a mládežnickém hnutí udělil president republiky státní vyznamenání Za zásluhy o výstavbu * Kratochvílovi, řediteli ODPM v Olomouci.
 # orig_file_sentence n10w#16
 1	Za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	LId=za-1
 2	dlouholetou	dlouholetý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
@@ -5065,7 +5065,7 @@
 20	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = n10w-s20/cs
-# text = Večer se zástupci mladé generace na sjezdu SSM sešli v Národním památníku v Lidicích, aby ? slib věrnosti padlým hrdinům.
+# text = Večer se zástupci mladé generace na sjezdu SSM sešli v Národním památníku v Lidicích, aby * slib věrnosti padlým hrdinům.
 # orig_file_sentence n10w#20
 1	Večer	večer	ADV	Db-------------	_	9	advmod	_	LId=večer-2
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	_	LGloss=(zvr._zájmeno/částice)
@@ -5200,7 +5200,7 @@
 42	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = n10w-s24/cs
-# text = Včera přibyli do Prahy další zahraniční hosté zastupující tyto mládežnické organizace: Svaz jugoslávské mládeže, Chilský svaz komunistické mládeže, Komunistický svaz mládeže Maďarské lidové republiky, Svaz komunistické mládeže Francie, Socialistickou německou dělnickou mládež a celostátní výbor, Svaz ? spolupráci organizací mládeže Polské lidové republiky OKWOM.
+# text = Včera přibyli do Prahy další zahraniční hosté zastupující tyto mládežnické organizace: Svaz jugoslávské mládeže, Chilský svaz komunistické mládeže, Komunistický svaz mládeže Maďarské lidové republiky, Svaz komunistické mládeže Francie, Socialistickou německou dělnickou mládež a celostátní výbor, Svaz * spolupráci organizací mládeže Polské lidové republiky OKWOM.
 # orig_file_sentence n10w#24
 1	Včera	včera	ADV	Db-------------	_	2	advmod	_	_
 2	přibyli	přibýt	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5738,7 +5738,7 @@
 11	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = n10w-s50/cs
-# text = Letos si troufáme na průměr kolem # ? po hektaru.
+# text = Letos si troufáme na průměr kolem # * po hektaru.
 # orig_file_sentence n10w#50
 1	Letos	letos	ADV	Db-------------	_	3	advmod	_	_
 2	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	LGloss=(zvr._zájmeno/částice)
@@ -5986,7 +5986,7 @@
 29	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = n10w-s62/cs
-# text = V rozpravě promluvil ? Vondrouš, který se zabýval otázkami materiálního zajištění zemědělství a ekonomickými nástroji pro ? .
+# text = V rozpravě promluvil * Vondrouš, který se zabýval otázkami materiálního zajištění zemědělství a ekonomickými nástroji pro * .
 # orig_file_sentence n10w#62
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	LId=v-1
 2	rozpravě	rozprava	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
@@ -6067,7 +6067,7 @@
 35	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = n10w-s65/cs
-# text = V rozpravě vystoupil i ? Koranda.
+# text = V rozpravě vystoupil i * Koranda.
 # orig_file_sentence n10w#65
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	LId=v-1
 2	rozpravě	rozprava	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
@@ -6101,7 +6101,7 @@
 19	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = n10w-s67/cs
-# text = V rozpravě k připravovaným právním normám vystoupil ? Chlad.
+# text = V rozpravě k připravovaným právním normám vystoupil * Chlad.
 # orig_file_sentence n10w#67
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	LId=v-1
 2	rozpravě	rozprava	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	7	obl	_	_
@@ -6204,7 +6204,7 @@
 15	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = n10w-s71/cs
-# text = Ve dnech # ? # listopadu budou Dny družby a sovětské mládeže, které vyvrcholí manifestací v Praze.
+# text = Ve dnech # * # listopadu budou Dny družby a sovětské mládeže, které vyvrcholí manifestací v Praze.
 # orig_file_sentence n10w#71
 1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	LId=v-1
 2	dnech	den	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	7	obl	_	LGloss=(jednotka_času)
@@ -6262,7 +6262,7 @@
 17	.	.	PUNCT	Z:-------------	_	11	punct	_	_
 
 # sent_id = n10w-s74/cs
-# text = V souvislosti s jednáním s finským rozhlasem a televizí přijal v Helsinkách president Finské republiky ? Kekkonen k soukromé návštěvě ústředního ředitele televize a předsedu OIRT ? Zelenku.
+# text = V souvislosti s jednáním s finským rozhlasem a televizí přijal v Helsinkách president Finské republiky * Kekkonen k soukromé návštěvě ústředního ředitele televize a předsedu OIRT * Zelenku.
 # orig_file_sentence n10w#74
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	LId=v-1
 2	souvislosti	souvislost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	fixed	_	LDeriv=souvislý
@@ -6787,7 +6787,7 @@
 39	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = n10w-s92/cs
-# text = Železnice se dále ? tempem modernizuje, podíl parní trakce se snížil na # procenta a od minulého Dne železničářů bylo do provozu zařazeno # nových elektrických motorových lokomotiv a pantografových jednotek.
+# text = Železnice se dále * tempem modernizuje, podíl parní trakce se snížil na # procenta a od minulého Dne železničářů bylo do provozu zařazeno # nových elektrických motorových lokomotiv a pantografových jednotek.
 # orig_file_sentence n10w#92
 1	Železnice	železnice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj:pass	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pass	_	LGloss=(zvr._zájmeno/částice)
@@ -6991,7 +6991,7 @@
 10	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = n10w-s101/cs
-# text = ? úvodu zprávy o činnosti jsou formulovány okolnosti, za nichž Svaz mládeže před # roky vznikal, a jako určující je zvýrazněna pomoc KSČ, socialistická jednota mládeže, potřeba jednotné organizace, podpora všech orgánů a organizací Národní fronty a pomoc mládežnických organizací socialistických zemí.
+# text = * úvodu zprávy o činnosti jsou formulovány okolnosti, za nichž Svaz mládeže před # roky vznikal, a jako určující je zvýrazněna pomoc KSČ, socialistická jednota mládeže, potřeba jednotné organizace, podpora všech orgánů a organizací Národní fronty a pomoc mládežnických organizací socialistických zemí.
 # orig_file_sentence n10w#101
 1	*	*	SYM	Xx-------------	Abbr=Yes	2	case	_	_
 2	úvodu	úvod	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	_
@@ -7929,7 +7929,7 @@
 36	dostáli	dostát	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	28	acl	_	_
 37	svému	svůj	DET	P8ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	LId=svůj-1
 38	poslání	poslání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	36	obj	_	LDeriv=poslat
-39	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	41	cop	_	_
+39	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	41	cop	_	_
 40	pevnou	pevný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	41	amod	_	_
 41	součástí	součást	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	38	acl	_	_
 42	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	44	det	_	LGloss=(přivlast.)
@@ -8025,7 +8025,7 @@
 13	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = n10w-s131/cs
-# text = Soubor Divadla Petra Bezruče zahájil novou sezónu československou premiérou novinky svého režiséra Saši ? Svatba s Honzou.
+# text = Soubor Divadla Petra Bezruče zahájil novou sezónu československou premiérou novinky svého režiséra Saši * Svatba s Honzou.
 # orig_file_sentence n10w#131
 1	Soubor	soubor	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	_
 2	Divadla	divadlo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	1	nmod	_	_
@@ -8233,7 +8233,7 @@
 4	ústřední	ústřední	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	postavou	postava	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	_	_
 6	představení	představení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	5	nmod	_	_
-7	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	cop	_	_
+7	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	cop	_	_
 8	Honza	Honza	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	1	nsubj	_	_
 9	Otakara	Otakar	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	8	flat	_	_
 10	Prajznera	Prajzner	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	9	flat	_	SpaceAfter=No
@@ -8264,7 +8264,7 @@
 # sent_id = n10w-s142/cs
 # text = Je pohyblivý, mimicky i hlasově tvárný a bezprostřední ve své opravdovosti.
 # orig_file_sentence n10w#142
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	pohyblivý	pohyblivý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	7	punct	_	_
 4	mimicky	mimicky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	_	LDeriv=mimický
@@ -8319,7 +8319,7 @@
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = n10w-s145/cs
-# text = Z ostatních úloh připomeňme z početné řady představitelů alespoň ? Borovce v postavě jakéhosi bodrého zapomenutého čerta Tenturiela, ? Eliáše jako krále, ? Zacha jako komořího, ? Dvořáka jako prince z Amarancie a ? Tománkovou za úlohu princezniny služky.
+# text = Z ostatních úloh připomeňme z početné řady představitelů alespoň * Borovce v postavě jakéhosi bodrého zapomenutého čerta Tenturiela, * Eliáše jako krále, * Zacha jako komořího, * Dvořáka jako prince z Amarancie a * Tománkovou za úlohu princezniny služky.
 # orig_file_sentence n10w#145
 1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	LId=z-1
 2	ostatních	ostatní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	3	amod	_	_
@@ -8366,7 +8366,7 @@
 43	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = n10w-s146/cs
-# text = Zdařilou komediální mikrostudii dvou pastýřů s úspěchem vytvořili ? Handl a ? Odl.
+# text = Zdařilou komediální mikrostudii dvou pastýřů s úspěchem vytvořili * Handl a * Odl.
 # orig_file_sentence n10w#146
 1	Zdařilou	zdařilý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 2	komediální	komediální	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
@@ -8542,7 +8542,7 @@
 21	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = n10w-s152/cs
-# text = Čtenáři našeho listu měli možnost některé z lyrických próz ? Pazourka číst ještě před jejich knižním vydáním.
+# text = Čtenáři našeho listu měli možnost některé z lyrických próz * Pazourka číst ještě před jejich knižním vydáním.
 # orig_file_sentence n10w#152
 1	Čtenáři	čtenář	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	4	nsubj	_	_
 2	našeho	můj	DET	PSZS2-P1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	LGloss=(přivlast.)
@@ -9524,7 +9524,7 @@
 18	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = s10w-s43/cs
-# text = Podle anglického fyziologa ? Cannona zvyšují tyto emoce vylučování adrenalinu, který působí křeče cév poškozující důležité orgány, srdce a mozek.
+# text = Podle anglického fyziologa * Cannona zvyšují tyto emoce vylučování adrenalinu, který působí křeče cév poškozující důležité orgány, srdce a mozek.
 # orig_file_sentence s10w#43
 1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	LId=podle-2
 2	anglického	anglický	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
@@ -10177,7 +10177,7 @@
 # orig_file_sentence s10w#79
 1	Normální	normální	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	pleť	pleť	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	měkká	měkký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	cop	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	11	punct	_	_
 6	pružná	pružný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
@@ -10383,7 +10383,7 @@
 18	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = s10w-s88/cs
-# text = Ochranu zabezpečují různé prostředky podle druhu škodliviny, filtrační krémy proti slunečnímu záření, jeho ? složce, na ruce krémy silikónové a speciální přípravky s rozsáhlou paletou účinku, jako například Indulona.
+# text = Ochranu zabezpečují různé prostředky podle druhu škodliviny, filtrační krémy proti slunečnímu záření, jeho * složce, na ruce krémy silikónové a speciální přípravky s rozsáhlou paletou účinku, jako například Indulona.
 # orig_file_sentence s10w#88
 1	Ochranu	ochrana	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	_
 2	zabezpečují	zabezpečovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -10467,7 +10467,7 @@
 # sent_id = s10w-s91/cs
 # text = Je tenká, jemného složení, napjatá, leskne se, má sklon k podráždění, je křehká a lomivá, brzy se pokrývá vráskami, prostě stárne.
 # orig_file_sentence s10w#91
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	tenká	tenký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 4	jemného	jemný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	_
@@ -10483,7 +10483,7 @@
 14	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	15	case	_	LId=k-1
 15	podráždění	podráždění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	13	nmod	_	SpaceAfter=No|LDeriv=podráždit
 16	,	,	PUNCT	Z:-------------	_	18	punct	_	_
-17	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+17	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 18	křehká	křehký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	_
 19	a	a	CCONJ	J^-------------	_	20	cc	_	LId=a-1
 20	lomivá	lomivý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	18	conj	_	SpaceAfter=No
@@ -10549,7 +10549,7 @@
 25	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = s10w-s95/cs
-# text = Škodí jí časté mytí vodou a mýdlem, zhoršuje se v zimě a při nedostatku vitamínu ? .
+# text = Škodí jí časté mytí vodou a mýdlem, zhoršuje se v zimě a při nedostatku vitamínu * .
 # orig_file_sentence s10w#95
 1	Škodí	škodit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	LGloss=(ona)
@@ -10663,7 +10663,7 @@
 # orig_file_sentence s10w#102
 1	Mastná	mastný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	pleť	pleť	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	hrubozrnná	hrubozrnný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
 6	lesklá	lesklý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	_	SpaceAfter=No
@@ -10707,7 +10707,7 @@
 10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = s10w-s104/cs
-# text = Zhoršuje se při hormonálních poruchách, vlivem antikoncepčních přípravků, při nedostatku vitamínu A, pyridoxinu, který patří do vitamínového komplexu ? , při nesprávné stravě, jako je nepravidelné jídlo, kořeněné pokrmy, alkohol, káva, málo ovoce a zeleniny, a při pobytu v horkém a prašném prostředí.
+# text = Zhoršuje se při hormonálních poruchách, vlivem antikoncepčních přípravků, při nedostatku vitamínu A, pyridoxinu, který patří do vitamínového komplexu * , při nesprávné stravě, jako je nepravidelné jídlo, kořeněné pokrmy, alkohol, káva, málo ovoce a zeleniny, a při pobytu v horkém a prašném prostředí.
 # orig_file_sentence s10w#104
 1	Zhoršuje	zhoršovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	LGloss=(zvr._zájmeno/částice)
@@ -10828,7 +10828,7 @@
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = s10w-s109/cs
-# text = Můžeme také použít pleťovou vodu s asi # ? obsahem alkoholu, mírně kyselou ( kyselina boritá) .
+# text = Můžeme také použít pleťovou vodu s asi # * obsahem alkoholu, mírně kyselou ( kyselina boritá) .
 # orig_file_sentence s10w#109
 1	Můžeme	moci	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LGloss=(mít_možnost_[něco_dělat])
 2	také	také	ADV	Db-------------	_	1	advmod	_	LGloss=(rovněž)
@@ -11007,7 +11007,7 @@
 4	mastný	mastný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	8	punct	_	_
 6	tváře	tvář	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	8	nsubj	_	_
-7	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 8	napjaté	napjatý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	4	conj	_	LDeriv=napnout
 9	a	a	CCONJ	J^-------------	_	10	cc	_	LId=a-1
 10	suché	suchý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	conj	_	SpaceAfter=No
@@ -11453,7 +11453,7 @@
 42	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = s10w-s140/cs
-# text = Především záleží na vrozené ? .
+# text = Především záleží na vrozené * .
 # orig_file_sentence s10w#140
 1	Především	především	ADV	Db-------------	_	2	advmod	_	_
 2	záleží	záležet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11502,7 +11502,7 @@
 # text = Kůže je sušší, méně hladká, jemné linie, kterým říkáme kožní reliéf, se prohlubují, tvoří se první vrásky a záhyby.
 # orig_file_sentence s10w#143
 1	Kůže	kůže	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	sušší	suchý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
 5	méně	málo	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	6	advmod	_	LId=málo-3
@@ -11714,7 +11714,7 @@
 # orig_file_sentence s10w#152
 1	Elastická	elastický	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	_	_
 2	vlákna	vlákno	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos	4	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	napjatá	napjatý	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No|LDeriv=napnout
 5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
 6	kolagenní	kolagenní	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	4	conj	_	SpaceAfter=No
@@ -11735,7 +11735,7 @@
 # text = Vcelku je pokožka tenčí a vlnitá, linie, která ji odděluje od vazivové části kůže, se vyrovnává.
 # orig_file_sentence s10w#153
 1	Vcelku	vcelku	ADV	Db-------------	_	4	advmod	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	pokožka	pokožka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_
 4	tenčí	tenký	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 5	a	a	CCONJ	J^-------------	_	6	cc	_	LId=a-1
@@ -11990,7 +11990,7 @@
 # sent_id = s10w-s166/cs
 # text = Jsou malé i větší, barvy kůže až černohnědé, ploše vyklenuté, s hladkým povrchem i prstíčkovitě rozeklaným, na pohmat měkké a jakoby mastné.
 # orig_file_sentence s10w#166
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	malé	malý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	_
 3	i	i	CCONJ	J^-------------	_	4	cc	_	LId=i-1
 4	větší	velký	ADJ	AAFP1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur|Polarity=Pos	2	conj	_	SpaceAfter=No
@@ -12344,7 +12344,7 @@
 # sent_id = s10w-s187/cs
 # text = Jsou špinavě žluté až černohnědé.
 # orig_file_sentence s10w#187
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	špinavě	špinavě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	_	LDeriv=špinavý
 3	žluté	žlutý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	_
 4	až	až	PART	TT-------------	_	5	cc	_	LId=až-3|LGloss=(až_k_...,_až_dost)
@@ -12352,7 +12352,7 @@
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = s10w-s188/cs
-# text = Mohou asi ve # ? případů přejít v nádorové bujení.
+# text = Mohou asi ve # * případů přejít v nádorové bujení.
 # orig_file_sentence s10w#188
 1	Mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LGloss=(mít_možnost_[něco_dělat])
 2	asi	asi	PART	TT-------------	_	4	advmod:emph	_	_
@@ -12580,7 +12580,7 @@
 12	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
 # sent_id = s10w-s201/cs
-# text = Vyžadují chirurgický zákrok nebo ozařování, doporučují se i velké dávky vitamínu ? .
+# text = Vyžadují chirurgický zákrok nebo ozařování, doporučují se i velké dávky vitamínu * .
 # orig_file_sentence s10w#201
 1	Vyžadují	vyžadovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	chirurgický	chirurgický	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
@@ -12772,7 +12772,7 @@
 # sent_id = s10w-s213/cs
 # text = Je sušší, jemná, má sklon pigmentovat nepravidelně.
 # orig_file_sentence s10w#213
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	sušší	suchý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	4	punct	_	_
 4	jemná	jemný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	SpaceAfter=No
