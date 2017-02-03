@@ -1,3 +1,4 @@
+# newdoc id = a10w
 # sent_id = a10w-s1
 # text = Kolektivní socialistický závazek pracovníků Výzkumného ústavu meliorací v Praze, Zbraslavi k # výročí Velké říjnové socialistické revoluce.
 # orig_file_sentence a10w#1
@@ -4450,6 +4451,7 @@
 19	meliorací	meliorace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	17	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
+# newdoc id = n10w
 # sent_id = n10w-s1
 # text = Na včerejším zasedání pléna Meziparlamentní unie v Římě přednesl referát o odpovědnosti poslance k voličům delegát a zpravodaj schůze, místopředseda FS * Kučera.
 # orig_file_sentence n10w#1
@@ -8671,6 +8673,7 @@
 19	komunikace	komunikace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	17	orphan	_	SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
+# newdoc id = s10w
 # sent_id = s10w-s1
 # text = V dnešní době má kosmetika, tedy péče o zdraví a krásu, nový obsah.
 # orig_file_sentence s10w#1
