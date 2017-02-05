@@ -27,7 +27,7 @@ These articles include newspapers, magazines and other sources covering
 administration, journalism and scientific fields. These three genres can be
 distinguished by the sentence id: in
 
-# sent_id a-s20w-s55
+# sent_id = a-s20w-s55
 
 the "s20w" part identifies the source document, where "w" means "written",
 "20" is the document id number and "s" means scientific (while "a20w" is the
@@ -69,7 +69,7 @@ Changelog
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
-  * Extended PronType and Poss.
+  * Reconsidered PRON vs. DET. Extended PronType and Poss.
 2016-05-01 v1.3
   * Initial release.
 
