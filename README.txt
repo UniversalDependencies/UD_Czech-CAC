@@ -69,6 +69,7 @@ Changelog
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
+  * Extended PronType and Poss.
 2016-05-01 v1.3
   * Initial release.
 
