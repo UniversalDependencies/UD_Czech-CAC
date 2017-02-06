@@ -70,6 +70,7 @@ Changelog
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
+  * Improved advmod vs. obl distinction.
 2016-05-01 v1.3
   * Initial release.
 
