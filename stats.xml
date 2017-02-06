@@ -17,12 +17,12 @@
     <tag name="ADV">27490</tag><!-- také, tak, jak, již, už, ještě, kde, pak, tedy, více -->
     <tag name="AUX">14244</tag><!-- být, bývat, moci, mít, muset, pěstovat, připadat, vyžadovat -->
     <tag name="CCONJ">24205</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
-    <tag name="DET">19452</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, sám -->
+    <tag name="DET">19451</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, sám -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
     <tag name="NOUN">136182</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
     <tag name="NUM">7307</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
     <tag name="PART">3161</tag><!-- jen, li, až, nejen, asi, ovšem, ne, jenom, ať, prý -->
-    <tag name="PRON">16025</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
+    <tag name="PRON">16026</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9814</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
     <tag name="PUNCT">60127</tag><!-- ,, ., -, ", :, (, ), ?, ', / -->
     <tag name="SCONJ">8802</tag><!-- že, jako, aby, když, proto, než, protože, pokud, takže, jestliže -->
@@ -133,7 +133,7 @@
   <deps unique="41">
     <dep name="acl">7359</dep>
     <dep name="advcl">3610</dep>
-    <dep name="advmod">23599</dep>
+    <dep name="advmod">21373</dep>
     <dep name="advmod:emph">7199</dep>
     <dep name="amod">61479</dep>
     <dep name="appos">2176</dep>
@@ -165,7 +165,7 @@
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
     <dep name="obj">24883</dep>
-    <dep name="obl">25392</dep>
+    <dep name="obl">27618</dep>
     <dep name="orphan">1830</dep>
     <dep name="parataxis">673</dep>
     <dep name="punct">60122</dep>
