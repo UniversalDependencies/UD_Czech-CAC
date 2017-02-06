@@ -71,6 +71,7 @@ Changelog
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
   * Improved advmod vs. obl distinction.
+  * L-participles are verbs, other participles are adjectives.
 2016-05-01 v1.3
   * Initial release.
 
