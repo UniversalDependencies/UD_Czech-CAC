@@ -17,12 +17,12 @@
     <tag name="ADV">27490</tag><!-- také, tak, jak, již, už, ještě, kde, pak, tedy, více -->
     <tag name="AUX">14244</tag><!-- být, bývat, moci, mít, muset, pěstovat, připadat, vyžadovat -->
     <tag name="CCONJ">24205</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
-    <tag name="DET">19289</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, několik -->
+    <tag name="DET">19449</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, sám -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
     <tag name="NOUN">136182</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
     <tag name="NUM">7307</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
     <tag name="PART">3161</tag><!-- jen, li, až, nejen, asi, ovšem, ne, jenom, ať, prý -->
-    <tag name="PRON">16188</tag><!-- se, on, všechno, já, jenž, co, sám, což, ty, nízko -->
+    <tag name="PRON">16028</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9814</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
     <tag name="PUNCT">60127</tag><!-- ,, ., -, ", :, (, ), ?, ', / -->
     <tag name="SCONJ">8802</tag><!-- že, jako, aby, když, proto, než, protože, pokud, takže, jestliže -->
@@ -107,14 +107,14 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">6020</feat><!-- jejich, jeho, své, její, naší, svou, naše, našeho, svých, našich -->
     <feat name="PrepCase" value="Npr" upos="DET,PRON">375</feat><!-- jež, jimiž, jenž, jehož, jímž, jichž, jíž, jemuž, jimž, již -->
     <feat name="PrepCase" value="Pre" upos="PRON">1434</feat><!-- nich, nichž, níž, němž, ní, ně, něm, nimi, něho, ním -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">9378</feat><!-- to, tím, této, těchto, tyto, tom, toho, tento, tohoto, tomu -->
-    <feat name="PronType" value="Dem,Ind" upos="ADV,DET">304</feat><!-- mnoho, mnoha, tolik, málo, kolikrát, mála, tolika, Nemálo -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1732</feat><!-- některé, některých, několik, někdy, něco, několika, někteří, někdo, nějaké, některá -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">5522</feat><!-- které, který, která, kde, co, kteří, kdy, kterou, kdo, jaké -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">10224</feat><!-- to, tak, tím, této, těchto, tyto, tom, toho, tento, tohoto -->
+    <feat name="PronType" value="Emp" upos="DET">283</feat><!-- sám, sama, sami, samo, samy, samu -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2001</feat><!-- některé, některých, několik, mnoho, někdy, něco, několika, mnoha, někteří, někdo -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">6235</feat><!-- které, jak, který, která, kde, co, kteří, kdy, kterou, kdo -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">417</feat><!-- nic, nikdy, nikdo, žádné, žádný, žádná, žádnou, nijak, nikde, nikoho -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17496</feat><!-- se, si, jejich, jeho, své, je, její, nás, nám, naší -->
     <feat name="PronType" value="Rel" upos="DET,PRON">1519</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, jimiž, něhož -->
-    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">1965</feat><!-- všech, všechny, vždy, všechno, sám, všichni, všem, sama, sami, vše -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">1682</feat><!-- všech, všechny, vždy, všechno, všichni, všem, vše, všude, veškeré, všechna -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">10459</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
     <feat name="Style" value="Arch" upos="ADV,AUX,PRON,PROPN,VERB">252</feat><!-- jej, býti, dosti, dřív, jest, nejdřív, kdož, tentokráte, dáti, míti -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">35</feat><!-- pracech, Kyšický, dolama, dolarovej, drahej, druhej, hodný, horama, každej, krásnejch -->
@@ -148,7 +148,7 @@
     <dep name="csubj">2325</dep>
     <dep name="csubj:pass">160</dep>
     <dep name="dep">2413</dep>
-    <dep name="det">10741</dep>
+    <dep name="det">10752</dep>
     <dep name="det:numgov">367</dep>
     <dep name="det:nummod">200</dep>
     <dep name="discourse">105</dep>
@@ -159,7 +159,7 @@
     <dep name="flat:foreign">141</dep>
     <dep name="iobj">2125</dep>
     <dep name="mark">8608</dep>
-    <dep name="nmod">54832</dep>
+    <dep name="nmod">54821</dep>
     <dep name="nsubj">24051</dep>
     <dep name="nsubj:pass">3466</dep>
     <dep name="nummod">4440</dep>
