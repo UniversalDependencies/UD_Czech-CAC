@@ -7,7 +7,7 @@
   <size>
     <total><sentences>24709</sentences><tokens>493306</tokens><words>494382</words><fused>1076</fused></total>
   </size>
-  <lemmas unique="28489" /><!-- ,, ., být, a, v, se, na, ten, s, *, z, který, i, k, tento -->
+  <lemmas unique="28467" /><!-- ,, ., být, a, v, se, na, ten, s, *, z, který, i, k, tento -->
   <forms unique="62446" /><!-- ,, ., a, v, se, na, je, #, *, i, s, z, o, že, k -->
   <fusions unique="13" /><!-- aby, abychom, kdyby, abyste, kdybychom, abych, oč, kdybych, zač, Abys, Kdybyste, kdybys, nač -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -17,12 +17,12 @@
     <tag name="ADV">27490</tag><!-- také, tak, jak, již, už, ještě, kde, pak, tedy, více -->
     <tag name="AUX">14244</tag><!-- být, bývat, moci, mít, muset, pěstovat, připadat, vyžadovat -->
     <tag name="CCONJ">24205</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
-    <tag name="DET">19444</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, sám -->
+    <tag name="DET">19445</tag><!-- ten, který, tento, jeho, svůj, můj, některý, takový, jenž, sám -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
     <tag name="NOUN">136182</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
     <tag name="NUM">7307</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
     <tag name="PART">3161</tag><!-- jen, li, až, nejen, asi, ovšem, ne, jenom, ať, prý -->
-    <tag name="PRON">16033</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
+    <tag name="PRON">16032</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9814</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
     <tag name="PUNCT">60127</tag><!-- ,, ., -, ", :, (, ), ?, ', / -->
     <tag name="SCONJ">8802</tag><!-- že, jako, aby, když, proto, než, protože, pokud, takže, jestliže -->
@@ -30,7 +30,7 @@
     <tag name="VERB">40590</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="97">
+  <feats unique="101">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6663</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ZV -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44447</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -117,7 +117,11 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">1682</feat><!-- všech, všechny, vždy, všechno, všichni, všem, vše, všude, veškeré, všechna -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">10459</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
     <feat name="Style" value="Arch" upos="ADV,AUX,PRON,PROPN,VERB">252</feat><!-- jej, býti, dosti, dřív, jest, nejdřív, kdož, tentokráte, dáti, míti -->
-    <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">35</feat><!-- pracech, Kyšický, dolama, dolarovej, drahej, druhej, hodný, horama, každej, krásnejch -->
+    <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PROPN,VERB">100</feat><!-- loni, pracech, mejkap, Žídkova, elpíčko, jo, pivčo, pásák, Žídkových, Drahušce -->
+    <feat name="Style" value="Expr" upos="ADJ,NOUN,PROPN">35</feat><!-- ramínko, vlákénka, znaménka, polínka, prkének, prkénka, vlákének, znaménkem, Zuzanka, jezírku -->
+    <feat name="Style" value="Rare" upos="ADJ,NOUN,VERB">43</feat><!-- folklorismu, folklorismus, gnoseologických, gnoseologickou, gnoseologické, gnoseologického, styrén, vládce, vládcem, dvoukolka -->
+    <feat name="Style" value="Slng" upos="ADJ,NOUN">21</feat><!-- šňůry, Moho, šňůru, knajpou, kšeftu, nabiflovaná, pochoďáku, pětikilo, textilačkami, textilačky -->
+    <feat name="Style" value="Vrnc" upos="NOUN,VERB">2</feat><!-- ostrví, zavází -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">1216</feat><!-- bude, budou, budeme, nebude, nebudou, půjde, budu, budete, nebudeme, nebudu -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">12982</feat><!-- bylo, byl, byla, byly, měl, měla, byli, nebylo, mohli, mohl -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">32000</feat><!-- je, jsou, má, není, jsme, mají, musí, může, jsem, jde -->
