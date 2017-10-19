@@ -1,3 +1,21 @@
+=== Machine-readable metadata =================================================
+Data available since: UD v1.3
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news nonfiction legal reviews medical
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Hladká, Barbora; Zeman, Daniel
+Contributing: elsewhere
+Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 13
+===============================================================================
+Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
+Original KVS authors: Těšitelová, Marie
+
 The UD_Czech-CAC treebank is based on the Czech Academic Corpus 2.0 (CAC;
 Český akademický korpus; ČAK), created at Charles University in Prague.
 CAC consists both of written data and transcripts of spoken language. Only
@@ -42,12 +60,10 @@ measure units and symbols. The missing tokens were manually restored in CAC;
 however, for numbers and units, only a wildcard was inserted as the exact value
 and form cannot be guessed without access to the primary document.
 
-
 Acknowledgments
 
 We wish to thank all of the contributors to the original annotation effort,
 as well as the team responsible for the corpus' revival in 2008.
-
 
 References
 
@@ -74,16 +90,3 @@ Changelog
   * L-participles are verbs, other participles are adjectives.
 2016-05-01 v1.3
   * Initial release.
-
-
-=== Machine-readable metadata =================================================
-Documentation status: complete
-Data source: semi-automatic
-Data available since: UD v1.3
-License: CC BY-SA 4.0
-Genre: news nonfiction legal reviews medical
-Contributors: Hladká, Barbora; Zeman, Daniel
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
-Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
-Original KVS authors: Těšitelová, Marie
