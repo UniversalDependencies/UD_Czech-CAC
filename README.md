@@ -1,23 +1,11 @@
-=== Machine-readable metadata =================================================
-Data available since: UD v1.3
-License: CC BY-SA 4.0
-Includes text: yes
-Genre: news nonfiction legal reviews medical
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Hladká, Barbora; Zeman, Daniel
-Contributing: elsewhere
-Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 13
-===============================================================================
-Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
-Original KVS authors: Těšitelová, Marie
+# Summary
 
 The UD_Czech-CAC treebank is based on the Czech Academic Corpus 2.0 (CAC;
 Český akademický korpus; ČAK), created at Charles University in Prague.
+
+
+# Introduction
+
 CAC consists both of written data and transcripts of spoken language. Only
 the written part is included in this treebank as no syntactic annotation is
 available for the spoken data. Out of 650,000 total CAC tokens, 493,306 appear
@@ -45,7 +33,7 @@ These articles include newspapers, magazines and other sources covering
 administration, journalism and scientific fields. These three genres can be
 distinguished by the sentence id: in
 
-# sent_id = a-s20w-s55
+    # sent_id = a-s20w-s55
 
 the "s20w" part identifies the source document, where "w" means "written",
 "20" is the document id number and "s" means scientific (while "a20w" is the
@@ -60,12 +48,13 @@ measure units and symbols. The missing tokens were manually restored in CAC;
 however, for numbers and units, only a wildcard was inserted as the exact value
 and form cannot be guessed without access to the primary document.
 
-Acknowledgments
+
+# Acknowledgments
 
 We wish to thank all of the contributors to the original annotation effort,
 as well as the team responsible for the corpus' revival in 2008.
 
-References
+## References
 
 * Barbora Vidová Hladká, Jan Hajič, Jiří Hana, Jaroslava Hlaváčová,
   Jiří Mírovský, Jan Votrubec: Průvodce Českým akademickým korpusem 1.0/
@@ -81,15 +70,33 @@ References
   http://sas.ujc.cas.cz/archiv.php?art=2911
 
 
-Changelog
+# Changelog
 
-2017-11-15 v2.1
+* 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
   * Prepositional objects are now “obl:arg” instead of “obj”.
-2017-03-01 v2.0
+* 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET. Extended PronType and Poss.
   * Improved advmod vs. obl distinction.
   * L-participles are verbs, other participles are adjectives.
-2016-05-01 v1.3
+* 2016-05-01 v1.3
   * Initial release.
+
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.3
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news nonfiction legal reviews medical
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Hladká, Barbora; Zeman, Daniel
+Contributing: elsewhere
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+Original CAC authors: Hladká, Barbora; Hajič, Jan; Hana, Jiří; Hlaváčová, Jaroslava; Mírovský, Jiří; Raab, Jan
+Original KVS authors: Těšitelová, Marie
