@@ -72,6 +72,8 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2018-03-01 v2.2
+  * Fixed computation of the LDeriv MISC attribute.
 * 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
   * Prepositional objects are now “obl:arg” instead of “obj”.
