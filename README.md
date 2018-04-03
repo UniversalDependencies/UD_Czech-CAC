@@ -73,6 +73,8 @@ as well as the team responsible for the corpus' revival in 2008.
 # Changelog
 
 * 2018-03-01 v2.2
+  * Added enhanced representation of dependencies propagated across coordination.
+    The distinction of shared and private dependents is derived deterministically from the original Prague annotation.
   * Fixed computation of the LDeriv MISC attribute.
 * 2017-11-15 v2.1
   * Retagged pronouns “každý” and “kterýžto”.
