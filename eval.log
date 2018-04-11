@@ -1,11 +1,11 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 95f84696ecc537764b7772395d073132bd715b77
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 08:54:01 2018 +0200
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Czech-CAC:
-commit c6bcd5f0e61993e51f5aac1c7afc7a7abda9a779
-Merge: a48fc04 34e7d3c
+commit 6af4b0f8acadfb78a06a8a1aba99aaa2eaddf381
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Apr 11 09:16:26 2018 +0200
 Size: counted 494382 of 494382 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.4066169954274.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 385869 out of 494382 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 0 bugs.
+Udapi: found 2407 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 494382 words.
 Genres: found 5 out of 14 known.
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.898020883366872) = 0.230261764965865
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
+(weight=0.307692307692308) * (score{udapi}=0.951312952332407) = 0.292711677640741
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.850926579748327) * (availability=1) * (validity=1) = 0.850926579748327
-STARS = 4.5
-UD_Czech-CAC	0.850926579748327	4.5
+(TOTAL score=0.835945949696759) * (availability=1) * (validity=1) = 0.835945949696759
+STARS = 4
+UD_Czech-CAC	0.835945949696759	4
