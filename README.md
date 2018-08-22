@@ -72,6 +72,10 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * Split multi-word tokens "cos, ses, sis, tys, vždyťs", participle + "-s".
+  * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.
+  * Flat name structures extended to titles and occupations.
 * 2018-03-01 v2.2
   * Added enhanced representation of dependencies propagated across coordination.
     The distinction of shared and private dependents is derived deterministically from the original Prague annotation.

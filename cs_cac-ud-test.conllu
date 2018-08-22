@@ -5471,12 +5471,12 @@
 10	Orchestru	orchestr	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	9:nmod	_
 11	Ivo	Ivo	PROPN	NNMS2-----A---1	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	10	nmod	10:nmod	_
 12	Pavlíka	Pavlík	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	11	flat	11:flat	_
-13	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	15	case	15:case	LId=s-1
-14	zpěvačkou	zpěvačka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	15	nmod	15:nmod	_
-15	Věrou	Věra	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	8	obl	8:obl	_
-16	Špinarovou	Špinarová	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	15	flat	15:flat	_
+13	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	14	case	14:case	LId=s-1
+14	zpěvačkou	zpěvačka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	8	obl	8:obl	_
+15	Věrou	Věra	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	14	flat	14:flat	_
+16	Špinarovou	Špinarová	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	14	flat	14:flat	_
 17	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	18	case	18:case	LId=z-1
-18	rozhlasu	rozhlas	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	15	nmod	15:nmod	SpaceAfter=No
+18	rozhlasu	rozhlas	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	14	nmod	14:nmod	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
 # sent_id = n20w-s28
@@ -7714,14 +7714,14 @@
 10	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	11:case	LId=v-1
 11	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	9	nmod	9:nmod	_
 12	federální	federální	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
-13	ministr	ministr	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	17	nmod	17:nmod	_
+13	ministr	ministr	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
 14	paliv	palivo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	13	nmod	13:nmod	_
 15	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1
 16	energetiky	energetika	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	13:nmod|14:conj	LGloss=(věda)
-17	Jaromír	Jaromír	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
-18	Matušek	Matušek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	17	flat	17:flat	_
-19	a	a	CCONJ	J^-------------	_	30	cc	30:cc	LId=a-1
-20	předseda	předseda	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	30	nmod	30:nmod	_
+17	Jaromír	Jaromír	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	13	flat	13:flat	_
+18	Matušek	Matušek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	13	flat	13:flat	_
+19	a	a	CCONJ	J^-------------	_	20	cc	20:cc	LId=a-1
+20	předseda	předseda	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	13	conj	5:nsubj|13:conj	_
 21	Českého	český	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	22	amod	22:amod	_
 22	výboru	výbor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	20	nmod	20:nmod	_
 23	Odborového	odborový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	24	amod	24:amod	_
@@ -7731,8 +7731,8 @@
 27	hornictví	hornictví	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	25	nmod	25:nmod	_
 28	a	a	CCONJ	J^-------------	_	29	cc	29:cc	LId=a-1
 29	energetice	energetika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	27	conj	25:nmod|27:conj	LGloss=(věda)
-30	Zdeněk	Zdeněk	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	17	conj	5:nsubj|17:conj	_
-31	Gavenda	Gavenda	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	30	flat	30:flat	SpaceAfter=No
+30	Zdeněk	Zdeněk	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	20	flat	20:flat	_
+31	Gavenda	Gavenda	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	20:flat	SpaceAfter=No
 32	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = n20w-s121
@@ -8290,8 +8290,8 @@
 7	onoho	onen	DET	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	8	det	8:det	_
 8	večera	večer	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	obl	5:obl	LId=večer-1
 9	mé	můj	DET	PSFS3-S1------1	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	10:det	LGloss=(přivlast.)
-10	ženě	žena	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod	_
-11	Drahušce	Drahuška	PROPN	NNFS3-----A----	Case=Dat|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos|Style=Coll	5	iobj	5:iobj	SpaceAfter=No
+10	ženě	žena	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	5	iobj	5:iobj	_
+11	Drahušce	Drahuška	PROPN	NNFS3-----A----	Case=Dat|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos|Style=Coll	10	flat	10:flat	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = n20w-s152
@@ -8492,8 +8492,8 @@
 # sent_id = n20w-s164
 # text = Paní Šmrkosovou včera odvezli do špitálu, pravila najednou hostitelka.
 # orig_file_sentence n20w#164
-1	Paní	paní	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	2:nmod	_
-2	Šmrkosovou	Šmrkosová	PROPN	NNFS4-----A----	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	4	obj	4:obj	_
+1	Paní	paní	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	4:obj	_
+2	Šmrkosovou	Šmrkosová	PROPN	NNFS4-----A----	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 3	včera	včera	ADV	Db-------------	_	4	advmod	4:advmod	_
 4	odvezli	odvézt	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	ccomp	8:ccomp	_
 5	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	6:case	LId=do-1
@@ -10258,7 +10258,7 @@
 15	výzkum	výzkum	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	12	nsubj	12:nsubj	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 17	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	nsubj:pass	20:nsubj:pass	_
-18	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	20	aux:pass	20:aux:pass	_
+18	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	20	aux	20:aux	_
 19	nebyl	být	AUX	VpYS---XR-NA---	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	20	aux:pass	20:aux:pass	_
 20	veden	vedený	ADJ	VsYS---XX-AP---	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	15	amod	15:amod	LId=vedený-1
 21	obecnými	obecný	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	22	amod	22:amod	_
@@ -12412,9 +12412,9 @@
 # text = Sovětský sociolog * Zdravomyslov, když analyzuje teoretickou funkci marxistické sociologie, připomíná, že žádná teorie společnosti dnes nezačíná na čisté, nepopsané stránce.
 # orig_file_sentence s20w#115
 1	Sovětský	sovětský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	2:amod	_
-2	sociolog	sociolog	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	4:nmod	_
-3	*	*	SYM	Xx-------------	Abbr=Yes	4	nmod	4:nmod	_
-4	Zdravomyslov	Zdravomyslov	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	13	nsubj	13:nsubj	SpaceAfter=No
+2	sociolog	sociolog	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	13	nsubj	13:nsubj	_
+3	*	*	SYM	Xx-------------	Abbr=Yes	2	nmod	2:nmod	_
+4	Zdravomyslov	Zdravomyslov	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	2	flat	2:flat	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 6	když	když	SCONJ	J,-------------	_	7	mark	7:mark	_
 7	analyzuje	analyzovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
@@ -12983,7 +12983,7 @@
 6	disciplínou	disciplína	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	5:obj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 8	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj:pass	11:nsubj:pass	_
-9	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	11	aux:pass	11:aux:pass	_
+9	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	11	aux	11:aux	_
 10	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	11:aux:pass	_
 11	pěstována	pěstovaný	ADJ	VsQW---XX-AP---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	6	amod	6:amod	_
 12	jen	jen	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=jen-1|LGloss=(pouze)
