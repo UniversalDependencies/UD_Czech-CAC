@@ -72,6 +72,8 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2019-05-01 v2.4
+  * Modified conversion: nouns do not have objects.
 * 2018-11-15 v2.3
   * Split multi-word tokens "cos, ses, sis, tys, vždyťs", participle + "-s".
   * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.

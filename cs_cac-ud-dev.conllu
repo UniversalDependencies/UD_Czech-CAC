@@ -7630,9 +7630,9 @@
 1	Zkušenosti	zkušenost	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	3	nsubj	3:nsubj	_
 2	pak	pak	ADV	Db-------------	_	3	advmod	3:advmod	_
 3	ukázaly	ukázat	VERB	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-4	nezastupitelnost	zastupitelnost	NOUN	NNFS4-----N----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	24	obj	24:obj	LDeriv=zastoupit
+4	nezastupitelnost	zastupitelnost	NOUN	NNFS4-----N----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	24	nmod	24:nmod	LDeriv=zastoupit
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	LId=a-1
-6	potřebnost	potřebnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	4:conj|24:obj	LDeriv=potřebný
+6	potřebnost	potřebnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	4:conj|24:nmod	LDeriv=potřebný
 7	výchovné	výchovný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	soustavy	soustava	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	4:nmod|6:nmod	_
 9	PO	PO	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	8	nmod	8:nmod	SpaceAfter=No
@@ -11687,7 +11687,7 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	týkají	týkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	hlavně	hlavně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	6:advmod:emph	LDeriv=hlavní
-6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	18	obj	18:obj|21:obj|26:obj	_
+6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	18	nmod	18:nmod|21:nmod|26:nmod	_
 7	vody	voda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	6:nmod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	11:nsubj	_

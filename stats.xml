@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>24709</sentences><tokens>493306</tokens><words>494383</words><fused>1077</fused></total>
+    <train><sentences>23478</sentences><tokens>471594</tokens><words>472609</words><fused>1015</fused></train>
+    <dev><sentences>603</sentences><tokens>10888</tokens><words>10912</words><fused>24</fused></dev>
+    <test><sentences>628</sentences><tokens>10824</tokens><words>10862</words><fused>38</fused></test>
   </size>
   <lemmas unique="28467" /><!-- ,, ., být, a, v, se, na, ten, s, *, z, který, i, k, tento -->
   <forms unique="62445" /><!-- ,, ., a, v, se, na, je, #, *, i, s, z, o, že, k -->
@@ -137,7 +140,7 @@
   <deps unique="43">
     <dep name="acl">6890</dep>
     <dep name="advcl">3452</dep>
-    <dep name="advmod">21305</dep>
+    <dep name="advmod">21297</dep>
     <dep name="advmod:emph">7199</dep>
     <dep name="amod">61517</dep>
     <dep name="appos">2176</dep>
@@ -163,13 +166,13 @@
     <dep name="flat:foreign">134</dep>
     <dep name="iobj">1311</dep>
     <dep name="mark">8608</dep>
-    <dep name="nmod">54151</dep>
+    <dep name="nmod">54204</dep>
     <dep name="nsubj">24051</dep>
     <dep name="nsubj:pass">3466</dep>
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
-    <dep name="obj">19782</dep>
-    <dep name="obl">27776</dep>
+    <dep name="obj">19729</dep>
+    <dep name="obl">27784</dep>
     <dep name="obl:agent">241</dep>
     <dep name="obl:arg">6045</dep>
     <dep name="orphan">1830</dep>

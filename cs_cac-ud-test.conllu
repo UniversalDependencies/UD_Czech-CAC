@@ -9767,7 +9767,7 @@
 22	konkrétnost	konkrétnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	conj	17:obj|20:conj	_
 23	a	a	CCONJ	J^-------------	_	22	cc	22:cc	LId=a-1
 24	živou	živý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	25	amod	25:amod	_
-25	představu	představa	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	obj	20:obj|22:obj	_
+25	představu	představa	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	nmod	20:nmod|22:nmod	_
 26	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	27	case	27:case	LId=o-1
 27	realitě	realita	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	25	nmod	25:nmod	SpaceAfter=No
 28	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
