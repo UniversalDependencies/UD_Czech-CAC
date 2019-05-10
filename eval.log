@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Czech-CAC:
-commit f1af54c2a087059abcf1cfde59805c1e54e4e922
-Merge: 4ceb1a9 fe6cde6
+commit 13b64cec6ffb6ef6e8cc9433cfbec513c577e4f7
+Merge: 9205892 5088e65
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 494383 of 494383 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.4066210408781.
@@ -15,11 +15,11 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 385870 out of 494383 total words have one or more features.
+Features: 385597 out of 494383 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 2407 bugs.
+Udapi: found 1746 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 494383 words.
 Genres: found 5 out of 17 known.
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.898021176186353) = 0.230261840047783
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.951313050812831) = 0.29271170794241
+(weight=0.307692307692308) * (score{udapi}=0.964683251649025) = 0.296825615892008
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.83109796199696) * (availability=1) * (validity=1) = 0.83109796199696
+(TOTAL score=0.835211869946558) * (availability=1) * (validity=1) = 0.835211869946558
 STARS = 4
-UD_Czech-CAC	0.83109796199696	4
+UD_Czech-CAC	0.835211869946558	4
