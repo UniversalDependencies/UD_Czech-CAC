@@ -6386,7 +6386,7 @@
 11	výchově	výchova	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 13	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
-14	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	det	17:det	_
+14	to	to	PART	PDNS4----------	_	13	fixed	13:fixed	_
 15	i	i	CCONJ	J^-------------	_	17	advmod:emph	17:advmod:emph	LId=i-1
 16	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	17	case	17:case	LId=v-1
 17	výchově	výchova	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	obl:arg	1:obl:arg	_
