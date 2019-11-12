@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Czech-CAC:
-commit 13b64cec6ffb6ef6e8cc9433cfbec513c577e4f7
-Merge: 9205892 5088e65
+commit e0c827333a6a549510ad48e3933a3e5d0428fb85
+Merge: 37aa6be ee24089
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 494383 of 494383 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.4066210408781.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 385597 out of 494383 total words have one or more features.
+Features: 385589 out of 494383 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -23,12 +23,42 @@ Udapi: found 1746 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 494383 words.
 Genres: found 5 out of 17 known.
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-dev.conllu
-*** PASSED ***
+[Line 7541 Sent n10w-s116 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 8876 Sent s10w-s9 Node 27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 10184 Sent s10w-s79 Node 4]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'ADJ'
+[Line 10184 Sent s10w-s79 Node 4]: [L5 Syntax cop-lemma] 'měkký' is not a copula in language [cs]
+Syntax errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-test.conllu
-*** PASSED ***
+[Line 2200 Sent a20w-s135 Node 2]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'SYM'
+[Line 3580 Sent a20w-s207 Node 31]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (31:to:fixed --> 32:tužkou:obl)
+[Line 9524 Sent s20w-s11 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'NOUN'
+[Line 9522 Sent s20w-s11 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:doktrínou:cop --> 9:vědeckou:amod)
+[Line 9523 Sent s20w-s11 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:doktrínou:cop --> 10:filozofickou:amod)
+[Line 9526 Sent s20w-s11 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:doktrínou:cop --> 13:jakou:acl)
+[Line 9524 Sent s20w-s11 Node 11]: [L5 Syntax cop-lemma] 'doktrína' is not a copula in language [cs]
+[Line 11826 Sent s20w-s94 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 12802 Sent s20w-s131 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+...suppressing further errors regarding Syntax
+Syntax errors: 10
+*** FAILED *** with 10 errors
+Exit code: 1
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 3790 Sent a01w-s146 Node 16]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (16:by:aux --> 15:aniž:mark)
+[Line 9946 Sent a03w-s50 Node 15]: [L5 Syntax cop-lemma] '*' is not a copula in language [cs]
+[Line 14863 Sent a04w-s81 Node 55]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 14862 Sent a04w-s81 Node 55]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (55:vytištěny:aux --> 54:jsou:cop)
+[Line 15533 Sent a04w-s101 Node 15]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 16715 Sent a04w-s141 Node 10]: [L5 Syntax cop-lemma] '*' is not a copula in language [cs]
+[Line 16778 Sent a04w-s143 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 23147 Sent a06w-s74 Node 22]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'NOUN'
+[Line 23147 Sent a06w-s74 Node 22]: [L5 Syntax cop-lemma] 'metoda' is not a copula in language [cs]
+...suppressing further errors regarding Syntax
+Syntax errors: 181
+*** FAILED *** with 181 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +67,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.964683251649025) = 0.296825615892008
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.835211869946558) * (availability=1) * (validity=1) = 0.835211869946558
-STARS = 4
-UD_Czech-CAC	0.835211869946558	4
+(TOTAL score=0.835211869946558) * (availability=1) * (validity=0.01) = 0.00835211869946558
+STARS = 0
+UD_Czech-CAC	0.00835211869946558	0
