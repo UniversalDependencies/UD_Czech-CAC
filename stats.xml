@@ -171,10 +171,10 @@
     <dep name="nsubj:pass">3466</dep>
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
-    <dep name="obj">19728</dep>
+    <dep name="obj">19729</dep>
     <dep name="obl">27791</dep>
     <dep name="obl:agent">241</dep>
-    <dep name="obl:arg">6045</dep>
+    <dep name="obl:arg">6044</dep>
     <dep name="orphan">1830</dep>
     <dep name="parataxis">683</dep>
     <dep name="punct">60129</dep>
