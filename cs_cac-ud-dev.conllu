@@ -218,9 +218,9 @@
 28	mohlo	moci	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl	8:acl|13:acl	LGloss=(mít_možnost_[něco_dělat])
 29	docilovat	docilovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	28	csubj:pass	28:csubj:pass	_
 30	vyšší	vysoký	ADJ	AAFS2----2A----	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	31	amod	31:amod	_
-31	intenzity	intenzita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	29	obj	29:obj	_
+31	intenzity	intenzita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	29	obl:arg	29:obl:arg	_
 32	a	a	CCONJ	J^-------------	_	33	cc	33:cc	LId=a-1
-33	rentability	rentabilita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	31	conj	29:obj|31:conj	_
+33	rentability	rentabilita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	31	conj	29:obl:arg|31:conj	_
 34	zemědělské	zemědělský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	35	amod	35:amod	_
 35	výroby	výroba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	33	nmod	33:nmod	SpaceAfter=No
 36	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -391,10 +391,10 @@
 27	předstihem	předstih	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	28	obl	28:obl	_
 28	dávali	dávat	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	17:advcl	LDeriv=dát
 29	meliorační	meliorační	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	30	amod	30:amod	_
-30	praxi	praxe	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	28	iobj	28:iobj	_
+30	praxi	praxe	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	28	obl:arg	28:obl:arg	_
 31	i	i	CCONJ	J^-------------	_	33	cc	33:cc	LId=i-1
 32	řídícím	řídící	ADJ	AGIP3-----A----	Animacy=Inan|Aspect=Imp|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	33:amod	LDeriv=řídit
-33	orgánům	orgán	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	30	conj	28:iobj|30:conj	_
+33	orgánům	orgán	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	30	conj	28:obl:arg|30:conj	_
 34	kvalifikované	kvalifikovaný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	36	amod	36:amod	LDeriv=kvalifikovat
 35	vědeckovýzkumné	vědeckovýzkumný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	36	amod	36:amod	_
 36	podklady	podklad	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	28	obj	28:obj	_
@@ -673,7 +673,7 @@
 5	silně	silně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	6:advmod	LDeriv=silný
 6	narušených	narušený	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	2:amod	LDeriv=narušit
 7	průmyslovými	průmyslový	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	_
-8	exhalacemi	exhalace	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	6	obj	6:obj	SpaceAfter=No
+8	exhalacemi	exhalace	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	6	obl:arg	6:obl:arg	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = a10w-s27
@@ -827,7 +827,7 @@
 2	úsilí	úsilí	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	4	obj	4:obj	_
 3	budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 4	věnovat	věnovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
-5	zavádění	zavádění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	4	iobj	4:iobj	LDeriv=zavádět
+5	zavádění	zavádění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg	LDeriv=zavádět
 6	nových	nový	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	_
 7	poznatků	poznatek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	5:nmod	_
 8	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	LId=do-1
@@ -1012,7 +1012,7 @@
 19	budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 20	napomáhat	napomáhat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
 21	rychlejšímu	rychlý	ADJ	AANS3----2A----	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	_
-22	řešení	řešení	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	20	obj	20:obj	LDeriv=řešit
+22	řešení	řešení	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	20	obl:arg	20:obl:arg	LDeriv=řešit
 23	vědeckovýzkumných	vědeckovýzkumný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	24	amod	24:amod	_
 24	problémů	problém	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	22	nmod	22:nmod	_
 25	společného	společný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	26	amod	26:amod	_
@@ -1033,7 +1033,7 @@
 9	a	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1
 10	napomáhat	napomáhat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	conj	0:root|2:conj	_
 11	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	12:det	LGloss=(přivlast.)
-12	uplatňování	uplatňování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	10	obj	10:obj	LDeriv=uplatňovat
+12	uplatňování	uplatňování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	10	obl:arg	10:obl:arg	LDeriv=uplatňovat
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
 14	praxi	praxe	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	12	nmod	12:nmod	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -1044,7 +1044,7 @@
 1	Budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	aux	3:aux|13:aux|18:aux	_
 2	aktivně	aktivně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod|13:advmod|18:advmod	LDeriv=aktivní
 3	napomáhat	napomáhat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
-4	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	3:obj	_
+4	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 5	osobnosti	osobnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	4:nmod	_
 6	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
 7	tvůrčích	tvůrčí	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	_
@@ -1082,12 +1082,12 @@
 11	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1
 12	schopnosti	schopnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	10	conj	8:obj|10:conj	LDeriv=schopný
 13	dalšímu	další	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	14	amod	14:amod|19:amod	_
-14	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	iobj	8:iobj	_
+14	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	_
 15	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	17:det	LGloss=(přivlast.)
 16	socialistické	socialistický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	_
 17	vlasti	vlast	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	14	nmod	14:nmod	_
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1
-19	upevňování	upevňování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	14	conj	8:iobj|14:conj	LDeriv=upevňovat
+19	upevňování	upevňování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	14	conj	8:obl:arg|14:conj	LDeriv=upevňovat
 20	našeho	můj	DET	PSZS2-P1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	21:det	LGloss=(přivlast.)
 21	přátelství	přátelství	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	19	nmod	19:nmod	_
 22	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	24	case	24:case	LId=s-1
@@ -1195,7 +1195,7 @@
 19	zhodnoceny	zhodnocený	ADJ	VsTP---XX-AP---	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=zhodnotit
 20	úspěchy	úspěch	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	19	nsubj:pass	19:nsubj:pass	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
-22	kterých	který	DET	P4XP2----------	Case=Gen|Number=Plur|PronType=Int,Rel	27	obj	27:obj	_
+22	kterých	který	DET	P4XP2----------	Case=Gen|Number=Plur|PronType=Int,Rel	27	obl:arg	27:obl:arg	_
 23	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	27:aux	_
 24	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	26	case	26:case	LId=za-1
 25	uplynulé	uplynulý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	26	amod	26:amod	_
@@ -1254,7 +1254,7 @@
 # text = Inspirováni provoláním ÚV KSČ, vlády ČSSR, ÚRO a ÚV SSM ke všem občanům naší socialistické vlasti na zvýšení své angažované a kvalitní práce na počest # sjezdu KSČ, rozhodli jsme se přijmout a vyhlásit k tomuto významnému jednání kolektivní socialistický závazek.
 # orig_file_sentence a10w#52
 1	Inspirováni	inspirovaný	ADJ	VsMP---XX-AP---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	32	xcomp	32:xcomp	LDeriv=inspirovat
-2	provoláním	provolání	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	1	obj	1:obj	LDeriv=provolat
+2	provoláním	provolání	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	1	obl:arg	1:obl:arg	LDeriv=provolat
 3	ÚV	ÚV	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	2	nmod	2:nmod	LId=ÚV-1|LGloss=(ústřední_výbor)
 4	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	3	nmod	3:nmod	SpaceAfter=No|LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -1659,7 +1659,7 @@
 22	lepšího	dobrý	ADJ	AANS2----2A----	Case=Gen|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	29	amod	29:amod	SpaceAfter=No
 23	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 24	socialistické	socialistický	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	25	amod	25:amod	_
-25	společnosti	společnost	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	27	obj	27:obj	LDeriv=společný
+25	společnosti	společnost	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	27	obl:arg	27:obl:arg	LDeriv=společný
 26	plně	plně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	27	advmod	27:advmod	LDeriv=plný
 27	odpovídajícího	odpovídající	ADJ	AGNS2-----A----	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	22	conj	22:conj|29:amod	LDeriv=odpovídat
 28	životního	životní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	29	amod	29:amod	LGloss=(souvisí_se_životem;_prostředí,...)
@@ -1726,7 +1726,7 @@
 1	Budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 2	účinněji	účinně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	3	advmod	3:advmod	LDeriv=účinný
 3	využívat	využívat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	LDeriv=využít
-4	Sboru	sbor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	3:obj	_
+4	Sboru	sbor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 5	praktiků	praktik	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	4	nmod	4:nmod	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 7	zřízeného	zřízený	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	LDeriv=zřídit
@@ -2292,7 +2292,7 @@
 11	PLP	PLP	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	8	nmod	8:nmod	_
 12	vytyčených	vytyčený	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	LDeriv=vytyčit
 13	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
-14	sjezdem	sjezd	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	12	obj	12:obj	_
+14	sjezdem	sjezd	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	12	obl:arg	12:obl:arg	_
 15	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	14	nmod	14:nmod	SpaceAfter=No|LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 16	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
@@ -2311,7 +2311,7 @@
 10	úkoly	úkol	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	8	nmod	8:nmod	_
 11	vytyčenými	vytyčený	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	10:amod	LDeriv=vytyčit
 12	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
-13	sjezdem	sjezd	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	11	obj	11:obj	_
+13	sjezdem	sjezd	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	11	obl:arg	11:obl:arg	_
 14	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	13	nmod	13:nmod	LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 15	vyplynulo	vyplynout	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
@@ -2560,7 +2560,7 @@
 11	řídícím	řídící	ADJ	AGIP3-----A----	Animacy=Inan|Aspect=Imp|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	14:amod	LDeriv=řídit
 12	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
 13	realizačním	realizační	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	conj	11:conj|14:amod	_
-14	orgánům	orgán	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	10	obj	10:obj	_
+14	orgánům	orgán	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	10	obl:arg	10:obl:arg	_
 15	dílčí	dílčí	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	17	amod	17:amod	_
 16	realizované	realizovaný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	17	amod	17:amod	LDeriv=realizovat
 17	výsledky	výsledek	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	8	nsubj	8:nsubj	_
@@ -2686,7 +2686,7 @@
 2	strany	strana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	fixed	1:fixed	LId=strana-3|LGloss=(u_soudu,_na_úřadě,_smluvní_strany;_na_něčí_straně)
 3	vedení	vedení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	8	obl	8:obl	LDeriv=vést|LId=vedení-1
 4	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	8	aux:pass	8:aux:pass	_
-5	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	8:obj	_
+5	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	_
 6	regulační	regulační	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	drenáže	drenáž	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	5:nmod	_
 8	věnována	věnovaný	ADJ	VsQW---XX-AP---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=věnovat
@@ -3312,7 +3312,7 @@
 # sent_id = a10w-s145
 # text = Úkolem sledování * na stav podzemních vod původně určen Němec a Dvořák.
 # orig_file_sentence a10w#145
-1	Úkolem	úkol	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	obj	9:obj	_
+1	Úkolem	úkol	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	obl:arg	9:obl:arg	_
 2	sledování	sledování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	1	nmod	1:nmod	LDeriv=sledovat
 3	*	*	SYM	Xx-------------	Abbr=Yes	2	nmod	2:nmod	_
 4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=na-1
@@ -4557,7 +4557,7 @@
 28	umožněn	umožněný	ADJ	VsYS---XX-AP---	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	10:conj|63:obj	LDeriv=umožnit
 29	politicky	politicky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	30	advmod	30:advmod	LDeriv=politický
 30	neorganizovaným	organizovaný	ADJ	AAMP3----1N----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	31	amod	31:amod	LDeriv=organizovat
-31	voličům	volič	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	28	obj	28:obj	_
+31	voličům	volič	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	28	obl:arg	28:obl:arg	_
 32	prostřednictvím	prostřednictví	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	35	case	35:case	_
 33	dobrovolných	dobrovolný	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	35	amod	35:amod	_
 34	společenských	společenský	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	35	amod	35:amod	_
@@ -4632,7 +4632,7 @@
 34	,	,	PUNCT	Z:-------------	_	33	punct	33:punct	_
 35	dávají	dávat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	5:ccomp|9:conj	LDeriv=dát
 36	československým	československý	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	37	amod	37:amod	_
-37	občanům	občan	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	35	iobj	35:iobj	_
+37	občanům	občan	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	35	obl:arg	35:obl:arg	_
 38	široká	široký	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	40	amod	40:amod	_
 39	demokratická	demokratický	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	40	amod	40:amod	_
 40	práva	právo	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	35	obj	35:obj	LGloss=(právo_na_něco;_také_jako_obor)
@@ -4869,7 +4869,7 @@
 31	hnutí	hnutí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	29	nmod	29:nmod	LGloss=(mysli,politické,...)
 32	odevzdali	odevzdat	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	advcl	18:advcl	_
 33	mladým	mladý	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	34	amod	34:amod	_
-34	lidem	člověk	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	32	iobj	32:iobj	_
+34	lidem	člověk	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	32	obl:arg	32:obl:arg	_
 35	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	37	case	37:case	LId=za-1
 36	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	37	det	37:det	LGloss=(přivlast.)
 37	práci	práce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	32	obl	32:obl	LGloss=(jako_činnost_i_místo)
@@ -4885,14 +4885,14 @@
 # text = Slavnostnímu aktu byla přítomna delegace ÚV KSČ vedená tajemníkem ÚV KSČ * Oldřichem, jejímž členem byl také místopředseda NF * Trávníček.
 # orig_file_sentence n10w#13
 1	Slavnostnímu	slavnostní	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	2:amod	_
-2	aktu	akt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	4:obj	LId=akt-1|LGloss=(čin)
+2	aktu	akt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg	LId=akt-1|LGloss=(čin)
 3	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	4:cop	_
 4	přítomna	přítomný	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	0	root	0:root	_
 5	delegace	delegace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	_
 6	ÚV	ÚV	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	5	nmod	5:nmod	LId=ÚV-1|LGloss=(ústřední_výbor)
 7	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	6	nmod	6:nmod	LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 8	vedená	vedený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	LDeriv=vést|LId=vedený-1
-9	tajemníkem	tajemník	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	8:obj	_
+9	tajemníkem	tajemník	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	_
 10	ÚV	ÚV	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	9	nmod	9:nmod	LId=ÚV-1|LGloss=(ústřední_výbor)
 11	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	10	nmod	10:nmod	LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 12	*	*	SYM	Xx-------------	Abbr=Yes	9	nmod	9:nmod	_
@@ -4919,7 +4919,7 @@
 6	*	*	SYM	Xx-------------	Abbr=Yes	3	nmod	3:nmod	_
 7	Varholík	Varholík	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	flat	3:flat	_
 8	mladým	mladý	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	9:amod	_
-9	lidem	člověk	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	2	obj	2:obj	_
+9	lidem	člověk	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	2	obl:arg	2:obl:arg	_
 10	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=za-1
 11	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	13:det	LGloss=(přivlast.)
 12	obětavou	obětavý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	_
@@ -4945,7 +4945,7 @@
 32	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	34	nsubj	34:nsubj	_
 33	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	34	expl:pv	34:expl:pv	LGloss=(zvr._zájmeno/částice)
 34	řídí	řídit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl	30:acl	_
-35	programem	program	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	34	obj	34:obj	LId=program-1
+35	programem	program	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	34	obl:arg	34:obl:arg	LId=program-1
 36	rozvoje	rozvoj	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	35	nmod	35:nmod	_
 37	socialismu	socializmus	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	36	nmod	36:nmod	SpaceAfter=No
 38	,	,	PUNCT	Z:-------------	_	41	punct	41:punct	_
@@ -4996,7 +4996,7 @@
 18	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=o-1
 19	výstavbu	výstavba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	17	nmod	17:nmod	_
 20	*	*	SYM	Xx-------------	Abbr=Yes	21	nmod	21:nmod	_
-21	Kratochvílovi	Kratochvíl	PROPN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	11	iobj	11:iobj	SpaceAfter=No
+21	Kratochvílovi	Kratochvíl	PROPN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	11	obl:arg	11:obl:arg	SpaceAfter=No
 22	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
 23	řediteli	ředitel	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	21	appos	21:appos	_
 24	ODPM	ODPM	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	23	nmod	23:nmod	_
@@ -5047,7 +5047,7 @@
 # orig_file_sentence n10w#19
 1	Čtyřiadvaceti	čtyřiadvacet	NUM	Cn-P3----------	Case=Dat|Number=Plur|NumForm=Word|NumType=Card	3	nummod	3:nummod	LNumValue=24
 2	mládežnickým	mládežnický	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	3:amod	_
-3	kolektivům	kolektiv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	5	obj	5:obj	_
+3	kolektivům	kolektiv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	5	obl:arg	5:obl:arg	_
 4	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	5:aux:pass	_
 5	udělen	udělený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=udělit
 6	čestný	čestný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	7:amod	_
@@ -5315,7 +5315,7 @@
 9	zřekla	zřeknout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 10	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	12	det	12:det	_
 11	sobotních	sobotní	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	12	amod	12:amod	_
-12	lákadel	lákadlo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	9	obj	9:obj	_
+12	lákadel	lákadlo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	9	obl:arg	9:obl:arg	_
 13	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
 14	vyjela	vyjet	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	conj	0:root|9:conj	_
 15	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	18:case	LId=na-1
@@ -5527,7 +5527,7 @@
 # orig_file_sentence n10w#38
 1	Líbí	líbit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
-3	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	1:obj	_
+3	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl:arg	1:obl:arg	_
 4	vaše	tvůj	DET	PSHS1-P2-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	5	det	5:det	LGloss=(přivlast.)
 5	ukázněnost	ukázněnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	LDeriv=ukáznit
 6	i	i	CCONJ	J^-------------	_	7	cc	7:cc	LId=i-1
@@ -5640,7 +5640,7 @@
 # orig_file_sentence n10w#44
 1	Vaše	tvůj	DET	PSHS1-P2-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	2	det	2:det	LGloss=(přivlast.)
 2	brigáda	brigáda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
-3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obj	5:obj	_
+3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obl:arg	5:obl:arg	_
 4	opravdu	opravdu	ADV	Db-------------	_	5	advmod	5:advmod	_
 5	pomohla	pomoci	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
@@ -5683,14 +5683,14 @@
 7	dohromady	dohromady	ADV	Db-------------	_	2	advmod	2:advmod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_
 9	budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
-10	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obj	11:obj	_
+10	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obl:arg	11:obl:arg	_
 11	vděčni	vděčný	ADJ	ACMP------A----	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	0	root	0:root	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	11	punct	11:punct	_
 
 # sent_id = n10w-s47
 # text = Agronoma Jiřího Tomana jsme se zeptali, na jaké ploše má družstvo brambory.
 # orig_file_sentence n10w#47
-1	Agronoma	agronom	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	iobj	6:iobj	_
+1	Agronoma	agronom	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	_
 2	Jiřího	Jiří	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 3	Tomana	Toman	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 4	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
@@ -5999,13 +5999,13 @@
 7	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	9:nsubj	_
 8	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	9:expl:pv	LGloss=(zvr._zájmeno/částice)
 9	zabýval	zabývat	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	acl	5:acl	_
-10	otázkami	otázka	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	9	obj	9:obj	_
+10	otázkami	otázka	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	9	obl:arg	9:obl:arg	_
 11	materiálního	materiální	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 12	zajištění	zajištění	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	10	nmod	10:nmod	LDeriv=zajistit
 13	zemědělství	zemědělství	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	12	nmod	12:nmod	_
 14	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1
 15	ekonomickými	ekonomický	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	_
-16	nástroji	nástroj	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	10	conj	9:obj|10:conj	_
+16	nástroji	nástroj	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	10	conj	9:obl:arg|10:conj	_
 17	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	18:case	LId=pro-1
 18	*	*	SYM	Xx-------------	Abbr=Yes	16	nmod	16:nmod	_
 19	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -6172,7 +6172,7 @@
 3	věnují	věnovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	pozornost	pozornost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	3:obj	LDeriv=pozorný|LId=pozornost-1|LGloss=(všímavý,_milý,_soustředěný)
 5	ekonomické	ekonomický	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
-6	propagandě	propaganda	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	3	iobj	3:iobj	_
+6	propagandě	propaganda	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 7	zaměřené	zaměřený	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	LDeriv=zaměřit
 8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	10:case	LId=na-1
 9	hospodářskou	hospodářský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
@@ -6303,7 +6303,7 @@
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	3:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	týkal	týkat	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	zejména	zejména	ADV	Db-------------	_	5	advmod:emph	5:advmod:emph	_
-5	spolupráce	spolupráce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	3:obj	_
+5	spolupráce	spolupráce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 6	obou	oba	NUM	ClXP2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	8	nummod	8:nummod	LNumValue=2
 7	televizních	televizní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	_
 8	organizací	organizace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	5	nmod	5:nmod	SpaceAfter=No
@@ -6447,7 +6447,7 @@
 1	Když	když	SCONJ	J,-------------	_	3	mark	3:mark	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pass	3:expl:pass	LGloss=(zvr._zájmeno/částice)
 3	říká	říkat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	14:advcl	_
-4	železničářům	železničář	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	3	obj	3:obj	_
+4	železničářům	železničář	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	3	obl:arg	3:obl:arg	_
 5	modrá	modrý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	armáda	armáda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	3:obj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -6639,7 +6639,7 @@
 1	Bohužel	bohužel	PART	TT-------------	_	2	advmod	2:advmod	_
 2	zůstává	zůstávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LDeriv=zůstat
 3	stále	stále	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod	2:advmod	LDeriv=stálý
-4	pravdou	pravda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	2:obj	SpaceAfter=No
+4	pravdou	pravda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	2	obl:arg	2:obl:arg	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 6	že	že	SCONJ	J,-------------	_	11	mark	11:mark	_
 7	velké	velký	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	8:amod	_
@@ -6683,7 +6683,7 @@
 18	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	16	obl:arg	16:obl:arg	SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 20	že	že	SCONJ	J,-------------	_	24	mark	24:mark	_
-21	všem	všechno	PRON	PLXP3----------	Case=Dat|Number=Plur|PronType=Tot	23	obj	23:obj	_
+21	všem	všechno	PRON	PLXP3----------	Case=Dat|Number=Plur|PronType=Tot	23	obl:arg	23:obl:arg	_
 22	naráz	naráz	ADV	Db-------------	_	23	advmod	23:advmod	_
 23	vyhovět	vyhovět	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	24	csubj	24:csubj	_
 24	nelze	lze	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl	18:acl	SpaceAfter=No
@@ -6768,7 +6768,7 @@
 18	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	17	nmod	17:nmod	SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 20	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	22	nsubj	22:nsubj	_
-21	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	iobj	22:iobj	LGloss=(ona)
+21	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl:arg	22:obl:arg	LGloss=(ona)
 22	dají	dát	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl	18:acl	_
 23	přednost	přednost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	22	obj	22:obj	_
 24	třeba	třeba	ADV	Db-------------	_	36	advmod:emph	36:advmod:emph	LId=třeba-2|LGloss=(například)
@@ -6973,7 +6973,7 @@
 13	další	další	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	12	amod	12:amod	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 15	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	18	nsubj	18:nsubj	_
-16	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	obj	18:obj	_
+16	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	obl:arg	18:obl:arg	_
 17	vydatně	vydatně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	18	advmod	18:advmod	LDeriv=vydatný
 18	pomáhají	pomáhat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl	12:acl	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -7056,7 +7056,7 @@
 7	stalo	stát	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	LId=stát-2|LGloss=(něco_se_přihodilo)
 8	významným	významný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 9	politickým	politický	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
-10	krokem	krok	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	7	obj	7:obj	SpaceAfter=No
+10	krokem	krok	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	7	obl:arg	7:obl:arg	SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # sent_id = n10w-s103
@@ -7275,7 +7275,7 @@
 19	náleží	náležet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 20	ideově	ideově	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	21	advmod	21:advmod	LDeriv=ideový
 21	výchovné	výchovný	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	22:amod	_
-22	práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	19	obj	19:obj	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
+22	práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	19	obl:arg	19:obl:arg	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
 23	.	.	PUNCT	Z:-------------	_	19	punct	19:punct	_
 
 # sent_id = n10w-s109
@@ -7521,7 +7521,7 @@
 # sent_id = n10w-s116
 # text = Práci svých členů i ostatních mladých lidí v národních výborech a zákonodárných sborech přikládá mimořádný význam zejména proto, že vytváří nezbytnou kontinuitu mezi generacemi, přispívá k trvalé a hlubší informovanosti těchto orgánů o životě a práci mládeže i SSM a umožňuje lépe a účinněji řešit všechny problémy a obtíže mladé generace.
 # orig_file_sentence n10w#116
-1	Práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	14	iobj	14:iobj	LGloss=(jako_činnost_i_místo)
+1	Práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	14	obl:arg	14:obl:arg	LGloss=(jako_činnost_i_místo)
 2	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	3:det	LId=svůj-1
 3	členů	člen	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	nmod	1:nmod	_
 4	i	i	CCONJ	J^-------------	_	7	cc	7:cc	LId=i-1
@@ -7679,7 +7679,7 @@
 6	svaz	svaz	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj	_
 7	mládeže	mládež	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	6:nmod	_
 8	řídí	řídit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	zásadou	zásada	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	8:obj	_
+9	zásadou	zásada	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	_
 10	proletářského	proletářský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
 11	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1
 12	socialistického	socialistický	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	conj	10:conj|13:amod	_
@@ -7793,7 +7793,7 @@
 9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	10:aux:pass	_
 10	věnována	věnovaný	ADJ	VsQW---XX-AP---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=věnovat
 11	politickoorganizátorské	politickoorganizátorský	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	_
-12	práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	10	obj	10:obj	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
+12	práci	práce	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	10	obl:arg	10:obl:arg	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
 13	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
 # sent_id = n10w-s125
@@ -7849,7 +7849,7 @@
 48	síly	síla	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	46	obj	46:obj	LGloss=(fyzická,_vojenská;_moc)
 49	a	a	CCONJ	J^-------------	_	50	cc	50:cc	LId=a-1
 50	schopnosti	schopnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	48	conj	46:obj|48:conj	LDeriv=schopný
-51	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	46	iobj	46:iobj	_
+51	rozvoji	rozvoj	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	46	obl:arg	46:obl:arg	_
 52	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	51	nmod	51:nmod	SpaceAfter=No|LDeriv=společný
 53	,	,	PUNCT	Z:-------------	_	55	punct	55:punct	_
 54	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	55	aux	55:aux	_
@@ -7903,9 +7903,9 @@
 9	stane	stát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=stát-2|LGloss=(něco_se_přihodilo)
 10	Svaz	svaz	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	9	nsubj	9:nsubj	_
 11	mládeže	mládež	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	10	nmod	10:nmod	_
-12	silným	silný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	obj	9:obj	_
+12	silným	silný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	obl:arg	9:obl:arg	_
 13	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
-14	přitažlivým	přitažlivý	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	conj	9:obj|12:conj	_
+14	přitažlivým	přitažlivý	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	conj	9:obl:arg|12:conj	_
 15	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	LId=pro-1
 16	statisíce	stotisíc	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	9	obl	9:obl	LNumValue=100000
 17	dalších	další	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod|20:amod	_
@@ -7930,7 +7930,7 @@
 35	ctí	čest	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	36	obl	36:obl	_
 36	dostáli	dostát	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	28	acl	28:acl	_
 37	svému	svůj	DET	P8ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	38:det	LId=svůj-1
-38	poslání	poslání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	36	obj	36:obj	LDeriv=poslat
+38	poslání	poslání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	36	obl:arg	36:obl:arg	LDeriv=poslat
 39	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	41	cop	41:cop	_
 40	pevnou	pevný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	41	amod	41:amod	_
 41	součástí	součást	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	38	acl	38:acl	_
@@ -7999,7 +7999,7 @@
 23	úkoly	úkol	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	22	obj	22:obj	SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 25	které	který	DET	P4YP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	27	obj	27:obj	_
-26	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	27	iobj	27:iobj	_
+26	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	27	obl:arg	27:obl:arg	_
 27	stanovila	stanovit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	23	acl	23:acl	LGloss=(určit)
 28	ustavující	ustavující	ADJ	AGFS1-----A----	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	29:amod	LDeriv=ustavovat
 29	konference	konference	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	27	nsubj	27:nsubj	_
@@ -8012,14 +8012,14 @@
 # text = Doporučila sjezdu, aby vyslovil Ústřednímu výboru za hospodaření plnou důvěru.
 # orig_file_sentence n10w#130
 1	Doporučila	doporučit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-2	sjezdu	sjezd	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	iobj	1:iobj	SpaceAfter=No
+2	sjezdu	sjezd	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	1:obl:arg	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 4-5	aby	_	_	_	_	_	_	_	_
 4	aby	aby	SCONJ	J,-------------	_	6	mark	6:mark	_
 5	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	6	aux	6:aux	_
 6	vyslovil	vyslovit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	1:ccomp	_
 7	Ústřednímu	ústřední	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	_
-8	výboru	výbor	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	iobj	6:iobj	_
+8	výboru	výbor	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	_
 9	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	10:case	LId=za-1
 10	hospodaření	hospodaření	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	6	obl	6:obl	LDeriv=hospodařit
 11	plnou	plný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	_
@@ -8115,7 +8115,7 @@
 # sent_id = n10w-s134
 # text = Lichému se podařilo vytvořit představení, autor si hru i režíruje, které by bylo možno charakterizovat jako líbezné.
 # orig_file_sentence n10w#134
-1	Lichému	Lichý	PROPN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	obj	3:obj	_
+1	Lichému	Lichý	PROPN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	3:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	podařilo	podařit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	vytvořit	vytvořit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	csubj	3:csubj	_
@@ -8142,7 +8142,7 @@
 1	Jistě	jistě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	6:advmod	LDeriv=jistý
 2	tomuto	tento	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	4:det	_
 3	výslednému	výsledný	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	4:amod	_
-4	dojmu	dojem	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	obj	6:obj	_
+4	dojmu	dojem	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	_
 5	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	6:advmod	_
 6	napomohla	napomoci	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	i	i	CCONJ	J^-------------	_	8	advmod:emph	8:advmod:emph	LId=i-1
@@ -8743,9 +8743,9 @@
 # sent_id = s10w-s3
 # text = Zdraví a kráse prospívá.
 # orig_file_sentence s10w#3
-1	Zdraví	zdraví	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	4	obj	4:obj	_
+1	Zdraví	zdraví	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg	_
 2	a	a	CCONJ	J^-------------	_	3	cc	3:cc	LId=a-1
-3	kráse	krása	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	1:conj|4:obj	_
+3	kráse	krása	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	1:conj|4:obl:arg	_
 4	prospívá	prospívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|LDeriv=prospět
 5	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -8853,14 +8853,14 @@
 4	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	cop	5:cop	_
 5	ticho	ticho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	xcomp	1:xcomp	_
 6	dané	daný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
-7	klidem	klid	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	6	obj	6:obj	_
+7	klidem	klid	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	_
 8	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1
-9	pohodou	pohoda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	7	conj	6:obj|7:conj	SpaceAfter=No
+9	pohodou	pohoda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	7	conj	6:obl:arg|7:conj	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 11	nikoli	nikoliv	ADV	Db-------------	_	12	advmod:emph	12:advmod:emph|14:advmod:emph	_
-12	lhostejností	lhostejnost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	7	conj	6:obj|7:conj	LDeriv=lhostejný
+12	lhostejností	lhostejnost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	7	conj	6:obl:arg|7:conj	LDeriv=lhostejný
 13	nebo	nebo	CCONJ	J^-------------	_	14	cc	14:cc	_
-14	zlobou	zloba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	12	conj	6:obj|12:conj	SpaceAfter=No
+14	zlobou	zloba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	12	conj	6:obl:arg|12:conj	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 16	kdy	kdy	ADV	Db-------------	PronType=Int,Rel	22	advmod	22:advmod|24:advmod	_
 17	lidé	člověk	NOUN	NNMP1-----A---1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	22	nsubj	22:nsubj|24:nsubj	_
@@ -9108,9 +9108,9 @@
 6	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	8	obj	8:obj	LGloss=(jednotka_času)
 7	týdně	týdně	ADV	Db-------------	_	6	advmod	6:advmod	_
 8	věnujete	věnovat	VERB	VB-P---2P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	procházkám	procházka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	8	obj	8:obj	_
+9	procházkám	procházka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	8	obl:arg	8:obl:arg	_
 10	nebo	nebo	CCONJ	J^-------------	_	11	cc	11:cc	_
-11	sportu	sport	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	9	conj	8:obj|9:conj	SpaceAfter=No
+11	sportu	sport	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	9	conj	8:obl:arg|9:conj	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
 # sent_id = s10w-s21
@@ -9224,7 +9224,7 @@
 8	dejte	dát	VERB	Vi-P---2--A----	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	0:root	_
 9	přednost	přednost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	8:obj	_
 10	tichému	tichý	ADJ	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	11:amod	_
-11	koníčku	koníček	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	iobj	8:iobj	SpaceAfter=No
+11	koníčku	koníček	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 13	filatelii	filatelie	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	11	appos	11:appos	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
@@ -9522,7 +9522,7 @@
 13	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	12	nmod	12:nmod	_
 14	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
 15	zkracují	zkracovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	_
-16	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	iobj	15:iobj	_
+16	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	obl:arg	15:obl:arg	_
 17	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	15	obj	15:obj	SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -9702,7 +9702,7 @@
 6	uvidíte	uvidět	VERB	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 8	jak	jak	ADV	Db-------------	PronType=Int,Rel	11	advmod	11:advmod	LId=jak-3
-9	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obj	11:obj	_
+9	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obl:arg	11:obl:arg	_
 10	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	_
 11	prospěje	prospět	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	6:ccomp	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -9838,7 +9838,7 @@
 4	musí	muset	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	věnovat	věnovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	_
 6	svému	svůj	DET	P8ZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	7:det	LId=svůj-1
-7	vzhledu	vzhled	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	5	iobj	5:iobj	SpaceAfter=No
+7	vzhledu	vzhled	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	5	obl:arg	5:obl:arg	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 9	tedy	tedy	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	10	cc	10:cc	_
 10	oblékání	oblékání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	7	appos	7:appos	LDeriv=oblékat
@@ -9883,7 +9883,7 @@
 # orig_file_sentence s10w#63
 1	Dobrý	dobrý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	2:amod	_
 2	vzhled	vzhled	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	_
-3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	4:iobj	_
+3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	obl:arg	4:obl:arg	_
 4	dodává	dodávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LDeriv=dodat
 5	jistotu	jistota	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	4:obj	_
 6	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1
@@ -9937,7 +9937,7 @@
 9	však	však	CCONJ	J^-------------	_	8	cc	8:cc	_
 10	i	i	CCONJ	J^-------------	_	12	advmod:emph	12:advmod:emph	LId=i-1
 11	nejrůznějším	různý	ADJ	AAIP3----3A----	Animacy=Inan|Case=Dat|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	12	amod	12:amod	_
-12	vlivům	vliv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	8	obj	8:obj	SpaceAfter=No
+12	vlivům	vliv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	8	obl:arg	8:obl:arg	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 14	například	například	ADV	Db-------------	_	15	cc	15:cc	_
 15	změnám	změna	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	12	appos	12:appos	_
@@ -9986,7 +9986,7 @@
 # orig_file_sentence s10w#69
 1	Zdá	zdát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
-3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj	_
+3	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	obl:arg	1:obl:arg	_
 4	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	1:advmod	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 6	že	že	SCONJ	J,-------------	_	7	mark	7:mark	_
@@ -10239,7 +10239,7 @@
 14	pšeničnými	pšeničný	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	17:amod	_
 15	nebo	nebo	CCONJ	J^-------------	_	16	cc	16:cc	_
 16	mandlovými	mandlový	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	14	conj	14:conj|17:amod	_
-17	otrubami	otruby	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	12	iobj	12:iobj	_
+17	otrubami	otruby	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	12	obl:arg	12:obl:arg	_
 18	nebo	nebo	CCONJ	J^-------------	_	19	cc	19:cc	_
 19	provedeme	provést	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	0:root|12:conj	_
 20	lehkou	lehký	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	_
@@ -10494,7 +10494,7 @@
 22	brzy	brzy	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	24	advmod	24:advmod	_
 23	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	24	expl:pv	24:expl:pv	LGloss=(zvr._zájmeno/částice)
 24	pokrývá	pokrývat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
-25	vráskami	vráska	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	24	obj	24:obj	SpaceAfter=No
+25	vráskami	vráska	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	24	obl:arg	24:obl:arg	SpaceAfter=No
 26	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 27	prostě	prostě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	28	advmod	28:advmod	LDeriv=prostý
 28	stárne	stárnout	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
@@ -10555,7 +10555,7 @@
 # text = Škodí jí časté mytí vodou a mýdlem, zhoršuje se v zimě a při nedostatku vitamínu * .
 # orig_file_sentence s10w#95
 1	Škodí	škodit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	LGloss=(ona)
+2	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl:arg	1:obl:arg	LGloss=(ona)
 3	časté	častý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	mytí	mytí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	LDeriv=mýt
 5	vodou	voda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	4:nmod	_
@@ -10683,14 +10683,14 @@
 17	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	18	advmod	18:advmod	_
 18	posetá	posetý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	LDeriv=posít
 19	černými	černý	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	20	amod	20:amod	LId=černý-1|LGloss=(barva)
-20	tečkami	tečka	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	18	obj	18:obj	SpaceAfter=No
+20	tečkami	tečka	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	18	obl:arg	18:obl:arg	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 22	komedony	komedon	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Foreign=Yes|Gender=Masc|Number=Plur|Polarity=Pos	20	dep	20:dep	SpaceAfter=No
 23	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 24	i	i	CCONJ	J^-------------	_	27	cc	27:cc	LId=i-1
 25	drobnými	drobný	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	27	amod	27:amod	_
 26	mazovými	mazový	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	27	amod	27:amod	_
-27	cystami	cysta	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	20	conj	18:obj|20:conj	SpaceAfter=No
+27	cystami	cysta	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	20	conj	18:obl:arg|20:conj	SpaceAfter=No
 28	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 29	milia	milia	NOUN	NNNPX-----A----	Foreign=Yes|Gender=Neut|Number=Plur|Polarity=Pos	27	dep	27:dep	SpaceAfter=No
 30	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -11073,7 +11073,7 @@
 # orig_file_sentence s10w#123
 1	Vyznačuje	vyznačovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
-3	přecitlivělostí	přecitlivělost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	obj	1:obj	LDeriv=přecitlivělý
+3	přecitlivělostí	přecitlivělost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	obl:arg	1:obl:arg	LDeriv=přecitlivělý
 4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	6:case	LId=na-1
 5	různé	různý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	_
 6	podněty	podnět	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	3	nmod	3:nmod	_
@@ -11165,7 +11165,7 @@
 # text = Dráždivé pleti vadí prašné prostředí, styk s některými okrasnými rostlinami, primule pokojová, lípa, léky, antibiotika a prostředky proti bolení hlavy, rozrušení.
 # orig_file_sentence s10w#128
 1	Dráždivé	dráždivý	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	2:amod	_
-2	pleti	pleť	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	3:obj	_
+2	pleti	pleť	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	3	obl:arg	3:obl:arg	_
 3	vadí	vadit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	prašné	prašný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	prostředí	prostředí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	3	nsubj	3:nsubj	SpaceAfter=No
@@ -11239,7 +11239,7 @@
 7	snaha	snaha	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	2:conj|12:nsubj:pass	_
 8	radit	radit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	acl	7:acl	_
 9	nastupující	nastupující	ADJ	AGFS3-----A----	Aspect=Imp|Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	10:amod	LDeriv=nastupovat
-10	generaci	generace	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	8:obj	_
+10	generaci	generace	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	8	obl:arg	8:obl:arg	_
 11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pass	12:expl:pass	LGloss=(zvr._zájmeno/částice)
 12	nenosí	nosit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	12	punct	12:punct	_
@@ -11373,7 +11373,7 @@
 34	rychle	rychle	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	36	advmod	36:advmod	LDeriv=rychlý
 35	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	36	expl:pv	36:expl:pv	LGloss=(zvr._zájmeno/částice)
 36	přizpůsobit	přizpůsobit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	32	conj	30:acl|32:conj	_
-37	okolnostem	okolnost	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	36	obj	36:obj	SpaceAfter=No
+37	okolnostem	okolnost	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	36	obl:arg	36:obl:arg	SpaceAfter=No
 38	,	,	PUNCT	Z:-------------	_	40	punct	40:punct	_
 39	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	40	det	40:det	_
 40	všechno	všechno	PRON	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	20	appos	20:appos|22:appos|30:appos	_
@@ -11514,7 +11514,7 @@
 8	jemné	jemný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	9	amod	9:amod	_
 9	linie	linie	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	17	nsubj	17:nsubj	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-11	kterým	který	DET	P4XP3----------	Case=Dat|Number=Plur|PronType=Int,Rel	12	obj	12:obj	_
+11	kterým	který	DET	P4XP3----------	Case=Dat|Number=Plur|PronType=Int,Rel	12	obl:arg	12:obl:arg	_
 12	říkáme	říkat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	9:acl	_
 13	kožní	kožní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	14	amod	14:amod	_
 14	reliéf	reliéf	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	12	obl	12:obl	SpaceAfter=No
@@ -11587,7 +11587,7 @@
 17	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 18	vystavena	vystavený	ADJ	VsQW---XX-AP---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	14	acl	14:acl	LDeriv=vystavit|LGloss=(např._potvrzení)
 19	zevním	zevní	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	20	amod	20:amod	_
-20	vlivům	vliv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	18	obj	18:obj	SpaceAfter=No
+20	vlivům	vliv	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	18	obl:arg	18:obl:arg	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 22	slunci	slunce	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	20	appos	20:appos	SpaceAfter=No
 23	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
@@ -11687,7 +11687,7 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	týkají	týkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	hlavně	hlavně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	6:advmod:emph	LDeriv=hlavní
-6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	18	nmod	18:nmod|21:nmod|26:nmod	_
+6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	18	obl:arg	18:obl:arg|21:obl:arg|26:obl:arg	_
 7	vody	voda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	6:nmod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	11:nsubj	_
@@ -11699,15 +11699,15 @@
 15	napětí	napětí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	13	nmod	13:nmod	LGloss=(elektrické,_mechanické,_ve_vztazích)
 16	kůže	kůže	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	15	nmod	15:nmod	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
-18	bílkovin	bílkovina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	4	obj	4:obj	SpaceAfter=No
+18	bílkovin	bílkovina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	4	obl:arg	4:obl:arg	SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 20	minerálních	minerální	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	21	amod	21:amod	_
-21	látek	látka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	18	conj	4:obj|18:conj	SpaceAfter=No
+21	látek	látka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	18	conj	4:obl:arg|18:conj	SpaceAfter=No
 22	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 23	elastických	elastický	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	26	amod	26:amod	_
 24	a	a	CCONJ	J^-------------	_	25	cc	25:cc	LId=a-1
 25	kolagenních	kolagenní	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	23	conj	23:conj|26:amod	_
-26	vláken	vlákno	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	18	conj	4:obj|18:conj	_
+26	vláken	vlákno	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	18	conj	4:obl:arg|18:conj	_
 27	základní	základní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	28	amod	28:amod	_
 28	hmoty	hmota	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	26	nmod	26:nmod	SpaceAfter=No
 29	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -11819,11 +11819,11 @@
 6	navíc	navíc	ADV	Db-------------	_	7	advmod	7:advmod	_
 7	podmíněny	podmíněný	ADJ	VsTP---XX-AP---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=podmínit
 8	degenerativními	degenerativní	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	9	amod	9:amod	_
-9	změnami	změna	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	7	obj	7:obj	_
+9	změnami	změna	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	7	obl:arg	7:obl:arg	_
 10	mazových	mazový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	11	amod	11:amod	_
 11	žláz	žláza	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	9	nmod	9:nmod	_
 12	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
-13	úbytkem	úbytek	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	conj	7:obj|9:conj	_
+13	úbytkem	úbytek	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	conj	7:obl:arg|9:conj	_
 14	vody	voda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	nmod	13:nmod	_
 15	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=v-1
 16	povrchních	povrchní	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	17:amod	_
@@ -11839,12 +11839,12 @@
 3	třeba	třeba	ADV	Db-------------	_	0	root	0:root	LId=třeba-2|LGloss=(například)
 4	věnovat	věnovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	csubj	3:csubj	_
 5	stárnoucí	stárnoucí	ADJ	AGFS3-----A----	Aspect=Imp|Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	6:amod	LDeriv=stárnout
-6	kůži	kůže	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	4	iobj	4:iobj	_
+6	kůži	kůže	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg	_
 7	zvýšenou	zvýšený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	LDeriv=zvýšit
 8	péči	péče	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	4:obj	_
 9	a	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1
 10	dodávat	dodávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	conj	3:csubj|4:conj	LDeriv=dodat
-11	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	10:iobj	LGloss=(ona)
+11	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl:arg	10:obl:arg	LGloss=(ona)
 12	vše	všechno	PRON	PLNS4---------1	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	10	obj	10:obj	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 14	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	15	obj	15:obj	LId=co-4|LGloss=(který:_př.:_o_těch,_co_odešli/co_je_znal)
@@ -11905,7 +11905,7 @@
 # sent_id = s10w-s161
 # text = Vráskám předcházíme soustavnou péčí o pleť, šetrným čištěním pleti, aplikací hydratujících krémů s biologicky aktivními látkami, přikládáním pleťových masek, odborně prováděnou masáží.
 # orig_file_sentence s10w#161
-1	Vráskám	vráska	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	2	obj	2:obj	_
+1	Vráskám	vráska	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	2	obl:arg	2:obl:arg	_
 2	předcházíme	předcházet	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	soustavnou	soustavný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	péčí	péče	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	2:obl	_
@@ -12145,7 +12145,7 @@
 19	cysty	cysta	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	5	conj	0:root|5:conj	_
 20	vyplněné	vyplněný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	19	amod	19:amod	LDeriv=vyplnit
 21	rohovou	rohový	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	22:amod	_
-22	masou	masa	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	20	obj	20:obj	SpaceAfter=No|LGloss=(velké_množství)
+22	masou	masa	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	20	obl:arg	20:obl:arg	SpaceAfter=No|LGloss=(velké_množství)
 23	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = s10w-s175
@@ -12195,9 +12195,9 @@
 1	Podobají	podobat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	velkým	velký	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
-4	uzlům	uzel	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	1	obj	1:obj	_
+4	uzlům	uzel	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	1	obl:arg	1:obl:arg	_
 5	až	až	PART	TT-------------	_	6	cc	6:cc	LId=až-3|LGloss=(až_k_...,_až_dost)
-6	váčkům	váček	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	4	conj	1:obj|4:conj	SpaceAfter=No
+6	váčkům	váček	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	4	conj	1:obl:arg|4:conj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 8	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	9:advmod	_
 9	posunlivým	posunlivý	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	_
@@ -12238,7 +12238,7 @@
 # sent_id = s10w-s180
 # text = Ateromům se podobají mazové cysty na obličeji, hlavně v okolí očí, jsou však menší.
 # orig_file_sentence s10w#180
-1	Ateromům	aterom	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	3	obj	3:obj	_
+1	Ateromům	aterom	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	3	obl:arg	3:obl:arg	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	3:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	podobají	podobat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	mazové	mazový	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	5	amod	5:amod	_
@@ -12276,7 +12276,7 @@
 4	velmi	velmi	ADV	Db-------------	_	5	advmod	5:advmod	_
 5	podobají	podobat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	seboroickým	seboroický	ADJ	AAFP3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	7:amod	_
-7	verukám	veruka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	5	obj	5:obj	SpaceAfter=No
+7	verukám	veruka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	5	obl:arg	5:obl:arg	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = s10w-s183
@@ -12730,7 +12730,7 @@
 # text = Lze jim předcházet vhodnou ochranou pleti.
 # orig_file_sentence s10w#209
 1	Lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj	_
+2	jim	on	PRON	PPXP3--3-------	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obl:arg	3:obl:arg	_
 3	předcházet	předcházet	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	1:csubj	_
 4	vhodnou	vhodný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	ochranou	ochrana	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl	_
@@ -12853,7 +12853,7 @@
 13	pleť	pleť	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 15	poněvadž	poněvadž	SCONJ	J,-------------	_	17	mark	17:mark	_
-16	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	iobj	17:iobj	LGloss=(ona)
+16	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl:arg	17:obl:arg	LGloss=(ona)
 17	vrací	vracet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
 18	hladký	hladký	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	19:amod	_
 19	povrch	povrch	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	17	obj	17:obj	SpaceAfter=No
@@ -13269,7 +13269,7 @@
 5	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LGloss=(mít_možnost_[něco_dělat])
 6	stát	stát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	xcomp	5:xcomp	LId=stát-2|LGloss=(něco_se_přihodilo)
 7	vstupní	vstupní	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
-8	bránou	brána	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	6	obj	6:obj	_
+8	bránou	brána	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg	_
 9	infekce	infekce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	8:nmod	_
 10	nebo	nebo	CCONJ	J^-------------	_	11	cc	11:cc	_
 11	usnadňovat	usnadňovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	conj	5:xcomp|6:conj	_

@@ -72,6 +72,8 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2020-05-01 v2.6
+  * Genitive, dative and instrumental nominals are now considered oblique.
 * 2019-05-01 v2.4
   * Modified conversion: nouns do not have objects.
   * Fixed punctuation attachment.

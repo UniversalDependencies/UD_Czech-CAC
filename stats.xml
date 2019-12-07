@@ -137,7 +137,7 @@
     <feat name="Voice" value="Pass" upos="ADJ">4266</feat><!-- řečeno, dosaženo, věnována, dána, provedena, uvedeny, určena, určeny, splněny, zahájena -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="42">
     <dep name="acl">6896</dep>
     <dep name="advcl">3452</dep>
     <dep name="advmod">20965</dep>
@@ -164,17 +164,16 @@
     <dep name="fixed">2654</dep>
     <dep name="flat">1528</dep>
     <dep name="flat:foreign">133</dep>
-    <dep name="iobj">1311</dep>
+    <dep name="iobj">253</dep>
     <dep name="mark">8889</dep>
-    <dep name="nmod">54225</dep>
+    <dep name="nmod">54211</dep>
     <dep name="nsubj">24058</dep>
     <dep name="nsubj:pass">3466</dep>
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
-    <dep name="obj">19729</dep>
+    <dep name="obj">16174</dep>
     <dep name="obl">27791</dep>
-    <dep name="obl:agent">241</dep>
-    <dep name="obl:arg">6044</dep>
+    <dep name="obl:arg">10912</dep>
     <dep name="orphan">1830</dep>
     <dep name="parataxis">683</dep>
     <dep name="punct">60129</dep>
