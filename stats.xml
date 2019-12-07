@@ -171,9 +171,9 @@
     <dep name="nsubj:pass">3466</dep>
     <dep name="nummod">4440</dep>
     <dep name="nummod:gov">1189</dep>
-    <dep name="obj">16174</dep>
+    <dep name="obj">16167</dep>
     <dep name="obl">27791</dep>
-    <dep name="obl:arg">10912</dep>
+    <dep name="obl:arg">10919</dep>
     <dep name="orphan">1830</dep>
     <dep name="parataxis">683</dep>
     <dep name="punct">60129</dep>
