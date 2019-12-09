@@ -59,7 +59,7 @@
 # text = A proto oděv i prádlo potřebují pravidelnou údržbu praním nebo chemickým čistěním.
 # orig_file_sentence a20w#3
 1	A	a	CCONJ	J^-------------	_	6	cc	6:cc	LId=a-1
-2	proto	proto	SCONJ	J,-------------	_	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+2	proto	proto	ADV	J,-------------	PronType=Dem	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3	oděv	oděv	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	_
 4	i	i	CCONJ	J^-------------	_	5	cc	5:cc	LId=i-1
 5	prádlo	prádlo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	3	conj	3:conj|6:nsubj	_
@@ -160,7 +160,7 @@
 # orig_file_sentence a20w#8
 1	Doporučujeme	doporučovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	Vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl:arg	1:obl:arg:dat	_
-3	proto	proto	SCONJ	J,-------------	_	1	mark	1:mark	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+3	proto	proto	ADV	J,-------------	PronType=Dem	1	advmod	1:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 4	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 5-6	abyste	_	_	_	_	_	_	_	_
 5	aby	aby	SCONJ	J,-------------	_	9	mark	9:mark	_
@@ -1081,7 +1081,7 @@
 # sent_id = a20w-s64
 # text = Proto teplota vody na praní nesmí překročit # * a nádoba na praní musí být dostatečně velká.
 # orig_file_sentence a20w#64
-1	Proto	proto	SCONJ	J,-------------	_	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	teplota	teplota	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	_
 3	vody	voda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	2:nmod:gen	_
 4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=na-1
@@ -1243,7 +1243,7 @@
 # sent_id = a20w-s75
 # text = Proto mají velkou izolační schopnost, tvarovou stálost, sníženou mačkavost, jsou lehké a vzdušné.
 # orig_file_sentence a20w#75
-1	Proto	proto	SCONJ	J,-------------	_	2	mark	2:mark|14:mark|16:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	2	advmod	2:advmod|14:advmod|16:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	velkou	velký	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 4	izolační	izolační	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -5312,7 +5312,7 @@
 # sent_id = n20w-s19
 # text = Proto povrchová organizace SSM vedená * Nerovským stanovila pro každý úsek jednoho pracovníka, který zjistí závady a současně bude také kontrolovat, zda jsou odstraněny.
 # orig_file_sentence n20w#19
-1	Proto	proto	SCONJ	J,-------------	_	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	povrchová	povrchový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 3	organizace	organizace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj	_
 4	SSM	SSM	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	3	nmod	3:nmod	LId=SSM-1|LGloss=(Socialistický_svaz_mládeže)
@@ -9760,7 +9760,7 @@
 15	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 16	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
 17	nedávají	dávat	VERB	VB-P---3P-NA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	4:acl:relcl|11:conj	LDeriv=dát
-18	proto	proto	SCONJ	J,-------------	_	17	mark	17:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+18	proto	proto	ADV	J,-------------	PronType=Dem	17	advmod	17:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 19	potřebnou	potřebný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	_
 20	hloubku	hloubka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	17	obj	17:obj	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
@@ -10185,7 +10185,7 @@
 # sent_id = s20w-s38
 # text = Proto mají pravdu ti, kteří tvrdí, že práce sociologů stejně jako práce jiných lidí je ovlivňována teoretickým souborem jejich axiomatických světonázorových představ.
 # orig_file_sentence s20w#38
-1	Proto	proto	SCONJ	J,-------------	_	2	mark	2:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	2	advmod	2:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	mají	mít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	pravdu	pravda	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	2:obj	_
 4	ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	nsubj	2:nsubj|7:nsubj	SpaceAfter=No
@@ -11045,7 +11045,7 @@
 13	kousky	kousek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	11:obj	_
 14	sebe	se	PRON	P6-X2----------	Case=Gen|PronType=Prs|Reflex=Yes	13	nmod	13:nmod:gen	LGloss=(zvr._zájmeno/částice)
 15	samých	samý	PRON	PLXP2----------	Case=Gen|Number=Plur|PronType=Tot	5	xcomp	5:xcomp	_
-16	proto	proto	SCONJ	J,-------------	_	11	mark	11:mark	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+16	proto	proto	ADV	J,-------------	PronType=Dem	11	advmod	11:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 17	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 18-19	aby	_	_	_	_	_	_	_	_
 18	aby	aby	SCONJ	J,-------------	_	21	mark	21:mark	_
@@ -11823,7 +11823,7 @@
 # text = Právě proto, že řídící pracovník nutně zasahuje do sociálního života formálních organizací, poloformálních organizací a neformálních skupin, měl by být vybaven poznatky věd o člověku.
 # orig_file_sentence s20w#94
 1	Právě	právě	ADV	Db-------------	_	2	advmod:emph	2:advmod:emph	_
-2	proto	proto	SCONJ	J,-------------	_	21	advmod	21:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+2	proto	proto	ADV	J,-------------	PronType=Dem	21	advmod	21:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 4	že	že	SCONJ	J,-------------	_	8	mark	8:mark	_
 5	řídící	řídící	ADJ	AGMS1-----A----	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	6:amod	LDeriv=řídit
@@ -12354,7 +12354,7 @@
 # sent_id = s20w-s113
 # text = Proto se v marxistické sociologii dožadujeme, aby i oborové sociologické teorie usilovaly o příčinné vysvětlování společenských jevů.
 # orig_file_sentence s20w#113
-1	Proto	proto	SCONJ	J,-------------	_	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	6:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	LId=v-1
 4	marxistické	marxistický	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -12478,7 +12478,7 @@
 # sent_id = s20w-s117
 # text = Proto vytvoření nové teoretické koncepce není nikdy výsledkem poznaného souhrnu faktů.
 # orig_file_sentence s20w#117
-1	Proto	proto	SCONJ	J,-------------	_	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	vytvoření	vytvoření	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj	LDeriv=vytvořit
 3	nové	nový	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 4	teoretické	teoretický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -12799,7 +12799,7 @@
 10	přístupu	přístup	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	nmod	7:nmod:gen	_
 11	ne	ne	PART	TT-------------	_	13	advmod:emph	13:advmod:emph	_
 12	snad	snad	ADV	Db-------------	_	13	advmod:emph	13:advmod:emph	_
-13	proto	proto	SCONJ	J,-------------	_	6	advmod	6:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+13	proto	proto	ADV	J,-------------	PronType=Dem	6	advmod	6:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 14	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 15	že	že	SCONJ	J,-------------	_	19	mark	19:mark	_
 16	by	být	AUX	Vc-X---3-------	Mood=Cnd|Person=3|VerbForm=Fin	19	aux	19:aux	_
@@ -12808,7 +12808,7 @@
 19	nesprávný	správný	ADJ	AAIS1----1N----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	6	advcl	6:advcl:že	SpaceAfter=No|LGloss=(podle_něj._měřítek;_př._chlap,_míra,...)
 20	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 21	ale	ale	CCONJ	J^-------------	_	22	cc	22:cc	_
-22	proto	proto	SCONJ	J,-------------	_	0	root	0:root	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+22	proto	proto	ADV	J,-------------	PronType=Dem	0	root	0:root	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 23	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 24	že	že	SCONJ	J,-------------	_	28	mark	28:mark	_
 25	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	28:expl:pv	LGloss=(zvr._zájmeno/částice)
@@ -13374,7 +13374,7 @@
 14	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 15	posvátní	posvátný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	ccomp	11:ccomp	_
 16	právě	právě	ADV	Db-------------	_	17	advmod:emph	17:advmod:emph	_
-17	proto	proto	SCONJ	J,-------------	_	15	advmod	15:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+17	proto	proto	ADV	J,-------------	PronType=Dem	15	advmod	15:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 18	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 19	že	že	SCONJ	J,-------------	_	30	mark	30:mark	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_

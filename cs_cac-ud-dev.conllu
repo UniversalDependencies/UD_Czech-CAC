@@ -187,7 +187,7 @@
 # sent_id = a10w-s7
 # text = Proto má v našich podmínkách mimořádný význam zamezování devastačních vlivů a soustavné zvyšování půdní úrodnosti melioračními zásahy tak, aby na dosud méně úrodných půdách se mohlo docilovat vyšší intenzity a rentability zemědělské výroby.
 # orig_file_sentence a10w#7
-1	Proto	proto	SCONJ	J,-------------	_	2	mark	2:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	2	advmod	2:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	LId=v-1
 4	našich	můj	DET	PSXP6-P1-------	Case=Loc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	5:det	LGloss=(přivlast.)
@@ -310,7 +310,7 @@
 # sent_id = a10w-s10
 # text = Proto na počest # výročí Velké říjnové socialistické revoluce uzavíráme tento kolektivní socialistický závazek.
 # orig_file_sentence a10w#10
-1	Proto	proto	SCONJ	J,-------------	_	10	cc	10:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	10	cc	10:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	počest	počest	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	10	obl	10:obl:na:acc	_
 4	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
@@ -343,7 +343,7 @@
 12	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	nmod	10:nmod:z:gen	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 14	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
-15	proto	proto	SCONJ	J,-------------	_	17	cc	17:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+15	proto	proto	ADV	J,-------------	PronType=Dem	17	cc	17:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl:pv	17:expl:pv	LGloss=(zvr._zájmeno/částice)
 17	zavazujeme	zavazovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	0:root|6:conj	SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
@@ -1442,7 +1442,7 @@
 11	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	LId=u-1
 12	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	nmod	9:nmod:u:gen	_
 13	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-14	proto	proto	SCONJ	J,-------------	_	13	mark	13:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+14	proto	proto	ADV	J,-------------	PronType=Dem	13	advmod	13:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 15	optimální	optimální	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	využívání	využívání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	13	nsubj	13:nsubj	LDeriv=využít
 17	půdního	půdní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	18:amod	_
@@ -1486,7 +1486,7 @@
 # sent_id = a10w-s60
 # text = Proto se my, pracovníci Výzkumného ústavu meliorací, zavazujeme, že iniciativně a ze všech sil přispějeme k tomu, aby v oblasti zúrodňování a ochrany půdního fondu a krajiny se v maximální míře uplatnil a rozvinul technický pokrok.
 # orig_file_sentence a10w#60
-1	Proto	proto	SCONJ	J,-------------	_	10	cc	10:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	10	cc	10:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	10	expl:pv	10:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	my	já	PRON	PP-P1--1-------	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
@@ -1696,7 +1696,7 @@
 # sent_id = a10w-s66
 # text = Proto na základě pravidelného hodnocení budeme zpřesňovat, aktualizovat a prohlubovat dohody a smlouvy uzavřené s hlavními realizátory námi řešených úkolů RVT.
 # orig_file_sentence a10w#66
-1	Proto	proto	SCONJ	J,-------------	_	7	mark	7:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	7	advmod	7:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	LId=na-1
 3	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	2	fixed	2:fixed	_
 4	pravidelného	pravidelný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -5888,7 +5888,7 @@
 # sent_id = n10w-s58
 # text = Proto dopravní služba Veřejné bezpečnosti Středočeského kraje připravuje na tento měsíc rozsáhlou dopravně bezpečnostní akci zaměřenou na dodržování pravidel silničního provozu.
 # orig_file_sentence n10w#58
-1	Proto	proto	SCONJ	J,-------------	_	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	8	cc	8:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	dopravní	dopravní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 3	služba	služba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj	_
 4	Veřejné	veřejný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -6758,7 +6758,7 @@
 8	služeb	služba	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	6	nmod	6:nmod:gen	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 10	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
-11	proto	proto	SCONJ	J,-------------	_	15	cc	15:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+11	proto	proto	ADV	J,-------------	PronType=Dem	15	cc	15:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 12	i	i	CCONJ	J^-------------	_	14	advmod:emph	14:advmod:emph	LId=i-1
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
 14	budoucnu	budoucno	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	15	obl	15:obl:v:loc	_
@@ -7300,7 +7300,7 @@
 # text = To proto, že v třídně rozděleném světě neustále probíhá otevřený i skrytý boj o mládež, o její myšlení a vědomí a že nepřátelé socialismu se snaží ovlivnit i názory našich mladých lidí.
 # orig_file_sentence n10w#110
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	0:root	_
-2	proto	proto	SCONJ	J,-------------	_	1	dep	1:dep	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+2	proto	proto	ADV	J,-------------	PronType=Dem	1	dep	1:dep	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 4	že	že	SCONJ	J,-------------	_	10	mark	10:mark	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=v-1
@@ -7467,7 +7467,7 @@
 # sent_id = n10w-s114
 # text = Proto je v této oblasti stanoven základní úkol získávat chlapce a děvčata k činorodé práci na rozvoji národního hospodářství, rozvíjet osvědčené budovatelské tradice mládežnického hnutí a hledat nové formy rozšiřování pracovní iniciativy.
 # orig_file_sentence n10w#114
-1	Proto	proto	SCONJ	J,-------------	_	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	6	cc	6:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	6:aux:pass	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	LId=v-1
 4	této	tento	DET	PDFS6----------	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	5	det	5:det	_
@@ -7538,7 +7538,7 @@
 15	mimořádný	mimořádný	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	význam	význam	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	14	obj	14:obj	_
 17	zejména	zejména	ADV	Db-------------	_	18	advmod:emph	18:advmod:emph	_
-18	proto	proto	SCONJ	J,-------------	_	14	advmod	14:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+18	proto	proto	ADV	J,-------------	PronType=Dem	14	advmod	14:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 19	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 20	že	že	SCONJ	J,-------------	_	21	mark	21:mark	_
 21	vytváří	vytvářet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	14:advcl:že	_
@@ -8873,7 +8873,7 @@
 24	míjejí	míjet	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	12:acl:relcl|14:acl:relcl|22:conj	_
 25	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	24	expl:pv	24:expl:pv	LGloss=(zvr._zájmeno/částice)
 26	jen	jen	PART	TT-------------	_	27	advmod:emph	27:advmod:emph	LId=jen-1|LGloss=(pouze)
-27	proto	proto	SCONJ	J,-------------	_	22	advmod	22:advmod|24:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+27	proto	proto	ADV	J,-------------	PronType=Dem	22	advmod	22:advmod|24:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 28	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 29	že	že	SCONJ	J,-------------	_	30	mark	30:mark|32:mark	_
 30	nechtějí	chtít	VERB	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	22:advcl:že|24:advcl:že	_
@@ -9376,7 +9376,7 @@
 # sent_id = s10w-s34
 # text = Proto je odtučňovací dieta v plánu mnohé z nás.
 # orig_file_sentence s10w#34
-1	Proto	proto	SCONJ	J,-------------	_	2	cc	2:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	2	cc	2:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	odtučňovací	odtučňovací	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	LDeriv=odtučňovat
 4	dieta	dieta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj	_
@@ -9801,7 +9801,7 @@
 # text = Doporučujeme proto, aby každá žena středního věku podstoupila občas důkladnou celkovou prohlídku a podle jejích výsledků vybudovala svůj plán kosmetické péče, Dobré oblékání.
 # orig_file_sentence s10w#60
 1	Doporučujeme	doporučovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	proto	proto	SCONJ	J,-------------	_	1	mark	1:mark	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+2	proto	proto	ADV	J,-------------	PronType=Dem	1	advmod	1:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 3	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 4-5	aby	_	_	_	_	_	_	_	_
 4	aby	aby	SCONJ	J,-------------	_	10	mark	10:mark	_
@@ -11761,7 +11761,7 @@
 # sent_id = s10w-s154
 # text = Proto je kůže starých lidí méně pevná a snadno se poraní.
 # orig_file_sentence s10w#154
-1	Proto	proto	SCONJ	J,-------------	_	7	cc	7:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	7	cc	7:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 3	kůže	kůže	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj|11:nsubj	_
 4	starých	starý	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	5:amod	LId=starý-2|LGloss=(člověk,_věc)
@@ -11834,7 +11834,7 @@
 # sent_id = s10w-s158
 # text = Proto je třeba věnovat stárnoucí kůži zvýšenou péči a dodávat jí vše, co potřebuje.
 # orig_file_sentence s10w#158
-1	Proto	proto	SCONJ	J,-------------	_	3	cc	3:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	3	cc	3:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	třeba	třeba	ADV	Db-------------	_	0	root	0:root	LId=třeba-2|LGloss=(například)
 4	věnovat	věnovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	csubj	3:csubj	_
@@ -12073,7 +12073,7 @@
 # orig_file_sentence s10w#171
 1	Obavy	obava	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	4	nsubj	4:nsubj	_
 2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
-3	proto	proto	SCONJ	J,-------------	_	4	mark	4:mark	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+3	proto	proto	ADV	J,-------------	PronType=Dem	4	advmod	4:advmod	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 4	zbytečné	zbytečný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -12301,7 +12301,7 @@
 # sent_id = s10w-s184
 # text = Proto postihují hlavně obličej, šíji, uši a hřbety rukou.
 # orig_file_sentence s10w#184
-1	Proto	proto	SCONJ	J,-------------	_	2	cc	2:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
+1	Proto	proto	ADV	J,-------------	PronType=Dem	2	cc	2:cc	LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 2	postihují	postihovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	hlavně	hlavně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod:emph	4:advmod:emph|6:advmod:emph|8:advmod:emph|10:advmod:emph	LDeriv=hlavní
 4	obličej	obličej	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	obj	2:obj	SpaceAfter=No
