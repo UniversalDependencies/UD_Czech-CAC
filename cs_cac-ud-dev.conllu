@@ -1139,14 +1139,15 @@
 # text = Ředitel, ZO SSM, ZO KSČ, ZO ROH.
 # orig_file_sentence a10w#47
 1	Ředitel	ředitel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
-2	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-3	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	1	conj	0:root|1:conj	_
+1.1	_	_	_	_	_	_	_	0:root|1:conj	_
+2	,	,	PUNCT	Z:-------------	_	3	punct	1.1:punct	_
+3	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	1	conj	1.1:dep	_
 4	SSM	SSM	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	3	nmod	3:nmod	SpaceAfter=No|LId=SSM-1|LGloss=(Socialistický_svaz_mládeže)
-5	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-6	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	3	orphan	3:orphan	_
+5	,	,	PUNCT	Z:-------------	_	3	punct	1.1:punct	_
+6	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	3	orphan	1.1:dep	_
 7	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	6	nmod	6:nmod	SpaceAfter=No|LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
-8	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-9	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	3	orphan	3:orphan	_
+8	,	,	PUNCT	Z:-------------	_	3	punct	1.1:punct	_
+9	ZO	ZO	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	3	orphan	1.1:dep	_
 10	ROH	ROH	PROPN	NNNXX-----A---8	Abbr=Yes|Gender=Neut|NameType=Com|Polarity=Pos	9	nmod	9:nmod	SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -2419,23 +2420,24 @@
 3	vědy	věda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	1:nmod:gen	_
 4	a	a	CCONJ	J^-------------	_	5	cc	5:cc	LId=a-1
 5	výzkumu	výzkum	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	conj	1:nmod:gen|3:conj	SpaceAfter=No
-6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-7	prohloubení	prohloubení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	LDeriv=prohloubit
+5.1	_	_	_	_	_	_	_	0:root|1:conj	_
+6	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+7	prohloubení	prohloubení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	5.1:dep	LDeriv=prohloubit
 8	účinnosti	účinnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	nmod	7:nmod:gen	LDeriv=účinný
 9	řízení	řízení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No|LDeriv=řídit
-10	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-11	zvýšení	zvýšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	7:orphan	LDeriv=zvýšit
+10	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+11	zvýšení	zvýšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	LDeriv=zvýšit
 12	efektivnosti	efektivnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:gen	_
 13	výzkumné	výzkumný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	14:amod	_
 14	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	12	nmod	12:nmod:gen	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
-15	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-16	zlepšení	zlepšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	7:orphan	LDeriv=zlepšit
+15	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+16	zlepšení	zlepšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	LDeriv=zlepšit
 17	péče	péče	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	16	nmod	16:nmod:gen	_
 18	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=o-1
 19	pracovníky	pracovník	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	17	nmod	17:nmod:o:acc	_
 20	ústavu	ústav	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	19	nmod	19:nmod:gen	_
-21	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1
-22	rozvoj	rozvoj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	orphan	7:orphan	_
+21	a	a	CCONJ	J^-------------	_	7	cc	5.1:cc	LId=a-1
+22	rozvoj	rozvoj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	_
 23	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	25:det|27:det	LGloss=(přivlast.)
 24	pracovní	pracovní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	25	amod	25:amod|27:amod	_
 25	iniciativy	iniciativa	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	nmod	22:nmod:gen	_
@@ -2616,19 +2618,20 @@
 5	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	7	case	7:case	LId=s-1
 6	sníženou	snížený	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	LDeriv=snížit
 7	úrodností	úrodnost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	4:nmod:s:ins	SpaceAfter=No|LDeriv=úrodný
-8	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
-9	zvýšit	zvýšit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	conj	0:root|1:conj	_
+7.1	_	_	_	_	_	_	_	0:root|1:conj	_
+8	,	,	PUNCT	Z:-------------	_	9	punct	7.1:punct	_
+9	zvýšit	zvýšit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	conj	7.1:dep	_
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1
 11	stabilizovat	stabilizovat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	9	conj	0:root|9:conj	_
 12	výnosy	výnos	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	9	obj	9:obj|11:obj	_
 13	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=na-1
 14	nich	on	PRON	P5XP6--3-------	Case=Loc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	12	nmod	12:nmod:na:loc	SpaceAfter=No
-15	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
-16	zlepšit	zlepšit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	orphan	9:orphan	_
+15	,	,	PUNCT	Z:-------------	_	9	punct	7.1:punct	_
+16	zlepšit	zlepšit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	orphan	7.1:dep	_
 17	efektivnost	efektivnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	16	obj	16:obj	_
 18	hospodaření	hospodaření	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen	LDeriv=hospodařit
-19	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1
-20	stabilizovat	stabilizovat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	9	orphan	9:orphan	_
+19	a	a	CCONJ	J^-------------	_	9	cc	7.1:cc	LId=a-1
+20	stabilizovat	stabilizovat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	9	orphan	7.1:dep	_
 21	funkci	funkce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	obj	20:obj	_
 22	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	23	det	23:det	_
 23	půd	půda	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	21	nmod	21:nmod:gen	_
@@ -4166,22 +4169,23 @@
 3	vědy	věda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	1:nmod:gen	_
 4	a	a	CCONJ	J^-------------	_	5	cc	5:cc	LId=a-1
 5	výzkumu	výzkum	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	conj	1:nmod:gen|3:conj	SpaceAfter=No
-6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-7	prohloubení	prohloubení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	LDeriv=prohloubit
+5.1	_	_	_	_	_	_	_	0:root|1:conj	_
+6	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+7	prohloubení	prohloubení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	5.1:dep	LDeriv=prohloubit
 8	účinnosti	účinnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	nmod	7:nmod:gen	LDeriv=účinný
 9	řízení	řízení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No|LDeriv=řídit
-10	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-11	zvýšení	zvýšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	7:orphan	LDeriv=zvýšit
+10	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+11	zvýšení	zvýšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	LDeriv=zvýšit
 12	efektivnosti	efektivnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:gen	_
 13	výzkumné	výzkumný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	14:amod	_
 14	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	12	nmod	12:nmod:gen	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
-15	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-16	zlepšení	zlepšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	7:orphan	LDeriv=zlepšit
+15	,	,	PUNCT	Z:-------------	_	7	punct	5.1:punct	_
+16	zlepšení	zlepšení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	LDeriv=zlepšit
 17	péče	péče	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	16	nmod	16:nmod:gen	_
 18	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=o-1
 19	pracující	pracující	ADJ	AGMP4-----A----	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	17:amod	LDeriv=pracovat
-20	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1
-21	rozvoj	rozvoj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	orphan	7:orphan	_
+20	a	a	CCONJ	J^-------------	_	7	cc	5.1:cc	LId=a-1
+21	rozvoj	rozvoj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	orphan	5.1:dep	_
 22	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	23:det|25:det	LGloss=(přivlast.)
 23	iniciativy	iniciativa	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	21	nmod	21:nmod:gen	_
 24	a	a	CCONJ	J^-------------	_	25	cc	25:cc	LId=a-1
@@ -5032,11 +5036,12 @@
 9	získalo	získat	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 10	#	&camount;	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nummod:gov	11:nummod:gov	_
 11	organizací	organizace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	9	nsubj	9:nsubj	_
-12	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
+11.1	_	_	_	_	_	_	_	0:root|9:conj	_
+12	a	a	CCONJ	J^-------------	_	15	cc	11.1:cc	LId=a-1
 13	#	&camount;	NUM	C=-------------	NumForm=Digit|NumType=Card	15	nummod:gov	15:nummod:gov	_
 14	pionýrských	pionýrský	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	15	amod	15:amod	_
-15	skupin	skupina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	9	conj	0:root|9:conj	_
-16	stuhy	stuha	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	15	orphan	15:orphan	_
+15	skupin	skupina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	9	conj	11.1:dep	_
+16	stuhy	stuha	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	15	orphan	11.1:dep	_
 17	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	18	nummod	18:nummod	_
 18	sjezdu	sjezd	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	16	nmod	16:nmod:gen	_
 19	SSM	SSM	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	18	nmod	18:nmod	SpaceAfter=No|LId=SSM-1|LGloss=(Socialistický_svaz_mládeže)
@@ -5414,13 +5419,14 @@
 # orig_file_sentence n10w#31
 1	Přívětivé	přívětivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	2	amod	2:amod	_
 2	pozdravení	pozdravení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No|LDeriv=pozdravit
-3	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
+2.1	_	_	_	_	_	_	_	0:root|2:conj	_
+3	,	,	PUNCT	Z:-------------	_	5	punct	2.1:punct	_
 4	krátká	krátký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
-5	instruktáž	instruktáž	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	0:root|2:conj	_
-6	a	a	CCONJ	J^-------------	_	5	cc	5:cc	LId=a-1
+5	instruktáž	instruktáž	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	2.1:dep	_
+6	a	a	CCONJ	J^-------------	_	5	cc	2.1:cc	LId=a-1
 7	úkoly	úkol	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	9	nsubj:pass	9:nsubj:pass	_
 8	byly	být	AUX	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
-9	rozděleny	rozdělený	ADJ	VsTP---XX-AP---	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	orphan	5:orphan	SpaceAfter=No|LDeriv=rozdělit
+9	rozděleny	rozdělený	ADJ	VsTP---XX-AP---	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	orphan	2.1:dep	SpaceAfter=No|LDeriv=rozdělit
 10	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = n10w-s32
@@ -5445,14 +5451,15 @@
 1	Pytlování	pytlování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	LDeriv=pytlovat
 2	a	a	CCONJ	J^-------------	_	3	cc	3:cc	LId=a-1
 3	vážení	vážení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	LDeriv=vážit|LGloss=(na_váze)
+3.1	_	_	_	_	_	_	_	0:root|1:conj	_
 4	brambor	brambora	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	1	nmod	1:nmod:gen|3:nmod:gen|7:nmod:gen	SpaceAfter=No
-5	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
+5	,	,	PUNCT	Z:-------------	_	7	punct	3.1:punct	_
 6	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	LGloss=(přivlast.)
-7	nakládání	nakládání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	LDeriv=nakládat
+7	nakládání	nakládání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	3.1:dep	LDeriv=nakládat
 8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	LId=na-1
 9	valník	valník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	7	nmod	7:nmod:na:acc	_
-10	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1
-11	vagónování	vagónování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|Style=Coll	7	orphan	7:orphan	SpaceAfter=No|LDeriv=vagónovat
+10	a	a	CCONJ	J^-------------	_	7	cc	3.1:cc	LId=a-1
+11	vagónování	vagónování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|Style=Coll	7	orphan	3.1:dep	SpaceAfter=No|LDeriv=vagónovat
 12	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = n10w-s34
@@ -5734,9 +5741,10 @@
 5	lepší	dobrý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
 6	než	než	SCONJ	J,-------------	_	7	mark	7:mark	LId=než-2
 7	loni	vloni	ADV	Db------------1	Style=Coll	5	advmod	5:advmod	SpaceAfter=No
-8	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
-9	průměr	průměr	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	0:root|5:conj	_
-10	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	9	orphan	9:orphan	_
+7.1	_	_	_	_	_	_	_	0:root|5:conj	_
+8	,	,	PUNCT	Z:-------------	_	9	punct	7.1:punct	_
+9	průměr	průměr	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	7.1:dep	_
+10	#	&cother;	NUM	C=-------------	NumForm=Digit|NumType=Card	9	orphan	7.1:dep	_
 11	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = n10w-s50
@@ -6622,15 +6630,16 @@
 8	množství	množství	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	_
 9	poctivé	poctivý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No|LGloss=(jako_činnost_i_místo)
-11	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-12	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	conj	0:root|7:conj	_
+10.1	_	_	_	_	_	_	_	0:root|7:conj	_
+11	,	,	PUNCT	Z:-------------	_	12	punct	10.1:punct	_
+12	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	conj	10.1:dep	_
 13	za	za	ADP	RR--2----------	AdpType=Prep|Case=Gen	15	case	15:case	LId=za-1
 14	nepříznivého	příznivý	ADJ	AANS2----1N----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	15	amod	15:amod	_
-15	počasí	počasí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	12	orphan	12:orphan	_
+15	počasí	počasí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	12	orphan	10.1:dep	_
 16	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1
 17	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	19	case	19:case	LId=v-1
 18	těžkých	těžký	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	19	amod	19:amod	_
-19	podmínkách	podmínka	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	15	conj	12:orphan|15:conj	SpaceAfter=No
+19	podmínkách	podmínka	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	15	conj	10.1:dep|15:conj	SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # sent_id = n10w-s87
@@ -7210,16 +7219,17 @@
 26	a	a	CCONJ	J^-------------	_	27	cc	27:cc	LId=a-1
 27	studijních	studijní	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	25	conj	25:conj|28:amod	_
 28	úkolů	úkol	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	24	nmod	24:nmod:gen	SpaceAfter=No
-29	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
-30	rozvíjet	rozvíjet	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	0:root|1:conj	_
+28.1	_	_	_	_	_	_	_	0:root|1:conj	_
+29	,	,	PUNCT	Z:-------------	_	30	punct	28.1:punct	_
+30	rozvíjet	rozvíjet	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	28.1:dep	_
 31	všestrannou	všestranný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	33	amod	33:amod	_
 32	zájmovou	zájmový	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	33	amod	33:amod	_
 33	činnost	činnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	30	obj	30:obj	LDeriv=činný
 34	dětí	dítě	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	33	nmod	33:nmod:gen	_
 35	a	a	CCONJ	J^-------------	_	36	cc	36:cc	LId=a-1
 36	mládeže	mládež	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	34	conj	33:nmod:gen|34:conj	_
-37	a	a	CCONJ	J^-------------	_	30	cc	30:cc	LId=a-1
-38	rozšiřovat	rozšiřovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	orphan	30:orphan	_
+37	a	a	CCONJ	J^-------------	_	30	cc	28.1:cc	LId=a-1
+38	rozšiřovat	rozšiřovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	orphan	28.1:dep	_
 39	své	svůj	DET	P8FP4---------1	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	40	det	40:det	LId=svůj-1
 40	řady	řada	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	38	obj	38:obj	LGloss=(linka,zástup,pořadí,...)
 41	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	44	case	44:case	LId=o-1
@@ -8667,10 +8677,11 @@
 13	bytová	bytový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	conj	10:amod|11:conj	_
 14	i	i	CCONJ	J^-------------	_	15	cc	15:cc	LId=i-1
 15	zemědělská	zemědělský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	conj	10:amod|11:conj	SpaceAfter=No
-16	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
-17	dále	dále	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	9	conj	0:root|9:conj	LId=dále-3|LGloss=(také,_za_další,_popořadě;_nestupňuje_se)
-18	pak	pak	ADV	Db-------------	_	17	orphan	17:orphan	_
-19	komunikace	komunikace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	17	orphan	17:orphan	SpaceAfter=No
+15.1	_	_	_	_	_	_	_	0:root|9:conj	_
+16	,	,	PUNCT	Z:-------------	_	17	punct	15.1:punct	_
+17	dále	dále	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	9	conj	15.1:dep	LId=dále-3|LGloss=(také,_za_další,_popořadě;_nestupňuje_se)
+18	pak	pak	ADV	Db-------------	_	17	orphan	15.1:dep	_
+19	komunikace	komunikace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	17	orphan	15.1:dep	SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # newdoc id = s10w
@@ -9006,10 +9017,11 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	5:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	břicho	břicho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
 5	vyklenuje	vyklenovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
+5.1	_	_	_	_	_	_	_	0:root|5:conj	_
+6	,	,	PUNCT	Z:-------------	_	8	punct	5.1:punct	_
 7	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=při-1
-8	výdechu	výdech	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	0:root|5:conj	_
-9	naopak	naopak	ADV	Db-------------	_	8	orphan	8:orphan	SpaceAfter=No
+8	výdechu	výdech	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	5.1:dep	_
+9	naopak	naopak	ADV	Db-------------	_	8	orphan	5.1:dep	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = s10w-s16
@@ -9127,16 +9139,17 @@
 9	čtvrthodinka	čtvrthodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	conj	1:nsubj|3:conj	_
 10	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	11:case	LId=při-1
 11	rádiu	rádio	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	9	nmod	9:nmod:při:loc	SpaceAfter=No
-12	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
+11.1	_	_	_	_	_	_	_	0:root|1:conj	_
+12	,	,	PUNCT	Z:-------------	_	14	punct	11.1:punct	_
 13	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	14	case	14:case	LId=z-1
-14	sportů	sport	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	conj	0:root|1:conj	_
-15	plavání	plavání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	14	orphan	14:orphan	SpaceAfter=No|LDeriv=plavat
+14	sportů	sport	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	conj	11.1:dep	_
+15	plavání	plavání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	14	orphan	11.1:dep	SpaceAfter=No|LDeriv=plavat
 16	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
-17	golf	golf	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	15	conj	14:orphan|15:conj	_
+17	golf	golf	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	15	conj	11.1:dep|15:conj	_
 18	a	a	CCONJ	J^-------------	_	21	cc	21:cc	LId=a-1
 19	některé	některý	DET	PZFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	21	det	21:det	_
 20	míčové	míčový	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	21	amod	21:amod	_
-21	hry	hra	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	15	conj	14:orphan|15:conj	SpaceAfter=No|LGloss=(dětská;_v_divadle;...)
+21	hry	hra	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	15	conj	11.1:dep|15:conj	SpaceAfter=No|LGloss=(dětská;_v_divadle;...)
 22	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 23-24	aby	_	_	_	_	_	_	_	_
 23	aby	aby	SCONJ	J,-------------	_	26	mark	26:mark	_
@@ -10080,10 +10093,11 @@
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 8	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	9:advmod	_
 9	prokrvená	prokrvený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	conj	5:amod|6:conj	SpaceAfter=No|LDeriv=prokrvit
-10	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-11	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1
-12	jinak	jinak	ADV	Db-------------	_	2	conj	0:root|2:conj	_
-13	kůže	kůže	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	12	orphan	12:orphan	_
+9.1	_	_	_	_	_	_	_	0:root|2:conj	_
+10	,	,	PUNCT	Z:-------------	_	12	punct	9.1:punct	_
+11	a	a	CCONJ	J^-------------	_	12	cc	9.1:cc	LId=a-1
+12	jinak	jinak	ADV	Db-------------	_	2	conj	9.1:dep	_
+13	kůže	kůže	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	12	orphan	9.1:dep	_
 14	starších	starý	ADJ	AAMP2----2A----	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	15	amod	15:amod	LId=starý-2|LGloss=(člověk,_věc)
 15	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	13	nmod	13:nmod:gen	SpaceAfter=No
 16	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -10888,11 +10902,12 @@
 6	krém	krém	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	_
 7	nebo	nebo	CCONJ	J^-------------	_	8	cc	8:cc	_
 8	mléko	mléko	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	6	conj	4:nsubj|6:conj	SpaceAfter=No
-9	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
-10	nakonec	nakonec	ADV	Db-------------	_	4	conj	0:root|4:conj	_
-11	opět	opět	ADV	Db-------------	_	10	orphan	10:orphan	_
+8.1	_	_	_	_	_	_	_	0:root|4:conj	_
+9	,	,	PUNCT	Z:-------------	_	10	punct	8.1:punct	_
+10	nakonec	nakonec	ADV	Db-------------	_	4	conj	8.1:dep	_
+11	opět	opět	ADV	Db-------------	_	10	orphan	8.1:dep	_
 12	pleťová	pleťový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	_
-13	voda	voda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	orphan	10:orphan	SpaceAfter=No
+13	voda	voda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	orphan	8.1:dep	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = s10w-s113
@@ -11983,11 +11998,12 @@
 6	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
 7	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=na-1
 8	obličeji	obličej	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	5	conj	1:obl:na:loc|5:conj	SpaceAfter=No
-9	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
-10	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	conj	0:root|1:conj	_
+8.1	_	_	_	_	_	_	_	0:root|1:conj	_
+9	,	,	PUNCT	Z:-------------	_	10	punct	8.1:punct	_
+10	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	conj	8.1:dep	_
 11	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	13	case	13:case	LId=v-1
 12	velkém	velký	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
-13	počtu	počet	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	10	orphan	10:orphan	SpaceAfter=No
+13	počtu	počet	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	10	orphan	8.1:dep	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = s10w-s166
@@ -12668,11 +12684,12 @@
 10	nebo	nebo	CCONJ	J^-------------	_	12	cc	12:cc	_
 11	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	LId=na-1
 12	končetinách	končetina	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	9	conj	1:obl:na:loc|9:conj	SpaceAfter=No
-13	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-14	někdy	někdy	ADV	Db-------------	PronType=Ind	1	conj	0:root|1:conj	_
+12.1	_	_	_	_	_	_	_	0:root|1:conj	_
+13	,	,	PUNCT	Z:-------------	_	14	punct	12.1:punct	_
+14	někdy	někdy	ADV	Db-------------	PronType=Ind	1	conj	12.1:dep	_
 15	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=na-1
 16	dolním	dolní	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	17	amod	17:amod	_
-17	rtu	ret	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	orphan	14:orphan	SpaceAfter=No
+17	rtu	ret	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	orphan	12.1:dep	SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = s10w-s206
