@@ -72,7 +72,13 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
-* 2019-05-01 v2.4
+* 2020-05-15 v2.6
+  * Genitive, dative and instrumental nominals are now considered oblique.
+  * Added enhanced relations with case information.
+  * Added enhanced relations around relative clauses.
+  * Added enhanced external subjects in control verb constructions.
+  * Added empty nodes to enhanced graphs (but orphans are just converted to dep).
+* 2019-05-15 v2.4
   * Modified conversion: nouns do not have objects.
   * Fixed punctuation attachment.
   * Fixed some annotation errors.
