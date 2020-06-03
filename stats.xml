@@ -10,7 +10,7 @@
     <dev><sentences>603</sentences><tokens>10888</tokens><words>10912</words><fused>24</fused></dev>
     <test><sentences>628</sentences><tokens>10824</tokens><words>10862</words><fused>38</fused></test>
   </size>
-  <lemmas unique="28467" /><!-- ,, ., být, a, v, se, na, ten, s, *, z, který, i, k, tento -->
+  <lemmas unique="28467" /><!-- ,, ., být, a, v, se, na, ten, s, z, který, <CAC_wildcard>, i, k, tento -->
   <forms unique="62445" /><!-- ,, ., a, v, se, na, je, #, *, i, s, z, o, že, k -->
   <fusions unique="14" /><!-- aby, abychom, kdyby, abyste, kdybychom, abych, oč, kdybych, zač, Abys, Kdybyste, kdybys, nač, sis -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -27,14 +27,14 @@
     <tag name="PART">3418</tag><!-- jen, li, až, nejen, to, asi, ovšem, ne, jenom, ať -->
     <tag name="PRON">16032</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9814</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
-    <tag name="PUNCT">60127</tag><!-- ,, ., -, ", :, (, ), ?, ', / -->
+    <tag name="PUNCT">60301</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8158</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
-    <tag name="SYM">3783</tag><!-- * -->
+    <tag name="SYM">3609</tag><!-- <CAC_wildcard> -->
     <tag name="VERB">40605</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="101">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6663</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ZV -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6663</feat><!-- *, KSČ, ?, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44447</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
     <feat name="AdpType" value="Voc" upos="ADP">3833</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
@@ -140,44 +140,44 @@
   <deps unique="43">
     <dep name="acl">1716</dep>
     <dep name="acl:relcl">5180</dep>
-    <dep name="advcl">3451</dep>
+    <dep name="advcl">3446</dep>
     <dep name="advmod">21203</dep>
     <dep name="advmod:emph">7182</dep>
-    <dep name="amod">61522</dep>
-    <dep name="appos">2160</dep>
+    <dep name="amod">61517</dep>
+    <dep name="appos">2158</dep>
     <dep name="aux">3630</dep>
     <dep name="aux:pass">2521</dep>
-    <dep name="case">48235</dep>
-    <dep name="cc">23881</dep>
+    <dep name="case">48215</dep>
+    <dep name="cc">23879</dep>
     <dep name="ccomp">1606</dep>
     <dep name="compound">42</dep>
-    <dep name="conj">30621</dep>
+    <dep name="conj">30602</dep>
     <dep name="cop">8134</dep>
     <dep name="csubj">2326</dep>
     <dep name="csubj:pass">160</dep>
-    <dep name="dep">2412</dep>
+    <dep name="dep">2337</dep>
     <dep name="det">11222</dep>
     <dep name="det:numgov">367</dep>
     <dep name="det:nummod">190</dep>
     <dep name="discourse">104</dep>
     <dep name="expl:pass">2093</dep>
     <dep name="expl:pv">6066</dep>
-    <dep name="fixed">2656</dep>
+    <dep name="fixed">2655</dep>
     <dep name="flat">1528</dep>
     <dep name="flat:foreign">133</dep>
     <dep name="iobj">253</dep>
-    <dep name="mark">8648</dep>
+    <dep name="mark">8651</dep>
     <dep name="nmod">54211</dep>
     <dep name="nsubj">24058</dep>
     <dep name="nsubj:pass">3466</dep>
-    <dep name="nummod">4440</dep>
+    <dep name="nummod">4437</dep>
     <dep name="nummod:gov">1189</dep>
     <dep name="obj">16167</dep>
     <dep name="obl">27793</dep>
     <dep name="obl:arg">10919</dep>
-    <dep name="orphan">1830</dep>
-    <dep name="parataxis">683</dep>
-    <dep name="punct">60129</dep>
+    <dep name="orphan">1789</dep>
+    <dep name="parataxis">684</dep>
+    <dep name="punct">60298</dep>
     <dep name="root">24709</dep>
     <dep name="vocative">58</dep>
     <dep name="xcomp">5489</dep>
