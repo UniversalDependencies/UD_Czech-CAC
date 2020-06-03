@@ -5207,7 +5207,7 @@
 42	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = n10w-s24
-# text = Včera přibyli do Prahy další zahraniční hosté zastupující tyto mládežnické organizace: Svaz jugoslávské mládeže, Chilský svaz komunistické mládeže, Komunistický svaz mládeže Maďarské lidové republiky, Svaz komunistické mládeže Francie, Socialistickou německou dělnickou mládež a celostátní výbor, Svaz * spolupráci organizací mládeže Polské lidové republiky OKWOM.
+# text = Včera přibyli do Prahy další zahraniční hosté zastupující tyto mládežnické organizace: Svaz jugoslávské mládeže, Chilský svaz komunistické mládeže, Komunistický svaz mládeže Maďarské lidové republiky, Svaz komunistické mládeže Francie, Socialistickou německou dělnickou mládež a celostátní výbor, Svaz pro spolupráci organizací mládeže Polské lidové republiky OKWOM.
 # orig_file_sentence n10w#24
 1	Včera	včera	ADV	Db-------------	_	2	advmod	2:advmod	_
 2	přibyli	přibýt	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
@@ -5251,8 +5251,8 @@
 40	výbor	výbor	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	37	conj	11:appos|37:conj	SpaceAfter=No
 41	,	,	PUNCT	Z:-------------	_	42	punct	42:punct	_
 42	Svaz	svaz	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	13	conj	11:appos|13:conj	_
-43	*	&cprep;	ADP	RR--4----------	AdpType=Prep|Case=Acc	44	case	44:case	_
-44	spolupráci	spolupráce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	42	nmod	42:nmod:cprep:acc	_
+43	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	44	case	44:case	_
+44	spolupráci	spolupráce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	42	nmod	42:nmod:pro:acc	_
 45	organizací	organizace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	44	nmod	44:nmod:gen	_
 46	mládeže	mládež	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	45	nmod	45:nmod:gen	_
 47	Polské	polský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	49	amod	49:amod	_
