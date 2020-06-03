@@ -42,9 +42,9 @@
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78147</feat><!-- byly, které, roce, roku, co, úkolů, výsledky, jazyka, procesu, úkoly -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">20263</feat><!-- patří, tvoří, znamená, pracujících, odpovídá, stává, mění, představuje, dochází, rozhodující -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,NOUN,VERB">9398</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60366</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14070</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87602</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60367</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26605</feat><!-- s, se, mezi, tím, před, pod, nad, za, způsobem, svým -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">48780</feat><!-- v, na, ve, o, při, po, roce, tom, době, tomto -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">58394</feat><!-- to, které, která, který, kteří, tato, tyto, práce, tento, jež -->
