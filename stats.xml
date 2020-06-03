@@ -34,20 +34,20 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="101">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,PROPN,PUNCT,SYM">6663</feat><!-- *, KSČ, ?, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6580</feat><!-- *, KSČ, ?, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
-    <feat name="AdpType" value="Prep" upos="ADP">44447</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
+    <feat name="AdpType" value="Prep" upos="ADP">44530</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
     <feat name="AdpType" value="Voc" upos="ADP">3833</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19841</feat><!-- kteří, pracovníků, lidí, člověka, člověk, lidé, vedoucí, pracovník, byli, každý -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78146</feat><!-- byly, které, roce, roku, co, úkolů, výsledky, jazyka, procesu, úkoly -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">20263</feat><!-- patří, tvoří, znamená, pracujících, odpovídá, stává, mění, představuje, dochází, rozhodující -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,NOUN,VERB">9398</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60355</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14065</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87578</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
-    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26576</feat><!-- s, se, mezi, tím, před, pod, nad, za, způsobem, svým -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">48766</feat><!-- v, na, ve, o, při, po, roce, tom, době, tomto -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">58396</feat><!-- to, které, která, který, kteří, tato, tyto, práce, tento, jež -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60366</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14070</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87605</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26595</feat><!-- s, se, mezi, tím, před, pod, nad, za, způsobem, svým -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">48776</feat><!-- v, na, ve, o, při, po, roce, tom, době, tomto -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">58394</feat><!-- to, které, která, který, kteří, tato, tyto, práce, tento, jež -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">107</feat><!-- soudruhu, vážený, soudruzi, vážení, řediteli, náměstku, soudružko, soudružky, vážená, vážené -->
     <feat name="ConjType" value="Oper" upos="CCONJ">2</feat><!-- krát, minus -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">3146</feat><!-- více, dále, větší, méně, později, vyšší, dříve, víc, spíše, menší -->
