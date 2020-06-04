@@ -10193,23 +10193,23 @@
 # text = Normální pleť je měkká, pružná a napjatá, dobře prokrvená, svěží barvy a jemné struktury.
 # orig_file_sentence s10w#79
 1	Normální	normální	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	2:amod	_
-2	pleť	pleť	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	_
-3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
-4	měkká	měkký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	cop	6:cop	SpaceAfter=No
+2	pleť	pleť	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	měkká	měkký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
-6	pružná	pružný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
+6	pružná	pružný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	_
 7	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
 8	napjatá	napjatý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	conj	0:root|6:conj	SpaceAfter=No|LDeriv=napnout
 9	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 10	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	11:advmod	_
-11	prokrvená	prokrvený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	4:conj|6:cop	SpaceAfter=No|LDeriv=prokrvit
+11	prokrvená	prokrvený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	SpaceAfter=No|LDeriv=prokrvit
 12	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 13	svěží	svěží	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	14:amod	_
-14	barvy	barva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	4:conj|6:cop	_
+14	barvy	barva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	_
 15	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
 16	jemné	jemný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	_
-17	struktury	struktura	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	4:conj|6:cop	SpaceAfter=No
-18	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
+17	struktury	struktura	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = s10w-s80
 # text = Dovede udržovat rovnováhu ve svých vlastnostech a funkcích sama.
