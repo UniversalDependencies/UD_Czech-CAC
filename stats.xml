@@ -27,9 +27,9 @@
     <tag name="PART">3418</tag><!-- jen, li, až, nejen, to, asi, ovšem, ne, jenom, ať -->
     <tag name="PRON">16032</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9819</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
-    <tag name="PUNCT">60301</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
+    <tag name="PUNCT">60299</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8166</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
-    <tag name="SYM">3512</tag><!-- &cwildcard; -->
+    <tag name="SYM">3514</tag><!-- &cwildcard; -->
     <tag name="VERB">40605</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -143,7 +143,7 @@
     <dep name="advcl">3446</dep>
     <dep name="advmod">21203</dep>
     <dep name="advmod:emph">7182</dep>
-    <dep name="amod">61517</dep>
+    <dep name="amod">61518</dep>
     <dep name="appos">2158</dep>
     <dep name="aux">3630</dep>
     <dep name="aux:pass">2521</dep>
@@ -151,7 +151,7 @@
     <dep name="cc">23879</dep>
     <dep name="ccomp">1606</dep>
     <dep name="compound">42</dep>
-    <dep name="conj">30602</dep>
+    <dep name="conj">30603</dep>
     <dep name="cop">8134</dep>
     <dep name="csubj">2326</dep>
     <dep name="csubj:pass">160</dep>
@@ -177,7 +177,7 @@
     <dep name="obl:arg">10919</dep>
     <dep name="orphan">1789</dep>
     <dep name="parataxis">684</dep>
-    <dep name="punct">60298</dep>
+    <dep name="punct">60296</dep>
     <dep name="root">24709</dep>
     <dep name="vocative">58</dep>
     <dep name="xcomp">5489</dep>
