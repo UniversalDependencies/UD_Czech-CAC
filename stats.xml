@@ -151,8 +151,8 @@
     <dep name="cc">23879</dep>
     <dep name="ccomp">1606</dep>
     <dep name="compound">42</dep>
-    <dep name="conj">30630</dep>
-    <dep name="cop">8133</dep>
+    <dep name="conj">30631</dep>
+    <dep name="cop">8132</dep>
     <dep name="csubj">2326</dep>
     <dep name="csubj:pass">160</dep>
     <dep name="dep">2353</dep>
