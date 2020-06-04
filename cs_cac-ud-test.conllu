@@ -2202,10 +2202,10 @@
 53	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = a20w-s135
-# text = Smaží * do zlatova na rozpáleném * .
+# text = Smaží se do zlatova na rozpáleném * .
 # orig_file_sentence a20w#135
 1	Smaží	smažit	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	*	&cwildcard;	SYM	Xx-------------	Abbr=Yes	1	expl:pass	1:expl:pass	_
+2	se	se	PRON	P6-X4----------	Case=Acc|PronType=Prs|Reflex=Yes	1	expl:pass	1:expl:pass	_
 3	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	LId=do-1
 4	zlatova	zlatovo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	1	obl	1:obl:do:gen	_
 5	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	LId=na-1

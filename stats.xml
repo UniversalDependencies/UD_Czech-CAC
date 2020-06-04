@@ -25,16 +25,16 @@
     <tag name="NOUN">136183</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
     <tag name="NUM">7307</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
     <tag name="PART">3418</tag><!-- jen, li, až, nejen, to, asi, ovšem, ne, jenom, ať -->
-    <tag name="PRON">16032</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
+    <tag name="PRON">16034</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9819</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
     <tag name="PUNCT">60205</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8166</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
-    <tag name="SYM">3608</tag><!-- &cwildcard; -->
+    <tag name="SYM">3606</tag><!-- &cwildcard; -->
     <tag name="VERB">40605</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="101">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6566</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6564</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
     <feat name="AdpType" value="Voc" upos="ADP">3833</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
@@ -42,7 +42,7 @@
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78147</feat><!-- byly, které, roce, roku, co, úkolů, výsledky, jazyka, procesu, úkoly -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">20263</feat><!-- patří, tvoří, znamená, pracujících, odpovídá, stává, mění, představuje, dochází, rozhodující -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,NOUN,VERB">9398</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60367</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60369</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26605</feat><!-- s, se, mezi, tím, před, pod, nad, za, způsobem, svým -->
@@ -115,10 +115,10 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2001</feat><!-- některé, některých, několik, mnoho, někdy, něco, několika, mnoha, někteří, někdo -->
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">6235</feat><!-- které, jak, který, která, kde, co, kteří, kdy, kterou, kdo -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">417</feat><!-- nic, nikdy, nikdo, žádné, žádný, žádná, žádnou, nijak, nikde, nikoho -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">17496</feat><!-- se, si, jejich, jeho, své, je, její, nás, nám, naší -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">17498</feat><!-- se, si, jejich, jeho, své, je, její, nás, nám, naší -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1596</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, přičemž, jimiž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">2254</feat><!-- všech, všechny, vždy, každý, všechno, každé, všichni, všem, každého, každá -->
-    <feat name="Reflex" value="Yes" upos="DET,PRON">10459</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">10461</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
     <feat name="Style" value="Arch" upos="ADV,AUX,PRON,PROPN,VERB">252</feat><!-- jej, býti, dosti, dřív, jest, nejdřív, kdož, tentokráte, dáti, míti -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PROPN,VERB">100</feat><!-- loni, pracech, mejkap, Žídkova, elpíčko, jo, pivčo, pásák, Žídkových, Drahušce -->
     <feat name="Style" value="Expr" upos="ADJ,NOUN,PROPN">35</feat><!-- ramínko, vlákénka, znaménka, polínka, prkének, prkénka, vlákének, znaménkem, Zuzanka, jezírku -->
