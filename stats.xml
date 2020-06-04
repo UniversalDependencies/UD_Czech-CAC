@@ -27,14 +27,14 @@
     <tag name="PART">3418</tag><!-- jen, li, až, nejen, to, asi, ovšem, ne, jenom, ať -->
     <tag name="PRON">16032</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9819</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
-    <tag name="PUNCT">60259</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
+    <tag name="PUNCT">60205</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8166</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
-    <tag name="SYM">3554</tag><!-- &cwildcard; -->
+    <tag name="SYM">3608</tag><!-- &cwildcard; -->
     <tag name="VERB">40605</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="101">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6566</feat><!-- *, KSČ, ?, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6566</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
     <feat name="AdpType" value="Voc" upos="ADP">3833</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
@@ -151,11 +151,11 @@
     <dep name="cc">23879</dep>
     <dep name="ccomp">1606</dep>
     <dep name="compound">42</dep>
-    <dep name="conj">30605</dep>
+    <dep name="conj">30629</dep>
     <dep name="cop">8134</dep>
     <dep name="csubj">2326</dep>
     <dep name="csubj:pass">160</dep>
-    <dep name="dep">2347</dep>
+    <dep name="dep">2353</dep>
     <dep name="det">11222</dep>
     <dep name="det:numgov">367</dep>
     <dep name="det:nummod">190</dep>
@@ -175,9 +175,9 @@
     <dep name="obj">16167</dep>
     <dep name="obl">27793</dep>
     <dep name="obl:arg">10919</dep>
-    <dep name="orphan">1797</dep>
+    <dep name="orphan">1821</dep>
     <dep name="parataxis">684</dep>
-    <dep name="punct">60261</dep>
+    <dep name="punct">60207</dep>
     <dep name="root">24709</dep>
     <dep name="vocative">58</dep>
     <dep name="xcomp">5489</dep>
