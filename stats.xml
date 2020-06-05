@@ -18,7 +18,7 @@
     <tag name="ADJ">74222</tag><!-- velký, nový, další, jiný, pracovní, celý, různý, základní, socialistický, společenský -->
     <tag name="ADP">48471</tag><!-- v, na, s, z, k, o, pro, do, za, při -->
     <tag name="ADV">28133</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
-    <tag name="AUX">14269</tag><!-- být, bývat -->
+    <tag name="AUX">14271</tag><!-- být, bývat -->
     <tag name="CCONJ">24206</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
     <tag name="DET">19762</tag><!-- ten, který, tento, jeho, svůj, můj, některý, každý, takový, jenž -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">60208</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8166</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
     <tag name="SYM">3570</tag><!-- &cwildcard; -->
-    <tag name="VERB">40599</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
+    <tag name="VERB">40597</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="101">
@@ -141,21 +141,21 @@
     <dep name="acl">1716</dep>
     <dep name="acl:relcl">5188</dep>
     <dep name="advcl">3452</dep>
-    <dep name="advmod">21199</dep>
-    <dep name="advmod:emph">7182</dep>
+    <dep name="advmod">21196</dep>
+    <dep name="advmod:emph">7180</dep>
     <dep name="amod">61528</dep>
     <dep name="appos">2159</dep>
-    <dep name="aux">3627</dep>
-    <dep name="aux:pass">2521</dep>
-    <dep name="case">48221</dep>
-    <dep name="cc">23880</dep>
-    <dep name="ccomp">1607</dep>
+    <dep name="aux">3625</dep>
+    <dep name="aux:pass">2522</dep>
+    <dep name="case">48223</dep>
+    <dep name="cc">23877</dep>
+    <dep name="ccomp">1608</dep>
     <dep name="compound">42</dep>
     <dep name="conj">30646</dep>
     <dep name="cop">8111</dep>
     <dep name="csubj">2326</dep>
-    <dep name="csubj:pass">160</dep>
-    <dep name="dep">2351</dep>
+    <dep name="csubj:pass">162</dep>
+    <dep name="dep">2352</dep>
     <dep name="det">11221</dep>
     <dep name="det:numgov">367</dep>
     <dep name="det:nummod">190</dep>
@@ -166,11 +166,11 @@
     <dep name="flat">1527</dep>
     <dep name="flat:foreign">133</dep>
     <dep name="iobj">253</dep>
-    <dep name="mark">8652</dep>
+    <dep name="mark">8654</dep>
     <dep name="nmod">54206</dep>
     <dep name="nsubj">24058</dep>
     <dep name="nsubj:pass">3466</dep>
-    <dep name="nummod">4441</dep>
+    <dep name="nummod">4442</dep>
     <dep name="nummod:gov">1188</dep>
     <dep name="obj">16166</dep>
     <dep name="obl">27793</dep>
