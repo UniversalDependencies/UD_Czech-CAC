@@ -143,7 +143,7 @@
     <dep name="advcl">3450</dep>
     <dep name="advmod">21202</dep>
     <dep name="advmod:emph">7183</dep>
-    <dep name="amod">61527</dep>
+    <dep name="amod">61528</dep>
     <dep name="appos">2159</dep>
     <dep name="aux">3630</dep>
     <dep name="aux:pass">2521</dep>
@@ -152,7 +152,7 @@
     <dep name="ccomp">1606</dep>
     <dep name="compound">42</dep>
     <dep name="conj">30646</dep>
-    <dep name="cop">8112</dep>
+    <dep name="cop">8111</dep>
     <dep name="csubj">2326</dep>
     <dep name="csubj:pass">160</dep>
     <dep name="dep">2351</dep>
