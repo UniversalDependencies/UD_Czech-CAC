@@ -7276,7 +7276,7 @@
 15	odnětí	odnětí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	14:nmod:gen	LDeriv=odejmout
 16	svobody	svoboda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	15	nmod	15:nmod:gen	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
-18	jehož	jenž	PRON	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	20	nmod	14:ref	LGloss=(který_[ve_vedl.větě])
+18	jehož	jehož	DET	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	20	det	14:ref	LGloss=(který_[ve_vedl.větě])
 19	horní	horní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	_
 20	hranice	hranice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	21	nsubj	21:nsubj	_
 21	převyšuje	převyšovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	14:acl:relcl	_
@@ -7904,7 +7904,7 @@
 31	hlavního	hlavní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	32	amod	32:amod	_
 32	města	město	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	29	nmod	29:nmod:gen|35:nmod|37:nmod	SpaceAfter=No
 33	,	,	PUNCT	Z:-------------	_	39	punct	39:punct	_
-34	jehož	jenž	PRON	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	35	nmod	32:ref	LGloss=(který_[ve_vedl.větě])
+34	jehož	jehož	DET	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	35	det	32:ref	LGloss=(který_[ve_vedl.větě])
 35	krása	krása	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	39	nsubj	39:nsubj	_
 36	i	i	CCONJ	J^-------------	_	37	cc	37:cc	LId=i-1
 37	budoucnost	budoucnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	35	conj	35:conj|39:nsubj	_
@@ -9407,7 +9407,7 @@
 8	celospolečenských	celospolečenský	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	9:amod	_
 9	zájmů	zájem	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	obl:arg	6:obl:arg:od:gen|12:nmod	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-11	jejichž	jenž	PRON	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	12	nmod	9:ref	LGloss=(který...[ve_vedl._větě])
+11	jejichž	jejichž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	12	det	9:ref	LGloss=(který...[ve_vedl._větě])
 12	nositelem	nositel	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	acl:relcl	9:acl:relcl	_
 13	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 14	dělnická	dělnický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	15:amod	_
@@ -10720,7 +10720,7 @@
 42	sociotechnických	sociotechnický	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	43	amod	43:amod	_
 43	opatření	opatření	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	41	nmod	41:nmod:gen|46:nmod	SpaceAfter=No|LDeriv=opatřit
 44	,	,	PUNCT	Z:-------------	_	47	punct	47:punct	_
-45	jejichž	jenž	PRON	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	46	nmod	43:ref	LGloss=(který...[ve_vedl._větě])
+45	jejichž	jejichž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	46	det	43:ref	LGloss=(který...[ve_vedl._větě])
 46	realizace	realizace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	47	nsubj	47:nsubj	_
 47	povede	vést	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	43	acl:relcl	43:acl:relcl	_
 48	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	49	case	49:case	LId=k-1
@@ -11353,7 +11353,7 @@
 16	sociologického	sociologický	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	17	amod	17:amod	_
 17	pracovníka	pracovník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	15	nmod	15:nmod:gen	SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
-19	jehož	jenž	PRON	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	21	nmod	13:ref	LGloss=(který_[ve_vedl.větě])
+19	jehož	jehož	DET	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	21	det	13:ref	LGloss=(který_[ve_vedl.větě])
 20	profesionální	profesionální	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	21	amod	21:amod	_
 21	zaměření	zaměření	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	23	nsubj	23:nsubj	LDeriv=zaměřit
 22	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
@@ -12036,7 +12036,7 @@
 9	revolučních	revoluční	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	10	amod	10:amod	_
 10	přeměn	přeměna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-12	jehož	jenž	PRON	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	14	nmod	8:ref	LGloss=(který_[ve_vedl.větě])
+12	jehož	jehož	DET	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	14	det	8:ref	LGloss=(který_[ve_vedl.větě])
 13	nedílnou	nedílný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	14:amod	_
 14	součástí	součást	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	8	acl:relcl	8:acl:relcl	_
 15	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_

@@ -364,7 +364,7 @@
 1	Plán	plán	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	17	obj	5:nmod|17:obj	_
 2	RVT	RVT	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Polarity=Pos	1	nmod	1:nmod	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-4	jehož	jenž	PRON	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	5	nmod	1:ref	LGloss=(který_[ve_vedl.větě])
+4	jehož	jehož	DET	P1XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	5	det	1:ref	LGloss=(který_[ve_vedl.větě])
 5	výsledky	výsledek	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	7	nsubj	7:nsubj	_
 6	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	usměrňovat	usměrňovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	acl:relcl	1:acl:relcl	_
@@ -4519,7 +4519,7 @@
 29	státními	státní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	30	amod	30:amod	_
 30	orgány	orgán	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	7	conj	1:ccomp|7:conj|34:obl:prostřednictví	SpaceAfter=No
 31	,	,	PUNCT	Z:-------------	_	34	punct	34:punct	_
-32	jejichž	jenž	PRON	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	34	obl	30:ref	LGloss=(který...[ve_vedl._větě])
+32	jejichž	jejichž	DET	P1XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	34	obl	30:ref	LGloss=(který...[ve_vedl._větě])
 33	prostřednictvím	prostřednictví	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	32	case	32:case	_
 34	vykonává	vykonávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	30:acl:relcl	LDeriv=vykonat
 35	pracující	pracující	ADJ	AGIS1-----A----	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	36	amod	36:amod	LDeriv=pracovat
@@ -4892,7 +4892,7 @@
 2	aktu	akt	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg:dat	LId=akt-1|LGloss=(čin)
 3	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	4:cop	_
 4	přítomna	přítomný	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	0	root	0:root	_
-5	delegace	delegace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj|16:nmod:ins	_
+5	delegace	delegace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj|16:nmod	_
 6	ÚV	ÚV	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos	5	nmod	5:nmod	LId=ÚV-1|LGloss=(ústřední_výbor)
 7	KSČ	KSČ	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	6	nmod	6:nmod	LId=KSČ-1|LGloss=(Komunistická_strana_Československa)
 8	vedená	vedený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	LId=vedený-1|LDeriv=vést
@@ -4902,7 +4902,7 @@
 12	*	&cwildcard;	SYM	Xx-------------	Abbr=Yes	9	nmod	9:nmod	_
 13	Oldřichem	Oldřich	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	9	flat	9:flat	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
-15	jejímž	jenž	PRON	P1ZS7FS3-------	Case=Ins|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	16	nmod	5:ref	LGloss=(který...[ve_vedl._větě])
+15	jejímž	jejíž	DET	P1ZS7FS3-------	Case=Ins|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	16	det	5:ref	LGloss=(který...[ve_vedl._větě])
 16	členem	člen	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	5	acl:relcl	5:acl:relcl	_
 17	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	cop	16:cop	_
 18	také	také	ADV	Db-------------	_	16	advmod	16:advmod	LGloss=(rovněž)
