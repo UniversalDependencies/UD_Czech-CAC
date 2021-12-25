@@ -7076,7 +7076,7 @@
 18	po	po	ADP	RR--4----------	AdpType=Prep|Case=Acc	21	case	21:case	LId=po-1
 19	dobu	doba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	21	case	21:case	_
 20	této	tento	DET	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	21	det	21:det	_
-21	služby	služba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	16	obl	16:obl:po_doba:gen	_
+21	služby	služba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	16	obl	16:obl:po_dobu:gen	_
 22	náhrada	náhrada	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	16	nsubj	16:nsubj	_
 23	mzdy	mzda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	nmod	22:nmod:gen	_
 24	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	25	case	25:case	LId=od-1
