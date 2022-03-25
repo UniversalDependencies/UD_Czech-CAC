@@ -3977,7 +3977,7 @@
 5	správné	správný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	LGloss=(podle_něj._měřítek;_př._chlap,_míra,...)
 6	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
 7	snadno	snadno	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	8:advmod	_
-8	pochopitelné	pochopitelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	SpaceAfter=No|LDeriv=pochopit
+8	pochopitelné	pochopitelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	conj	0:root|5:conj	SpaceAfter=No|LDeriv=pochopit
 9	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = a20w-s225
@@ -4546,7 +4546,7 @@
 2	žehličky	žehlička	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	1:nmod:gen	LDeriv=žehlič
 3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	plynule	plynule	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	LDeriv=plynulý
-5	nastavitelný	nastavitelný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No|LDeriv=nastavět
+5	nastavitelný	nastavitelný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No|LDeriv=nastavět
 6	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = a20w-s251
@@ -4673,7 +4673,7 @@
 # sent_id = a20w-s257
 # text = Regulovatelnou žehličkou se nežehlí přitlačením.
 # orig_file_sentence a20w#257
-1	Regulovatelnou	regulovatelný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	2:amod	LDeriv=regulovat
+1	Regulovatelnou	regulovatelný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	2:amod	LDeriv=regulovat
 2	žehličkou	žehlička	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	4:obl:ins	LDeriv=žehlič
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pass	4:expl:pass	LGloss=(zvr._zájmeno/částice)
 4	nežehlí	žehlit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -6864,7 +6864,7 @@
 2	prací	práce	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	1:nmod:ins	LGloss=(jako_činnost_i_místo)
 3	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	vždy	vždy	ADV	Db-------------	PronType=Tot	5	advmod	5:advmod	_
-5	uskutečnitelná	uskutečnitelný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=uskutečnit
+5	uskutečnitelná	uskutečnitelný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	LDeriv=uskutečnit
 5.1	_	_	_	_	_	_	_	0:root|5:conj	_
 6	a	a	CCONJ	J^-------------	_	8	cc	5.1:cc	LId=a-1
 7	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=při-1
@@ -7434,7 +7434,7 @@
 8	jestliže	jestliže	SCONJ	J,-------------	_	10	mark	10:mark	_
 9	zmetek	zmetek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj	_
 10	vznikl	vzniknout	VERB	VpYS---XR-AA--1	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	6:advcl:jestliže	_
-11	omluvitelnou	omluvitelný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	12:amod	LDeriv=omluvit
+11	omluvitelnou	omluvitelný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	LDeriv=omluvit
 12	chybou	chyba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	10	obl	10:obl:ins	_
 13	pracovníka	pracovník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	12	nmod	12:nmod:gen|20:nsubj	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
@@ -10251,7 +10251,7 @@
 3	nejeden	nejeden	DET	CwYS1----------	Case=Nom|Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	4	det	4:det	_
 4	autor	autor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
 5	podlehl	podlehnout	VERB	VpYS---XR-AA--1	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-6	nepřekonatelné	překonatelný	ADJ	AAFS3----1N----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	7	amod	7:amod	LDeriv=překonat
+6	nepřekonatelné	překonatelný	ADJ	AAFS3----1N----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	7	amod	7:amod	LDeriv=překonat
 7	iluzi	iluze	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	5	obl:arg	5:obl:arg:dat	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 9	že	že	SCONJ	J,-------------	_	20	mark	20:mark	_
@@ -10262,7 +10262,7 @@
 14	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	18	case	18:case	LId=s-1
 15	empirickými	empirický	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
-17	prokazatelnými	prokazatelný	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	conj	15:conj|18:amod	LDeriv=prokázat
+17	prokazatelnými	prokazatelný	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	15	conj	15:conj|18:amod	LDeriv=prokázat
 18	fakty	fakt	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	13	obl:arg	13:obl:arg:s:ins	_
 19	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	_
 20	prost	prostý	ADJ	ACYS------A----	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	7	acl	7:acl:že	_
@@ -11850,7 +11850,7 @@
 34	sociologická	sociologický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	35	amod	35:amod	_
 35	analýza	analýza	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	36	nsubj	36:nsubj	_
 36	stává	stávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=stávat-2|LGloss=(něco_se_přihodilo)|LDeriv=stát
-37	nepostradatelnou	postradatelný	ADJ	AAFS7----1N----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	36	obl:arg	36:obl:arg:ins	SpaceAfter=No|LDeriv=postrádat
+37	nepostradatelnou	postradatelný	ADJ	AAFS7----1N----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	36	obl:arg	36:obl:arg:ins	SpaceAfter=No|LDeriv=postrádat
 38	.	.	PUNCT	Z:-------------	_	36	punct	36:punct	_
 
 # sent_id = s20w-s94
@@ -12949,7 +12949,7 @@
 9	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 10	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	12	nsubj	8:ref	_
 11	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-12	nemyslitelná	myslitelný	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	8	acl:relcl	8:acl:relcl	LDeriv=myslit
+12	nemyslitelná	myslitelný	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	8	acl:relcl	8:acl:relcl	LDeriv=myslit
 13	bez	bez	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	14:case	LId=bez-1
 14	odhalení	odhalení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	12	obl	12:obl:bez:gen	LDeriv=odhalit
 15	specifika	specifikum	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	14:nmod:gen	_
@@ -13321,7 +13321,7 @@
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 5	ačkoli	ačkoliv	SCONJ	J,-------------	_	7	mark	7:mark	_
 6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
-7	dosažitelné	dosažitelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	24	advcl	24:advcl:ačkoli	LDeriv=dosáhnout
+7	dosažitelné	dosažitelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	24	advcl	24:advcl:ačkoli	LDeriv=dosáhnout
 8	pouze	pouze	ADV	Db-------------	_	10	advmod:emph	10:advmod:emph	_
 9	cestou	cesta	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	10	case	10:case	LGloss=(konkrétní_i_abstr.;_i_'soudní_cestou')
 10	bludiště	bludiště	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	7	obl	7:obl:cestou:gen	_

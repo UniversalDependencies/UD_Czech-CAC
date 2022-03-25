@@ -132,10 +132,10 @@
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">45</feat><!-- počínaje, nemluvě, nevyjímaje, říkajíc, Chráníce, Počínajíc, byvše, chtíc, dožívaje, jsouc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">33592</feat><!-- je, jsou, by, má, bude, není, jsme, mají, musí, může -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">8246</feat><!-- být, mít, zajistit, říci, vidět, dělat, řešit, věnovat, použít, provádět -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">25389</feat><!-- bylo, byl, byla, byly, měl, měla, byli, nebylo, pracujících, mohli -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">25070</feat><!-- bylo, byl, byla, byly, měl, měla, byli, nebylo, pracujících, mohli -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">11798</feat><!-- zařízení, řešení, plnění, poznání, řízení, umění, oddělení, zpracování, pojetí, záření -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">46229</feat><!-- je, jsou, má, bylo, bude, byl, byla, není, jsme, byly -->
-    <feat name="Voice" value="Pass" upos="ADJ">10261</feat><!-- uvedených, uvedené, řečeno, příslušné, dosaženo, plánovaných, spojené, věnována, příslušného, dána -->
+    <feat name="Voice" value="Pass" upos="ADJ">9942</feat><!-- uvedených, uvedené, řečeno, příslušné, dosaženo, plánovaných, spojené, věnována, příslušného, dána -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
