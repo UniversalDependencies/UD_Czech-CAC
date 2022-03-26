@@ -72,6 +72,9 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
+  * Added VerbForm=Vnoun to verbal nouns.
 * 2021-05-15 v2.8
   * "§" is now SYM instead of NOUN.
   * Fixed recognition of clauses with passive participles (ADJ).
