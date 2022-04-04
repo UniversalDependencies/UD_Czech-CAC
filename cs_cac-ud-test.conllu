@@ -12275,8 +12275,8 @@
 10	vývoj	vývoj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	8:obj	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 12	však	však	CCONJ	J^-------------	_	15	cc	15:cc	_
-13	chtíc	chtít	VERB	VeHS------A----	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	15:advcl	_
-14	nechtíc	chtít	VERB	VeHS------N----	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Conv|Voice=Act	13	fixed	13:fixed	_
+13	chtíc	chtít	VERB	VeFS------A----	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	15:advcl	_
+14	nechtíc	chtít	VERB	VeFS------N----	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Conv|Voice=Act	13	fixed	13:fixed	_
 15	směřuje	směřovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 16	i	i	CCONJ	J^-------------	_	18	advmod:emph	18:advmod:emph	LId=i-1
 17	taková	takový	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	18:det	_
