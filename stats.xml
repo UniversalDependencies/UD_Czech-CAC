@@ -18,7 +18,7 @@
     <tag name="ADJ">74222</tag><!-- velký, nový, další, jiný, pracovní, celý, různý, základní, socialistický, společenský -->
     <tag name="ADP">48471</tag><!-- v, na, s, z, k, o, pro, do, za, při -->
     <tag name="ADV">28133</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
-    <tag name="AUX">14271</tag><!-- být, bývat -->
+    <tag name="AUX">16120</tag><!-- být, bývat -->
     <tag name="CCONJ">24206</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
     <tag name="DET">19762</tag><!-- ten, který, tento, jeho, svůj, můj, některý, každý, takový, sám -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">60208</tag><!-- ,, ., -, ", ?, :, (, ), ', / -->
     <tag name="SCONJ">8166</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
     <tag name="SYM">3570</tag><!-- &cwildcard; -->
-    <tag name="VERB">40597</tag><!-- mít, být, moci, muset, jít, lze, stát, chtít, dát, pracovat -->
+    <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="102">
@@ -146,14 +146,14 @@
     <dep name="advmod:emph">7178</dep>
     <dep name="amod">61528</dep>
     <dep name="appos">2158</dep>
-    <dep name="aux">3622</dep>
+    <dep name="aux">3623</dep>
     <dep name="aux:pass">2523</dep>
-    <dep name="case">48225</dep>
+    <dep name="case">48223</dep>
     <dep name="cc">23876</dep>
     <dep name="ccomp">1911</dep>
     <dep name="compound">42</dep>
     <dep name="conj">30646</dep>
-    <dep name="cop">8111</dep>
+    <dep name="cop">8112</dep>
     <dep name="csubj">2354</dep>
     <dep name="csubj:pass">172</dep>
     <dep name="dep">2352</dep>
