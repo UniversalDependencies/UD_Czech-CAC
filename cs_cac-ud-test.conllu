@@ -40,7 +40,7 @@
 1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 2	přirozenou	přirozený	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 3	snahou	snaha	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
-4	každého	každý	DET	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	5	det	5:det	_
+4	každého	každý	DET	AAMS2----1A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	5	det	5:det	_
 5	člověka	člověk	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	3:nmod:gen	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 7-8	aby	_	_	_	_	_	_	_	_
@@ -2098,10 +2098,10 @@
 # sent_id = a20w-s132
 # text = Každý polotovar před každou další úpravou, kromě smažení jako řízek, musíte krátce na každé straně opéci na rozpáleném tuku, aby se srazila bílkovina.
 # orig_file_sentence a20w#132
-1	Každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	det	2:det	_
+1	Každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	2	det	2:det	_
 2	polotovar	polotovar	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	18	obj	18:obj	_
 3	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	6	case	6:case	LId=před-1
-4	každou	každý	DET	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	6	det	6:det	_
+4	každou	každý	DET	AAFS7----1A----	Case=Ins|Gender=Fem|Number=Sing|PronType=Tot	6	det	6:det	_
 5	další	další	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	úpravou	úprava	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	18	obl	18:obl:před:ins	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
@@ -2113,7 +2113,7 @@
 13	musíte	muset	VERB	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 14	krátce	krátce	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	18	advmod	18:advmod	_
 15	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=na-1
-16	každé	každý	DET	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	17	det	17:det	_
+16	každé	každý	DET	AAFS6----1A----	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	17	det	17:det	_
 17	straně	strana	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	18	obl	18:obl:na:loc	LId=strana-1|LGloss=(v_prostoru)
 18	opéci	opéci	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	13	xcomp	13:xcomp	_
 19	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	21:case	LId=na-1
@@ -3584,7 +3584,7 @@
 25	místo	místo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	26	obj	26:obj	LId=místo-1|LGloss=(fyzické_umístění)
 26	označí	označit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	csubj	21:csubj	_
 27	autor	autor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	26	nsubj	26:nsubj	_
-28	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	27	xcomp	27:xcomp	SpaceAfter=No|LGloss=(samotný)
+28	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	27	xcomp	27:xcomp	SpaceAfter=No|LGloss=(samotný)
 29	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 30	a	a	CCONJ	J^-------------	_	26	cc	26:cc	LId=a-1
 31	to	to	PART	PDNS4----------	_	30	fixed	30:fixed	_
@@ -3729,7 +3729,7 @@
 # text = Ke každému článku je nutno připojit résumé, ruské, francouzské, německé nebo anglické, podle volby autora.
 # orig_file_sentence a20w#211
 1	Ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	3	case	3:case	LId=k-1
-2	každému	každý	DET	AAIS3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	3	det	3:det	_
+2	každému	každý	DET	AAIS3----1A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	3	det	3:det	_
 3	článku	článek	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	6:obl:k:dat	_
 4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 5	nutno	nutný	ADJ	ACNS------A----	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short	0	root	0:root	_
@@ -4276,7 +4276,7 @@
 45	břemeno	břemeno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	46	nsubj	46:nsubj|51:nsubj	_
 46	zůstalo	zůstat	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	26	advcl	26:advcl:aby	_
 47	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	50	case	50:case	LId=v-1
-48	každé	každý	DET	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	50	det	50:det	_
+48	každé	každý	DET	AAFS6----1A----	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	50	det	50:det	_
 49	potřebné	potřebný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	50	amod	50:amod	_
 50	poloze	poloha	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	51	obl	51:obl:v:loc	_
 51	stát	stát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	46	xcomp	46:xcomp	SpaceAfter=No|LId=stát-3|LGloss=(někdo/něco_stojí,_např._na_nohou)
@@ -5337,7 +5337,7 @@
 7	Nerovským	Nerovský	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	5	obl:arg	5:obl:arg:ins	_
 8	stanovila	stanovit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	LGloss=(určit)
 9	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	LId=pro-1
-10	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	11	det	11:det	_
+10	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	11	det	11:det	_
 11	úsek	úsek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	8:obl:pro:acc	_
 12	jednoho	jeden	NUM	ClMS4----------	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	13	nummod	13:nummod	LNumValue=1
 13	pracovníka	pracovník	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	8:obj|16:nsubj|22:nsubj	SpaceAfter=No
@@ -5438,7 +5438,7 @@
 14	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	appos	1:appos|6:appos	_
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	16	expl:pv	16:expl:pv	LGloss=(zvr._zájmeno/částice)
 16	nepodaří	podařit	VERB	VB-S---3P-NA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-17	každému	každý	DET	AAMS3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	16	obl:arg	16:obl:arg:dat	SpaceAfter=No
+17	každému	každý	DET	AAMS3----1A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	16	obl:arg	16:obl:arg:dat	SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	16	punct	16:punct	_
 
 # sent_id = n20w-s25
@@ -7383,7 +7383,7 @@
 10	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	7	obl	7:obl:dat	LGloss=(zvr._zájmeno/částice)
 11	ho	on	PRON	PHZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	7:obj	_
 12	obviněný	obviněný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	nsubj	7:nsubj	LDeriv=obvinit
-13	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	12	xcomp	12:xcomp	SpaceAfter=No|LGloss=(samotný)
+13	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	12	xcomp	12:xcomp	SpaceAfter=No|LGloss=(samotný)
 14	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 15	určí	určit	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 16	obhájce	obhájce	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	15	obj	15:obj	_
@@ -8180,7 +8180,7 @@
 12	hospody	hospoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	obl	7:obl:do:gen	_
 13	U	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	14:case	LId=u-1
 14	Hvězdy	hvězda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	12	nmod	12:nmod:u:gen	_
-15	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	5	xcomp	5:xcomp	SpaceAfter=No|LGloss=(samotný)
+15	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	5	xcomp	5:xcomp	SpaceAfter=No|LGloss=(samotný)
 16	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = n20w-s140
@@ -8211,7 +8211,7 @@
 9	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 10	že	že	SCONJ	J,-------------	_	14	mark	14:mark	_
 11	tohle	tenhle	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
-12	každou	každý	DET	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	13	det	13:det	_
+12	každou	každý	DET	AAFS4----1A----	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	13	det	13:det	_
 13	ženu	žena	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	14	obj	14:obj	_
 14	potěší	potěšit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -8795,7 +8795,7 @@
 1	Dědek	dědek	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	tam	tam	ADV	Db-------------	PronType=Dem	4	advmod	4:advmod	_
-4	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	0	root	0:root	LGloss=(samotný)
+4	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	0	root	0:root	LGloss=(samotný)
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	LId=a-1
 6	stačí	stačit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
 7	ho	on	PRON	PHZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	9	obj	9:obj	_
@@ -10126,7 +10126,7 @@
 2	však	však	CCONJ	J^-------------	_	4	cc	4:cc	_
 3	nejsou	být	AUX	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 4	dány	daný	ADJ	VsTP---XX-AP---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=dát
-5	samy	sám	DET	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Emp	1	xcomp	1:xcomp	LGloss=(samotný)
+5	samy	samý	DET	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Emp|Variant=Short	1	xcomp	1:xcomp	LGloss=(samotný)
 6	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	LId=o-1
 7	sobě	se	PRON	P6-X6----------	Case=Loc|PronType=Prs|Reflex=Yes	4	obl	4:obl:o:loc	SpaceAfter=No|LGloss=(zvr._zájmeno/částice)
 8	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -10149,7 +10149,7 @@
 4	připomenout	připomenout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl:než	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 6	že	že	SCONJ	J,-------------	_	10	mark	10:mark	_
-7	každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	9	det	9:det	_
+7	každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	9	det	9:det	_
 8	sociologický	sociologický	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
 9	výzkum	výzkum	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj	_
 10	vychází	vycházet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	_
@@ -10589,7 +10589,7 @@
 # sent_id = s20w-s50
 # text = Každá, i ta sebekonkrétnější výzkumná činnost stejně jako každá, i zcela dílčí teorie je tak či onak zakotvena v určitých obecných axiomatických předpokladech.
 # orig_file_sentence s20w#50
-1	Každá	každý	DET	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	7	det	7:det	SpaceAfter=No
+1	Každá	každý	DET	AAFS1----1A----	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	7:det	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
 3	i	i	CCONJ	J^-------------	_	4	advmod:emph	4:advmod:emph	LId=i-1
 4	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	1	conj	1:conj|7:det	_
@@ -10598,7 +10598,7 @@
 7	činnost	činnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	20	nsubj	20:nsubj	LDeriv=činný
 8	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	20	advmod	20:advmod	LDeriv=stejný
 9	jako	jako	SCONJ	J,-------------	_	15	mark	15:mark	_
-10	každá	každý	DET	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	15	det	15:det	SpaceAfter=No
+10	každá	každý	DET	AAFS1----1A----	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	15	det	15:det	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 12	i	i	CCONJ	J^-------------	_	14	advmod:emph	14:advmod:emph	LId=i-1
 13	zcela	zcela	ADV	Db-------------	_	14	advmod	14:advmod	_
@@ -10638,7 +10638,7 @@
 # sent_id = s20w-s52
 # text = Každý z nás vkládáme do sociologické práce své vyznání a přesvědčení.
 # orig_file_sentence s20w#52
-1	Každý	každý	DET	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	4	nsubj	4:nsubj	_
+1	Každý	každý	DET	AAMS1----1A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	nsubj	4:nsubj	_
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	LId=z-1
 3	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	nmod	1:nmod:z:gen	_
 4	vkládáme	vkládat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -11077,7 +11077,7 @@
 12	malé	malý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	_
 13	kousky	kousek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	11:obj	_
 14	sebe	se	PRON	P6-X2----------	Case=Gen|PronType=Prs|Reflex=Yes	13	nmod	13:nmod:gen	LGloss=(zvr._zájmeno/částice)
-15	samých	samý	PRON	PLXP2----------	Case=Gen|Number=Plur|PronType=Tot	5	xcomp	5:xcomp	_
+15	samých	samý	DET	PLXP2----------	Case=Gen|Number=Plur|PronType=Emp	5	xcomp	5:xcomp	_
 16	proto	proto	ADV	J,-------------	PronType=Dem	11	advmod	11:advmod	SpaceAfter=No|LId=proto-1|LGloss=(proto;_a_proto,_ale_proto,...)
 17	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 18-19	aby	_	_	_	_	_	_	_	_
@@ -11092,10 +11092,10 @@
 26	zábavy	zábava	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	25	nmod	25:nmod:gen	_
 27	zpět	zpět	ADV	Db-------------	_	22	advmod	22:advmod	SpaceAfter=No
 28	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
-29	každou	každý	DET	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	30	det	30:det	_
+29	každou	každý	DET	AAFS4----1A----	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	30	det	30:det	_
 30	noc	noc	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	21	obl	21:obl:acc	_
 31	a	a	CCONJ	J^-------------	_	33	cc	33:cc	LId=a-1
-32	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	33	det	33:det	_
+32	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	33	det	33:det	_
 33	víkend	víkend	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	30	conj	21:obl:acc|30:conj	SpaceAfter=No
 34	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -11252,7 +11252,7 @@
 28	odehrává	odehrávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	24:acl:relcl	LDeriv=odehrát
 29	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	30	case	30:case	LId=v-1
 30	nich	on	PRON	P5XP6--3-------	Case=Loc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	28	obl	28:obl:v:loc	_
-31	samých	samý	PRON	PLXP6----------	Case=Loc|Number=Plur|PronType=Tot	30	xcomp	30:xcomp	_
+31	samých	samý	DET	PLXP6----------	Case=Loc|Number=Plur|PronType=Emp	30	xcomp	30:xcomp	_
 32	jako	jako	SCONJ	J,-------------	_	35	mark	35:mark	_
 33	miniaturních	miniaturní	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	35	amod	35:amod	_
 34	společenských	společenský	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	35	amod	35:amod	_
@@ -11587,7 +11587,7 @@
 21	rozvoj	rozvoj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	19	obj	19:obj	_
 22	marxistické	marxistický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	23	amod	23:amod	_
 23	sociologie	sociologie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	21	nmod	21:nmod:gen	_
-24	samé	samý	PRON	PLFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot	23	xcomp	23:xcomp	SpaceAfter=No
+24	samé	samý	DET	PLFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Emp	23	xcomp	23:xcomp	SpaceAfter=No
 25	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = s20w-s85
@@ -11627,7 +11627,7 @@
 2	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	3	case	3:case	LId=v-1
 3	výrobě	výroba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	4:obl:v:loc	_
 4	vyzkoušíme	vyzkoušet	VERB	VB-P---1P-AA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	31	advcl	31:advcl:zatímco	_
-5	každou	každý	DET	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	7	det	7:det	_
+5	každou	každý	DET	AAFS4----1A----	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	7	det	7:det	_
 6	novou	nový	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	přísadu	přísada	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	4:obj	_
 8	nejprve	nejprve	ADV	Db-------------	_	4	advmod	4:advmod	_
@@ -11681,7 +11681,7 @@
 13	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	14	cop	14:cop	_
 14	specialistou	specialista	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	12	xcomp	12:xcomp	_
 15	téměř	téměř	ADV	Db-------------	_	16	advmod:emph	16:advmod:emph	_
-16	každý	každý	DET	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	12	nsubj	12:nsubj|14:nsubj	SpaceAfter=No
+16	každý	každý	DET	AAMS1----1A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	12	nsubj	12:nsubj|14:nsubj	SpaceAfter=No
 17	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = s20w-s88
@@ -11775,7 +11775,7 @@
 # sent_id = s20w-s91
 # text = Každý z pracovních celků má svou sociologickou problematiku různého stupně obecnosti.
 # orig_file_sentence s20w#91
-1	Každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	5	nsubj	5:nsubj	_
+1	Každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	nsubj	5:nsubj	_
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	LId=z-1
 3	pracovních	pracovní	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
 4	celků	celek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	nmod	1:nmod:z:gen	_
@@ -12096,7 +12096,7 @@
 38	zpochybňován	zpochybňovaný	ADJ	VsYS---XX-AP---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	LDeriv=zpochybňovat
 39	osud	osud	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	38	nsubj:pass	38:nsubj:pass	_
 40	socialismu	socializmus	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	39	nmod	39:nmod:gen	_
-41	samého	samý	PRON	PLZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Tot	40	xcomp	40:xcomp	SpaceAfter=No
+41	samého	samý	DET	PLZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Emp	40	xcomp	40:xcomp	SpaceAfter=No
 42	,	,	PUNCT	Z:-------------	_	43	punct	43:punct	_
 43	osud	osud	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	39	conj	38:nsubj:pass|39:conj	_
 44	člověka	člověk	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	43	nmod	43:nmod:gen	_
@@ -13159,7 +13159,7 @@
 # sent_id = s20w-s145
 # text = Každý ze sociologických směrů je vždy tak či onak spojen s tou či onou ideologií.
 # orig_file_sentence s20w#145
-1	Každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	10	nsubj	10:nsubj	_
+1	Každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	10	nsubj	10:nsubj	_
 2	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	4	case	4:case	LId=z-1
 3	sociologických	sociologický	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
 4	směrů	směr	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	nmod	1:nmod:z:gen	_
