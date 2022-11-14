@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Czech-CAC:
-commit e762a558c329aa13c243bedb019b157d019454bd
-Merge: ba22f61 fc49068
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Czech-CAC:
+commit 4bc033ad3ff6f0e80c1f0715907f57a69de88601
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 13:50:01 2022 +0200
 Size: counted 494383 of 494383 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.4066210408781.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,27 @@ Udapi: found 714 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 494383 words.
 Genres: found 5 out of 17 known.
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-dev.conllu
-*** PASSED ***
+[Line 7407 Sent n10w-s112 Node 36]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [28, 37]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-test.conllu
 *** PASSED ***
 validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 39119 Sent a09w-s251 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 47633 Sent a12w-s131 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 50144 Sent a13w-s21 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 259682 Sent n47w-s19 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [12, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 263177 Sent n47w-s186 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 288267 Sent s01w-s56 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 330622 Sent s11w-s168 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 344563 Sent s15w-s4 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 376834 Sent s23w-s90 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 29]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 19
+*** FAILED *** with 19 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +54,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.985557755828983) = 0.303248540255072
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.841634794309622) * (availability=1) * (validity=1) = 0.841634794309622
-STARS = 4
-UD_Czech-CAC	0.841634794309622	4
+(TOTAL score=0.841634794309622) * (availability=1) * (validity=0.01) = 0.00841634794309622
+STARS = 0
+UD_Czech-CAC	0.00841634794309622	0
