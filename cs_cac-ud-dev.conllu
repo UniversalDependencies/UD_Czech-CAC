@@ -7405,7 +7405,7 @@
 34	obraně	obrana	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	31	conj	28:nmod:na:acc|31:conj	LGloss=(proti_nepříteli)
 35	vlasti	vlast	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	34	nmod	34:nmod:gen	_
 36	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	0:root|26:conj	_
-37	činnost	činnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	36	nsubj	36:nsubj	LDeriv=činný
+37	činnost	činnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	36	dep	36:dep	LDeriv=činný
 38	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	39	advmod	39:advmod|42:advmod	LDeriv=stejný
 39	potřebná	potřebný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	37	amod	37:amod	_
 40	a	a	CCONJ	J^-------------	_	42	cc	42:cc	LId=a-1
