@@ -154,9 +154,9 @@
     <dep name="compound">42</dep>
     <dep name="conj">30646</dep>
     <dep name="cop">8112</dep>
-    <dep name="csubj">2354</dep>
+    <dep name="csubj">2351</dep>
     <dep name="csubj:pass">172</dep>
-    <dep name="dep">2352</dep>
+    <dep name="dep">2372</dep>
     <dep name="det">11260</dep>
     <dep name="det:numgov">367</dep>
     <dep name="det:nummod">190</dep>
@@ -169,8 +169,8 @@
     <dep name="iobj">253</dep>
     <dep name="mark">8654</dep>
     <dep name="nmod">54171</dep>
-    <dep name="nsubj">24030</dep>
-    <dep name="nsubj:pass">3456</dep>
+    <dep name="nsubj">24015</dep>
+    <dep name="nsubj:pass">3454</dep>
     <dep name="nummod">4442</dep>
     <dep name="nummod:gov">1188</dep>
     <dep name="obj">15865</dep>
