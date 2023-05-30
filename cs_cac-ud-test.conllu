@@ -2062,7 +2062,7 @@
 8	*	&cwildcard;	SYM	Xx-------------	Abbr=Yes	7	nmod	7:nmod	_
 9	a	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1
 10	dovařujeme	dovařovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
-11	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Style=Arch	10	obj	10:obj	_
+11	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	obj	10:obj	_
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
 13	připravené	připravený	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	14:amod	LDeriv=připravit
 14	omáčce	omáčka	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	10	obl	10:obl:v:loc	SpaceAfter=No
@@ -4190,7 +4190,7 @@
 9	prohnout	prohnout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 11	musí	muset	VERB	VB-P---3P-AA--1	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-12	býti	být	AUX	Vf--------A---2	Polarity=Pos|Style=Arch|VerbForm=Inf	13	aux:pass	13:aux:pass	_
+12	býti	být	AUX	Vf--------A---2	Polarity=Pos|VerbForm=Inf	13	aux:pass	13:aux:pass	_
 13	spojeny	spojený	ADJ	VsTP---XX-AP---	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	11	ccomp	11:ccomp	LDeriv=spojit
 14	dvěma	dva	NUM	ClXP7----------	Case=Ins|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	15	nummod	15:nummod	LNumValue=2
 15	šroubky	šroubek	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	13	obl	13:obl:ins	SpaceAfter=No
@@ -4441,7 +4441,7 @@
 8	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	LId=podle-2
 9	vlastních	vlastní	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	10:amod	LId=vlastní-1|LGloss=(příslušný_k_něčemu)
 10	námětů	námět	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	conj	4:nmod:podle:gen|6:conj	_
-11	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Style=Arch	13	obj	13:obj|15:obj	_
+11	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obj	13:obj|15:obj	_
 12	tak	tak	ADV	Db-------------	PronType=Dem	13	advmod	13:advmod|15:advmod	LId=tak-3
 13	zaujmou	zaujmout	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LGloss=(upoutat_pozornost)
 14	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1
@@ -4480,7 +4480,7 @@
 3	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 4	že	že	SCONJ	J,-------------	_	6	mark	6:mark	_
 5	budete	být	AUX	VB-P---2F-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
-6	žehliti	žehlit	VERB	Vf--------A---2	Aspect=Imp|Polarity=Pos|Style=Arch|VerbForm=Inf	1	csubj	1:csubj	_
+6	žehliti	žehlit	VERB	Vf--------A---2	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	1:csubj	_
 7	naší	můj	DET	PSFS7-P1-------	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	8:det	LGloss=(přivlast.)
 8	žehličkou	žehlička	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	6	obl	6:obl:ins	LDeriv=žehlič
 9	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	11	case	11:case	LId=s-1
@@ -4776,7 +4776,7 @@
 7	hmoty	hmota	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	obl:arg	4:obl:arg:z:gen	_
 8	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1
 9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
-10	dosti	dost	ADV	Dg-------1A---3	Degree=Pos|Polarity=Pos|Style=Arch	11	advmod	11:advmod	_
+10	dosti	dost	ADV	Dg-------1A---3	Degree=Pos|Polarity=Pos	11	advmod	11:advmod	_
 11	křehké	křehký	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	conj	0:root|4:conj	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 

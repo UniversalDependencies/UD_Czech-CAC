@@ -33,7 +33,7 @@
     <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="102">
+  <feats unique="101">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -119,7 +119,6 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1596</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, přičemž, jimiž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">2205</feat><!-- všech, všechny, vždy, každý, všechno, každé, všichni, všem, každého, každá -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">10462</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
-    <feat name="Style" value="Arch" upos="ADV,AUX,PRON,PROPN,VERB">252</feat><!-- jej, býti, dosti, dřív, jest, nejdřív, kdož, tentokráte, dáti, míti -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PROPN,VERB">100</feat><!-- loni, pracech, mejkap, Žídkova, elpíčko, jo, pivčo, pásák, Žídkových, Drahušce -->
     <feat name="Style" value="Expr" upos="ADJ,NOUN,PROPN">35</feat><!-- ramínko, vlákénka, znaménka, polínka, prkének, prkénka, vlákének, znaménkem, Zuzanka, jezírku -->
     <feat name="Style" value="Rare" upos="ADJ,NOUN,VERB">43</feat><!-- folklorismu, folklorismus, gnoseologických, gnoseologickou, gnoseologické, gnoseologického, styrén, vládce, vládcem, dvoukolka -->

@@ -5855,7 +5855,7 @@
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=v-1
 9	Okrouhlici	Okrouhlice	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	10	obl	10:obl:v:loc	_
 10	chtějí	chtít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	0:root|6:conj	_
-11	tentokráte	tentokrát	ADV	Db------------2	PronType=Dem|Style=Arch	10	advmod	10:advmod	_
+11	tentokráte	tentokrát	ADV	Db------------2	PronType=Dem	10	advmod	10:advmod	_
 12	jen	jen	PART	TT-------------	_	13	advmod:emph	13:advmod:emph	LId=jen-1|LGloss=(pouze)
 13	osm	osm	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	14	nummod:gov	14:nummod:gov	LNumValue=8
 14	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	10	obj	10:obj	SpaceAfter=No
@@ -8418,7 +8418,7 @@
 4	ní	on	PRON	P5FS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	1	obl:arg	1:obl:arg:k:dat	_
 5	všichni	všechno	PRON	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	1	nsubj	1:nsubj|24:nsubj|35:nsubj:xsubj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
-7	kdož	kdo	PRON	PKM-1---------2	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel|Style=Arch	24	nsubj	5:ref	_
+7	kdož	kdo	PRON	PKM-1---------2	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	24	nsubj	5:ref	_
 8	kraj	kraj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	obj	10:obj	_
 9	autorův	autorův	ADJ	AUIS4M---------	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Poss=Yes	8	amod	8:amod	LDeriv=autor
 10	milují	milovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl	24:acl	_
@@ -8547,7 +8547,7 @@
 14	hezkou	hezký	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	15:amod	_
 15	pohodou	pohoda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	12	obl	12:obl:ins	_
 16	i	i	CCONJ	J^-------------	_	18	cc	18:cc	LId=i-1
-17	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Style=Arch	18	obj	18:obj	_
+17	jej	on	PRON	PPZS4--3------2	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	18	obj	18:obj	_
 18	završit	završit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	conj	11:xcomp|12:conj	_
 19	klidným	klidný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	_
 20	zamyšlením	zamyšlení	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	18	obl	18:obl:ins	SpaceAfter=No|LDeriv=zamyslet
