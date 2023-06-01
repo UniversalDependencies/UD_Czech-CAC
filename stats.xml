@@ -33,7 +33,7 @@
     <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="101">
+  <feats unique="99">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -100,8 +100,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">34</feat><!-- dvojí, obojí, dvojím, trojí, dvojího, trojím, dvojímu, oboje, obojího, obojím -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV,DET">871</feat><!-- první, prvním, třetí, prvních, poprvé, prvního, šedesátých, třetího, třicátých, dvacátých -->
     <feat name="NumType" value="Sets" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
-    <feat name="NumValue" value="1" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">1962</feat><!-- dvou, jeden, dvě, tři, dva, obou, jedné, jednoho, jedním, dvěma -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">6788</feat><!-- jsme, jsem, nás, nám, naší, bychom, naše, můžeme, našeho, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1068</feat><!-- vám, vás, jste, byste, viz, můžete, máte, vaše, vaší, víte -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">33121</feat><!-- je, jsou, by, jejich, jeho, má, bude, není, mají, musí -->
