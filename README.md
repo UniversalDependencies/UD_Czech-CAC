@@ -76,6 +76,7 @@ as well as the team responsible for the corpus' revival in 2008.
   * Removed Style=Arch from all Czech UD treebanks.
   * Removed NumValue from all Czech UD treebanks.
   * Pseudo-existential _být_ with oblique/adverbial modifiers changed to copula.
+  * Fixed fixed expressions with gaps.
 * 2023-05-15 v2.12
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.
