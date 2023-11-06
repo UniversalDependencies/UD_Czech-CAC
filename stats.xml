@@ -33,7 +33,7 @@
     <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="102">
+  <feats unique="99">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -100,8 +100,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">34</feat><!-- dvojí, obojí, dvojím, trojí, dvojího, trojím, dvojímu, oboje, obojího, obojím -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV,DET">871</feat><!-- první, prvním, třetí, prvních, poprvé, prvního, šedesátých, třetího, třicátých, dvacátých -->
     <feat name="NumType" value="Sets" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
-    <feat name="NumValue" value="1" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">1962</feat><!-- dvou, jeden, dvě, tři, dva, obou, jedné, jednoho, jedním, dvěma -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">6788</feat><!-- jsme, jsem, nás, nám, naší, bychom, naše, můžeme, našeho, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1068</feat><!-- vám, vás, jste, byste, viz, můžete, máte, vaše, vaší, víte -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">33121</feat><!-- je, jsou, by, jejich, jeho, má, bude, není, mají, musí -->
@@ -119,7 +117,6 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1596</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, přičemž, jimiž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">2205</feat><!-- všech, všechny, vždy, každý, všechno, každé, všichni, všem, každého, každá -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">10462</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
-    <feat name="Style" value="Arch" upos="ADV,AUX,PRON,PROPN,VERB">252</feat><!-- jej, býti, dosti, dřív, jest, nejdřív, kdož, tentokráte, dáti, míti -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PROPN,VERB">100</feat><!-- loni, pracech, mejkap, Žídkova, elpíčko, jo, pivčo, pásák, Žídkových, Drahušce -->
     <feat name="Style" value="Expr" upos="ADJ,NOUN,PROPN">35</feat><!-- ramínko, vlákénka, znaménka, polínka, prkének, prkénka, vlákének, znaménkem, Zuzanka, jezírku -->
     <feat name="Style" value="Rare" upos="ADJ,NOUN,VERB">43</feat><!-- folklorismu, folklorismus, gnoseologických, gnoseologickou, gnoseologické, gnoseologického, styrén, vládce, vládcem, dvoukolka -->
@@ -142,18 +139,18 @@
     <dep name="acl">1716</dep>
     <dep name="acl:relcl">5188</dep>
     <dep name="advcl">3592</dep>
-    <dep name="advmod">21196</dep>
-    <dep name="advmod:emph">7178</dep>
+    <dep name="advmod">20678</dep>
+    <dep name="advmod:emph">7176</dep>
     <dep name="amod">61523</dep>
     <dep name="appos">2158</dep>
     <dep name="aux">3623</dep>
     <dep name="aux:pass">2523</dep>
-    <dep name="case">48223</dep>
-    <dep name="cc">23876</dep>
+    <dep name="case">48221</dep>
+    <dep name="cc">23878</dep>
     <dep name="ccomp">1911</dep>
     <dep name="compound">42</dep>
     <dep name="conj">30646</dep>
-    <dep name="cop">8112</dep>
+    <dep name="cop">9569</dep>
     <dep name="csubj">2351</dep>
     <dep name="csubj:pass">172</dep>
     <dep name="dep">2372</dep>
@@ -166,16 +163,16 @@
     <dep name="fixed">2658</dep>
     <dep name="flat">1527</dep>
     <dep name="flat:foreign">133</dep>
-    <dep name="iobj">253</dep>
+    <dep name="iobj">95</dep>
     <dep name="mark">8654</dep>
-    <dep name="nmod">54171</dep>
+    <dep name="nmod">54170</dep>
     <dep name="nsubj">24015</dep>
     <dep name="nsubj:pass">3454</dep>
     <dep name="nummod">4442</dep>
     <dep name="nummod:gov">1188</dep>
-    <dep name="obj">15865</dep>
-    <dep name="obl">27653</dep>
-    <dep name="obl:arg">10919</dep>
+    <dep name="obj">16023</dep>
+    <dep name="obl">26746</dep>
+    <dep name="obl:arg">10890</dep>
     <dep name="orphan">1821</dep>
     <dep name="parataxis">683</dep>
     <dep name="punct">60208</dep>
