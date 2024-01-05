@@ -72,6 +72,8 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
 * 2023-11-15 v2.13
   * Removed Style=Arch from all Czech UD treebanks.
   * Removed NumValue from all Czech UD treebanks.
