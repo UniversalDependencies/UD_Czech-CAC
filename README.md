@@ -134,7 +134,7 @@ as well as the team responsible for the corpus' revival in 2008.
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: news nonfiction legal reviews medical
+Genre: news nonfiction legal reviews academic
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
