@@ -40,8 +40,8 @@
     <feat name="AdpType" value="Voc" upos="ADP">3832</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19843</feat><!-- kteří, pracovníků, lidí, člověka, člověk, lidé, vedoucí, pracovník, byli, každý -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78412</feat><!-- byly, které, co, roce, roku, úkolů, výsledky, jazyka, procesu, úkoly -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">20263</feat><!-- patří, tvoří, znamená, pracujících, odpovídá, stává, mění, představuje, dochází, rozhodující -->
-    <feat name="Aspect" value="Perf" upos="ADJ,AUX,NOUN,VERB">9398</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">36268</feat><!-- je, jsou, by, bylo, bude, byl, být, byla, není, jsme -->
+    <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">9397</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60370</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
@@ -89,7 +89,7 @@
     <feat name="Number" value="Dual" upos="ADJ,DET,NOUN,NUM">39</feat><!-- očima, rukama, mýma, nohama, dvěma, holýma, jinýma, našima, oběma, otevřenýma -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">91010</feat><!-- jsou, které, jsme, byly, mají, těchto, všech, let, tyto, všechny -->
     <feat name="Number" value="Plur,Sing" upos="ADJ,AUX,VERB">3784</feat><!-- byla, měla, mohla, nebyla, stala, začala, věnována, dána, provedena, určena -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">192198</feat><!-- je, to, má, který, bylo, bude, byl, práce, není, která -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">192197</feat><!-- je, to, má, který, bylo, bude, byl, práce, není, která -->
     <feat name="Number[psor]" value="Plur" upos="DET">2262</feat><!-- jejich, naší, naše, našeho, našich, jejichž, našem, naši, náš, naším -->
     <feat name="Number[psor]" value="Sing" upos="DET">1669</feat><!-- jeho, její, jehož, jejíž, jejím, jejího, jejích, mého, jejímž, jejímu -->
     <feat name="NumForm" value="Digit" upos="NUM">4836</feat><!-- # -->
@@ -102,7 +102,7 @@
     <feat name="NumType" value="Sets" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">6788</feat><!-- jsme, jsem, nás, nám, naší, bychom, naše, můžeme, našeho, našich -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1068</feat><!-- vám, vás, jste, byste, viz, můžete, máte, vaše, vaší, víte -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">33121</feat><!-- je, jsou, by, jejich, jeho, má, bude, není, mají, musí -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">31408</feat><!-- je, jsou, jejich, jeho, má, bude, není, mají, musí, může -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">5605</feat><!-- není, nejsou, nelze, nemůže, nebylo, nemá, neustále, nesmí, nebyl, nejde -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">130521</feat><!-- je, jsou, má, bylo, bude, byl, být, byla, jsme, tedy -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">6020</feat><!-- jejich, jeho, své, její, naší, svou, naše, našeho, svých, našich -->
