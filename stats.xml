@@ -33,7 +33,7 @@
     <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="99">
+  <feats unique="98">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44528</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -51,7 +51,7 @@
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">107</feat><!-- soudruhu, vážený, soudruzi, vážení, řediteli, náměstku, soudružko, soudružky, vážená, vážené -->
     <feat name="ConjType" value="Oper" upos="CCONJ">2</feat><!-- krát, minus -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">3146</feat><!-- více, dále, větší, méně, později, vyšší, dříve, víc, spíše, menší -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">71345</feat><!-- tedy, další, pracovní, jednotlivých, základní, nové, často, stále, socialistické, různých -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">76541</feat><!-- tedy, další, pracovní, jednotlivých, základní, nové, možno, často, stále, socialistické -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">1482</feat><!-- největší, nejlepší, nejméně, nejlépe, nejvíce, nejdříve, nejčastěji, nejvyšší, nejpozději, nejdůležitější -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">525</feat><!-- de, luxe, in, la, online, sui, vitro, Combi, a, generis -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">93877</feat><!-- práce, které, která, této, práci, oblasti, době, společnosti, své, naší -->
@@ -96,8 +96,7 @@
     <feat name="NumForm" value="Word" upos="NUM">2411</feat><!-- dvou, jeden, dvě, tři, dva, obou, jedné, jednoho, jedním, dvěma -->
     <feat name="NumType" value="Card" upos="DET,NUM">7898</feat><!-- #, dvou, jeden, několik, mnoho, dvě, tři, dva, obou, jedné -->
     <feat name="NumType" value="Frac" upos="NUM">60</feat><!-- třetinu, třetina, třetiny, čtvrtiny, dvanáctinu, třetinou, třetině, šestině, desetin, desetinu -->
-    <feat name="NumType" value="Mult" upos="ADV">119</feat><!-- několikrát, dvakrát, nejednou, mnohokrát, třikrát, kolikrát, desetkrát, stokrát, čtyřikrát, dvanáctkrát -->
-    <feat name="NumType" value="Mult,Sets" upos="ADJ">34</feat><!-- dvojí, obojí, dvojím, trojí, dvojího, trojím, dvojímu, oboje, obojího, obojím -->
+    <feat name="NumType" value="Mult" upos="ADJ,ADV">153</feat><!-- několikrát, dvakrát, dvojí, nejednou, mnohokrát, třikrát, kolikrát, obojí, dvojím, desetkrát -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV,DET">871</feat><!-- první, prvním, třetí, prvních, poprvé, prvního, šedesátých, třetího, třicátých, dvacátých -->
     <feat name="NumType" value="Sets" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">6788</feat><!-- jsme, jsem, nás, nám, naší, bychom, naše, můžeme, našeho, našich -->
