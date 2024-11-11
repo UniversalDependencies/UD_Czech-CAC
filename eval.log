@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Czech-CAC:
-commit d2ef0d2740d2ce0b995ed3e8bdb6506d8ec83ec1
-Merge: 9b6acf9 7b7d83d
+commit eec761cafbf87483f410415db8eaa28015ef004c
+Merge: d3a738c 906ed2d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 494383 of 494383 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.4066210408781.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 386143 out of 494383 total words have one or more features.
+Features: 386135 out of 494383 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -25,36 +25,45 @@ Udapi: found 695 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 494383 words.
 Genres: found 5 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-dev.conllu
+[Line 73 Sent a10w-s3 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:tomu:det --> 18:přispěli:acl)
+[Line 303 Sent a10w-s9 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:to:det --> 33:uplatňovat:acl)
+[Line 343 Sent a10w-s11 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:každého:det --> 12:nás:nmod)
+[Line 7437 Sent n10w-s113 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:to:det --> 18:příkladem:acl)
+[Line 7935 Sent n10w-s127 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:tomu:det --> 36:dostáli:acl)
 [Line 10364 Sent s10w-s86 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 10363 Sent s10w-s86 Node 28]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13127 Sent s10w-s230 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13126 Sent s10w-s230 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13128 Sent s10w-s230 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 13126 Sent s10w-s230 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 6
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-test.conllu
+[Line 8009 Sent n20w-s128 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:tomu:det --> 46:splněny:acl)
+[Line 10028 Sent s20w-s30 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:těch:det --> 30:podřizují:acl)
+[Line 10740 Sent s20w-s56 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:těch:det --> 6:povyšují:acl)
+[Line 11333 Sent s20w-s76 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tom:det --> 10:měl:acl)
 [Line 12109 Sent s20w-s102 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12108 Sent s20w-s102 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12110 Sent s20w-s102 Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12108 Sent s20w-s102 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12111 Sent s20w-s102 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 12108 Sent s20w-s102 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 6
+Warnings: 10
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-CAC/cs_cac-ud-train.conllu
-[Line 64091 Sent n01w-s29 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 64090 Sent n01w-s29 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 75310 Sent n03w-s118 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 75309 Sent n03w-s118 Node 17]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 85315 Sent n05w-s176 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 85314 Sent n05w-s176 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 85316 Sent n05w-s176 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 85315 Sent n05w-s176 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 115290 Sent n13w-s152 Node 38]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 115289 Sent n13w-s152 Node 37]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 398 Sent a01w-s14 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:tom:det --> 16:povinen:acl)
+[Line 8961 Sent a03w-s19 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:tom:det --> 20:započtena:amod)
+[Line 15232 Sent a04w-s89 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:tom:det --> 25:odpovídá:acl)
+[Line 16794 Sent a04w-s142 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:těch:det --> 26:porušili:acl)
+[Line 24236 Sent a06w-s117 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:ty:det --> 22:uvedeny:amod)
+[Line 34705 Sent a08w-s336 Node 35]: [L3 Warning leaf-det] 'det' not expected to have children (35:tom:det --> 39:pomůžete:acl)
+[Line 36566 Sent a09w-s91 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:tom:det --> 14:provádějí:acl)
+[Line 45406 Sent a12w-s29 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:tom:det --> 30:odevzdal:acl)
+[Line 53195 Sent a13w-s189 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:tom:det --> 14:nestačí:acl)
+[Line 60769 Sent a15w-s80 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:to:det --> 17:zahrnul:acl)
 ...suppressing further errors regarding Warning
-Warnings: 254
+Warnings: 409
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
