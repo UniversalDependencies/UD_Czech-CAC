@@ -72,6 +72,11 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
+  * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
+  * Short forms of adjectives now have Degree=Pos (instead of no Degree).
+  * Disambiguated NumType=Mult,Sets.
 * 2024-05-15 v2.14
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
@@ -134,7 +139,7 @@ as well as the team responsible for the corpus' revival in 2008.
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: news nonfiction legal reviews medical
+Genre: news nonfiction legal reviews academic
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
