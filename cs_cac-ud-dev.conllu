@@ -7073,15 +7073,15 @@
 6	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
 7	stálou	stálý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	životnost	životnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	5	conj	4:obj|5:conj	LGloss=(př._rod_životný)|LDeriv=životný
-9	ideálů	ideál	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen|8:nmod:gen	_
+9	ideálů	ideál	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen|8:nmod:gen|17:obl:na:loc	_
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1
-11	zásad	zásada	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	conj	5:nmod:gen|8:nmod:gen|9:conj	SpaceAfter=No
+11	zásad	zásada	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	conj	5:nmod:gen|8:nmod:gen|9:conj|17:obl:na:loc	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 13	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=na-1
-14	nichž	jenž	PRON	P9XP6----------	Case=Loc|Number=Plur|PrepCase=Pre|PronType=Rel	17	obl	17:obl:na:loc	LGloss=(který_[ve_vedl.větě])
+14	nichž	jenž	PRON	P9XP6----------	Case=Loc|Number=Plur|PrepCase=Pre|PronType=Rel	17	obl	9:ref|11:ref	LGloss=(který_[ve_vedl.větě])
 15	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	17:aux:pass	_
 16	Svaz	svaz	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	17:nsubj:pass	_
-17	budován	budovaný	ADJ	VsYS---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	amod	9:amod|11:amod	SpaceAfter=No|LDeriv=budovat
+17	budován	budovaný	ADJ	VsYS---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	9:acl:relcl|11:acl:relcl	SpaceAfter=No|LDeriv=budovat
 18	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = n10w-s104

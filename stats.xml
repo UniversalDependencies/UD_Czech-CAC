@@ -135,12 +135,12 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">1716</dep>
-    <dep name="acl:relcl">5188</dep>
+    <dep name="acl">1814</dep>
+    <dep name="acl:relcl">5556</dep>
     <dep name="advcl">3592</dep>
     <dep name="advmod">20732</dep>
     <dep name="advmod:emph">7176</dep>
-    <dep name="amod">61523</dep>
+    <dep name="amod">61057</dep>
     <dep name="appos">2158</dep>
     <dep name="aux">3623</dep>
     <dep name="aux:pass">2523</dep>
