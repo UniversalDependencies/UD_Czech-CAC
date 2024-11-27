@@ -8071,8 +8071,8 @@
 14	ovšem	ovšem	PART	TT-------------	_	13	advmod	13:advmod	LId=ovšem-2|LGloss=(ano,_samozřejmě)
 15	své	svůj	DET	P8YP4---------1	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	16:det	LId=svůj-1
 16	kořeny	kořen	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	13:obj	_
-17	až	až	PART	TT-------------	ExtPos=ADP	19	case	19:case	LId=až-3|LGloss=(až_k_...,_až_dost)
-18	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	fixed	17:fixed	LId=u-1
+17	až	až	PART	TT-------------	_	19	advmod:emph	19:advmod:emph	LId=až-3|LGloss=(až_k_...,_až_dost)
+18	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	19	case	19:case	LId=u-1
 19	Tyla	Tyl	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	13	obl	13:obl:u:gen	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 21	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	22	case	22:case	LId=na-1
