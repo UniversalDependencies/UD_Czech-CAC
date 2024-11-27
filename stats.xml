@@ -37,17 +37,17 @@
   <feats unique="103">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
-    <feat name="AdpType" value="Prep" upos="ADP">44525</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
-    <feat name="AdpType" value="Voc" upos="ADP">3830</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
+    <feat name="AdpType" value="Prep" upos="ADP">44523</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
+    <feat name="AdpType" value="Voc" upos="ADP">3832</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19828</feat><!-- kteří, pracovníků, lidí, člověka, člověk, lidé, vedoucí, pracovník, byli, každý -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78425</feat><!-- byly, které, co, roce, roku, úkolů, výsledky, jazyka, procesu, úkoly -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">36270</feat><!-- je, jsou, by, bylo, bude, byl, být, byla, není, jsme -->
     <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">9397</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60339</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60338</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">26604</feat><!-- s, se, mezi, tím, před, pod, nad, za, způsobem, svým -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">48806</feat><!-- v, na, ve, o, při, po, roce, tom, době, tomto -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">48807</feat><!-- v, na, ve, o, při, po, roce, tom, době, tomto -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">58393</feat><!-- to, které, která, který, kteří, tato, tyto, práce, tento, jež -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">107</feat><!-- soudruhu, vážený, soudruzi, vážení, řediteli, náměstku, soudružko, soudružky, vážená, vážené -->
     <feat name="ConjType" value="Oper" upos="CCONJ">2</feat><!-- krát, minus -->
@@ -55,7 +55,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">76535</feat><!-- tedy, další, pracovní, jednotlivých, základní, nové, možno, často, stále, socialistické -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">1482</feat><!-- největší, nejlepší, nejméně, nejlépe, nejvíce, nejdříve, nejčastěji, nejvyšší, nejpozději, nejdůležitější -->
     <feat name="ExtPos" value="ADJ" upos="DET">2</feat><!-- Ty, to -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,X">1584</feat><!-- v, na, z, ve, vzhledem, spolu, s, bez, za, společně -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">1574</feat><!-- v, na, z, ve, vzhledem, spolu, s, bez, za, společně -->
     <feat name="ExtPos" value="ADV" upos="ADV,NOUN,PART,VERB,X">71</feat><!-- přece, více, co, a, nejen, rok, chtíc, de, in, stůj -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">277</feat><!-- a, to -->
     <feat name="ExtPos" value="SCONJ" upos="CCONJ">177</feat><!-- i -->
@@ -145,7 +145,7 @@
     <dep name="acl:relcl">5556</dep>
     <dep name="advcl">3605</dep>
     <dep name="advmod">20778</dep>
-    <dep name="advmod:emph">7295</dep>
+    <dep name="advmod:emph">7304</dep>
     <dep name="amod">60722</dep>
     <dep name="appos">2157</dep>
     <dep name="aux">3623</dep>
@@ -165,7 +165,7 @@
     <dep name="discourse">104</dep>
     <dep name="expl:pass">2093</dep>
     <dep name="expl:pv">6066</dep>
-    <dep name="fixed">2541</dep>
+    <dep name="fixed">2532</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
     <dep name="mark">8684</dep>
