@@ -150,7 +150,7 @@
     <dep name="appos">2157</dep>
     <dep name="aux">3623</dep>
     <dep name="aux:pass">2523</dep>
-    <dep name="case">48219</dep>
+    <dep name="case">48218</dep>
     <dep name="cc">23805</dep>
     <dep name="ccomp">1911</dep>
     <dep name="compound">42</dep>
@@ -168,7 +168,7 @@
     <dep name="fixed">2506</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
-    <dep name="mark">8688</dep>
+    <dep name="mark">8689</dep>
     <dep name="nmod">54672</dep>
     <dep name="nsubj">24015</dep>
     <dep name="nsubj:pass">3454</dep>
