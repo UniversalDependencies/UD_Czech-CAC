@@ -175,11 +175,11 @@
     <dep name="nummod">4425</dep>
     <dep name="nummod:gov">1188</dep>
     <dep name="obj">16022</dep>
-    <dep name="obl">26699</dep>
+    <dep name="obl">26698</dep>
     <dep name="obl:arg">10889</dep>
     <dep name="orphan">1171</dep>
     <dep name="parataxis">684</dep>
-    <dep name="punct">60207</dep>
+    <dep name="punct">60208</dep>
     <dep name="root">24709</dep>
     <dep name="vocative">58</dep>
     <dep name="xcomp">5490</dep>
