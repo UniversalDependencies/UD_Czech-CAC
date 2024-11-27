@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">74220</tag><!-- velký, nový, další, jiný, pracovní, celý, různý, základní, socialistický, společenský -->
     <tag name="ADP">48466</tag><!-- v, na, s, z, k, o, pro, do, za, při -->
-    <tag name="ADV">28090</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
+    <tag name="ADV">28089</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
     <tag name="AUX">16120</tag><!-- být, bývat -->
-    <tag name="CCONJ">24218</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
+    <tag name="CCONJ">24219</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
     <tag name="DET">19811</tag><!-- ten, který, tento, jeho, svůj, můj, některý, každý, takový, samý -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
     <tag name="NOUN">136182</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
@@ -52,10 +52,10 @@
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">107</feat><!-- soudruhu, vážený, soudruzi, vážení, řediteli, náměstku, soudružko, soudružky, vážená, vážené -->
     <feat name="ConjType" value="Oper" upos="CCONJ">2</feat><!-- krát, minus -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">3145</feat><!-- více, dále, větší, méně, později, vyšší, dříve, víc, spíše, menší -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">76533</feat><!-- tedy, další, pracovní, jednotlivých, základní, nové, možno, často, stále, socialistické -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">76532</feat><!-- tedy, další, pracovní, jednotlivých, základní, nové, možno, často, stále, socialistické -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">1482</feat><!-- největší, nejlepší, nejméně, nejlépe, nejvíce, nejdříve, nejčastěji, nejvyšší, nejpozději, nejdůležitější -->
     <feat name="ExtPos" value="ADJ" upos="DET">2</feat><!-- Ty, to -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">1574</feat><!-- v, na, z, ve, vzhledem, spolu, s, bez, za, společně -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">1575</feat><!-- v, na, z, ve, vzhledem, spolu, s, bez, za, společně -->
     <feat name="ExtPos" value="ADV" upos="ADV,NOUN,PART,VERB,X">72</feat><!-- přece, více, co, a, nejen, rok, chtíc, de, in, stejně -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">277</feat><!-- a, to -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">182</feat><!-- i, zatím, zda -->
@@ -109,7 +109,7 @@
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1068</feat><!-- vám, vás, jste, byste, viz, můžete, máte, vaše, vaší, víte -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">31408</feat><!-- je, jsou, jejich, jeho, má, bude, není, mají, musí, může -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">5605</feat><!-- není, nejsou, nelze, nemůže, nebylo, nemá, neustále, nesmí, nebyl, nejde -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">130512</feat><!-- je, jsou, má, bylo, bude, byl, být, byla, jsme, tedy -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">130511</feat><!-- je, jsou, má, bylo, bude, byl, být, byla, jsme, tedy -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">6020</feat><!-- jejich, jeho, své, její, naší, svou, naše, našeho, svých, našich -->
     <feat name="PrepCase" value="Npr" upos="PRON">1424</feat><!-- je, jež, ji, jim, jej, jich, jí, jimiž, jimi, jeho -->
     <feat name="PrepCase" value="Pre" upos="PRON">1433</feat><!-- nich, nichž, níž, němž, ní, ně, něm, nimi, něho, ním -->
@@ -150,8 +150,8 @@
     <dep name="appos">2157</dep>
     <dep name="aux">3623</dep>
     <dep name="aux:pass">2523</dep>
-    <dep name="case">48218</dep>
-    <dep name="cc">23803</dep>
+    <dep name="case">48219</dep>
+    <dep name="cc">23805</dep>
     <dep name="ccomp">1911</dep>
     <dep name="compound">42</dep>
     <dep name="conj">31294</dep>
@@ -165,10 +165,10 @@
     <dep name="discourse">104</dep>
     <dep name="expl:pass">2093</dep>
     <dep name="expl:pv">6066</dep>
-    <dep name="fixed">2508</dep>
+    <dep name="fixed">2506</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
-    <dep name="mark">8689</dep>
+    <dep name="mark">8688</dep>
     <dep name="nmod">54672</dep>
     <dep name="nsubj">24015</dep>
     <dep name="nsubj:pass">3454</dep>
