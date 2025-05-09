@@ -72,6 +72,13 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2025-05-15 v2.16
+  * Adjectives heading clauses are acl(:relcl) rather than amod.
+  * Fixed multiword expressions need the ExtPos feature.
+  * Fixed: demonstratives with clauses: det --> nmod.
+  * Fixed: genitive postmodifiers should be nmod (not amod, nummod, det).
+  * More generally, non-agreeing postponed determiners are now mostly nmod.
+  * No longer distinguishing flat:foreign from flat.
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
