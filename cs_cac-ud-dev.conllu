@@ -11288,7 +11288,7 @@
 22	opatrně	opatrně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	29	advmod	29:advmod	SpaceAfter=No|LDeriv=opatrný
 23	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 24	ale	ale	CCONJ	J^-------------	_	26	cc	26:cc	_
-25	zato	zato	ADV	J,-------------	PronType=Rel	26	cc	26:cc	_
+25	zato	zato	SCONJ	J,-------------	_	26	cc	26:cc	_
 26	vytrvale	vytrvale	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	22	conj	22:conj|29:advmod	LDeriv=vytrvalý
 27	a	a	CCONJ	J^-------------	_	28	cc	28:cc	LId=a-1
 28	pravidelně	pravidelně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	26	conj	26:conj|29:advmod	LDeriv=pravidelný

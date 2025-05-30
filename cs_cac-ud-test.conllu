@@ -1951,7 +1951,7 @@
 # sent_id = a20w-s124
 # text = Zato knoflíky z umělé perleti je třeba před čistěním a žehlením z oděvu odstranit.
 # orig_file_sentence a20w#124
-1	Zato	zato	ADV	J,-------------	PronType=Rel	7	cc	7:cc	_
+1	Zato	zato	SCONJ	J,-------------	_	7	cc	7:cc	_
 2	knoflíky	knoflík	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	14:obj	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	LId=z-1
 4	umělé	umělý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_

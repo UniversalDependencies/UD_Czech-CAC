@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">74220</tag><!-- velký, nový, další, jiný, pracovní, celý, různý, základní, socialistický, společenský -->
     <tag name="ADP">48466</tag><!-- v, na, s, z, k, o, pro, do, za, při -->
-    <tag name="ADV">28094</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
+    <tag name="ADV">28072</tag><!-- také, tak, jak, proto, již, už, ještě, kde, pak, tedy -->
     <tag name="AUX">16120</tag><!-- být, bývat -->
     <tag name="CCONJ">24215</tag><!-- a, i, nebo, ale, však, ani, či, tak, neboť, jednak -->
     <tag name="DET">19810</tag><!-- ten, který, tento, jeho, svůj, můj, některý, každý, takový, samý -->
@@ -28,7 +28,7 @@
     <tag name="PRON">15986</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9819</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
     <tag name="PUNCT">60208</tag><!-- ,, ., -, ", ?, :, (, ), že, ' -->
-    <tag name="SCONJ">8180</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
+    <tag name="SCONJ">8202</tag><!-- že, jako, aby, když, než, protože, pokud, takže, jestliže, zda -->
     <tag name="SYM">3570</tag><!-- &cwildcard; -->
     <tag name="VERB">38748</tag><!-- mít, moci, muset, jít, lze, stát, chtít, dát, pracovat, vést -->
     <tag name="X">14</tag><!-- a, priori, de, facto, in, la, memoriam -->
@@ -113,13 +113,13 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">6020</feat><!-- jejich, jeho, své, její, naší, svou, naše, našeho, svých, našich -->
     <feat name="PrepCase" value="Npr" upos="PRON">1424</feat><!-- je, jež, ji, jim, jej, jich, jí, jimiž, jimi, jeho -->
     <feat name="PrepCase" value="Pre" upos="PRON">1433</feat><!-- nich, nichž, níž, němž, ní, ně, něm, nimi, něho, ním -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">10539</feat><!-- to, tak, proto, tím, této, těchto, tyto, tom, toho, tento -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">10541</feat><!-- to, tak, proto, tím, této, těchto, tyto, tom, toho, tento -->
     <feat name="PronType" value="Emp" upos="DET">332</feat><!-- sám, sama, sami, samo, samy, samé, samého, samých, samém, samu -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">2001</feat><!-- některé, některých, několik, mnoho, někdy, něco, několika, mnoha, někteří, někdo -->
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">6233</feat><!-- které, jak, který, která, kde, co, kteří, kdy, kterou, kdo -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">417</feat><!-- nic, nikdy, nikdo, žádné, žádný, žádná, žádnou, nijak, nikde, nikoho -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17499</feat><!-- se, si, jejich, jeho, své, je, její, nás, nám, naší -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1598</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, přičemž, jimiž -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1574</feat><!-- jež, nichž, což, jehož, níž, jejichž, němž, jejíž, přičemž, jimiž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">2205</feat><!-- všech, všechny, vždy, každý, všechno, každé, všichni, všem, každého, každá -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">10462</feat><!-- se, si, své, svou, svých, sebe, svého, svým, svůj, sobě -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PROPN,VERB">100</feat><!-- loni, pracech, mejkap, Žídkova, elpíčko, jo, pivčo, pásák, Žídkových, Drahušce -->
@@ -143,8 +143,8 @@
   <deps unique="42">
     <dep name="acl">1814</dep>
     <dep name="acl:relcl">5556</dep>
-    <dep name="advcl">3652</dep>
-    <dep name="advmod">20782</dep>
+    <dep name="advcl">3651</dep>
+    <dep name="advmod">20779</dep>
     <dep name="advmod:emph">7326</dep>
     <dep name="amod">60722</dep>
     <dep name="appos">2159</dep>
@@ -168,7 +168,7 @@
     <dep name="fixed">2486</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
-    <dep name="mark">8686</dep>
+    <dep name="mark">8690</dep>
     <dep name="nmod">54676</dep>
     <dep name="nsubj">24017</dep>
     <dep name="nsubj:pass">3454</dep>
