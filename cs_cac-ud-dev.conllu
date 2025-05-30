@@ -4695,8 +4695,8 @@
 3	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 4	ještě	ještě	ADV	Db-------------	_	9	advmod	9:advmod	_
 5	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=na-1
-6	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
-7	než	než	SCONJ	J,-------------	_	6	fixed	6:fixed	LId=než-2
+6	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	8	advmod:emph	8:advmod:emph	_
+7	než	než	SCONJ	J,-------------	_	6	cc	6:cc	LId=než-2
 8	dvou	dva	NUM	ClXP6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	LNumValue=2
 9	pětinách	pětina	NUM	CyFP6----------	Case=Loc|Gender=Fem|Number=Plur|NumType=Frac	0	root	0:root	_
 10	ploch	plocha	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod:gen	SpaceAfter=No
@@ -7392,7 +7392,7 @@
 27	a	a	CCONJ	J^-------------	_	36	cc	36:cc	LId=a-1
 28	příprava	příprava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	36:nsubj	_
 29	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	31	case	31:case	LId=na-1
-30	budoucí	budoucí	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	31	amod	31:amod	_
+30	budoucí	budoucí	ADJ	AANS4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	31	amod	31:amod	_
 31	povolání	povolání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	28	nmod	28:nmod:na:acc	LDeriv=povolat
 32	nebo	nebo	CCONJ	J^-------------	_	34	cc	34:cc	_
 33	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	34	case	34:case	LId=k-1
@@ -7602,7 +7602,7 @@
 17	spočívá	spočívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl:relcl	_
 18	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	19	case	19:case	LId=v-1
 19	výchově	výchova	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	17	obl:arg	17:obl:arg:v:loc	_
-20	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	21	amod	21:amod	_
+20	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	21	amod	21:amod	_
 21	členů	člen	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	19:nmod:gen	_
 22	SSM	SSM	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com	21	nmod	21:nmod	SpaceAfter=No|LId=SSM-1|LGloss=(Socialistický_svaz_mládeže)
 23	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
@@ -11354,7 +11354,7 @@
 7	provozovat	provozovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	conj	0:root|4:conj	_
 8	různé	různý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	9:amod	_
 9	koníčky	koníček	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	_
-10	jako	jako	SCONJ	J,-------------	_	11	mark	11:mark|13:mark	_
+10	jako	jako	SCONJ	J,-------------	_	11	mark	11:mark	_
 11	rekreaci	rekreace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	9	xcomp	9:xcomp	_
 12	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
 13	gymnastiku	gymnastika	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	11	conj	9:xcomp|11:conj	_

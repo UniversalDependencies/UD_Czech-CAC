@@ -198,7 +198,7 @@
 13	symboly	symbol	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	appos	11:appos	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 15	které	který	DET	P4IP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	18	nsubj	9:ref|11:ref	_
-16	budoucímu	budoucí	ADJ	AAMS3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	17	amod	17:amod	_
+16	budoucímu	budoucí	ADJ	AAMS3----1A----	Animacy=Anim|Aspect=Imp|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	17	amod	17:amod	_
 17	majiteli	majitel	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	18	obl:arg	18:obl:arg:dat	_
 18	poskytují	poskytovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl|11:acl:relcl	_
 19	potřebné	potřebný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	20	amod	20:amod	_
@@ -7798,7 +7798,7 @@
 6	že	že	SCONJ	J,-------------	_	14	mark	14:mark	_
 7	současná	současný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 8	i	i	CCONJ	J^-------------	_	9	cc	9:cc	LId=i-1
-9	budoucí	budoucí	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	conj	7:conj|10:amod	_
+9	budoucí	budoucí	ADJ	AAFS1----1A----	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	7	conj	7:conj|10:amod	_
 10	výstavba	výstavba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	_
 11	hlavního	hlavní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 12	města	město	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	10	nmod	10:nmod:gen	_
@@ -13419,7 +13419,7 @@
 4	uvědomit	uvědomit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	csubj	2:csubj	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 6	že	že	SCONJ	J,-------------	_	14	mark	14:mark	_
-7	víra	víra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj|18:nsubj	LGloss=(v_něco/někoho)
+7	víra	víra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	LGloss=(v_něco/někoho)
 8	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	LId=v-1
 9	ně	on	PRON	P5XP4--3-------	Case=Acc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	7	nmod	7:nmod:v:acc	_
 10	není	být	AUX	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
@@ -13427,9 +13427,9 @@
 12	tak	tak	ADV	Db-------------	PronType=Dem	13	advmod:emph	13:advmod:emph	LId=tak-3
 13	příliš	příliš	ADV	Db-------------	_	14	advmod	14:advmod	_
 14	nepravdivá	pravdivý	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	4	ccomp	4:ccomp	SpaceAfter=No
-15	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
+15	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 16	jako	jako	SCONJ	J,-------------	_	18	mark	18:mark	_
 17	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
-18	absurdní	absurdní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	4:ccomp|14:conj	SpaceAfter=No
+18	absurdní	absurdní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	ccomp	14:ccomp	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
