@@ -141,11 +141,11 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">1814</dep>
-    <dep name="acl:relcl">5556</dep>
-    <dep name="advcl">3651</dep>
+    <dep name="acl">1812</dep>
+    <dep name="acl:relcl">5558</dep>
+    <dep name="advcl">3650</dep>
     <dep name="advcl:pred">1461</dep>
-    <dep name="advmod">20779</dep>
+    <dep name="advmod">20816</dep>
     <dep name="advmod:emph">7326</dep>
     <dep name="amod">60722</dep>
     <dep name="appos">2159</dep>
@@ -156,7 +156,7 @@
     <dep name="ccomp">1912</dep>
     <dep name="compound">47</dep>
     <dep name="conj">31225</dep>
-    <dep name="cop">9565</dep>
+    <dep name="cop">9566</dep>
     <dep name="csubj">2351</dep>
     <dep name="csubj:pass">172</dep>
     <dep name="dep">2362</dep>
@@ -166,18 +166,18 @@
     <dep name="discourse">104</dep>
     <dep name="expl:pass">2093</dep>
     <dep name="expl:pv">6066</dep>
-    <dep name="fixed">2486</dep>
+    <dep name="fixed">2485</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
-    <dep name="mark">8690</dep>
+    <dep name="mark">8650</dep>
     <dep name="nmod">54676</dep>
     <dep name="nsubj">24017</dep>
     <dep name="nsubj:pass">3454</dep>
     <dep name="nummod">4425</dep>
     <dep name="nummod:gov">1187</dep>
     <dep name="obj">16030</dep>
-    <dep name="obl">26700</dep>
-    <dep name="obl:arg">10889</dep>
+    <dep name="obl">26703</dep>
+    <dep name="obl:arg">10890</dep>
     <dep name="orphan">1159</dep>
     <dep name="parataxis">684</dep>
     <dep name="punct">60208</dep>
