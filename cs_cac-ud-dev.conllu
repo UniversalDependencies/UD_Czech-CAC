@@ -4865,7 +4865,7 @@
 26	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	32	aux	32:aux	_
 27	poprvé	poprvé	ADV	Cv-------------	NumType=Ord	32	obl	32:obl	_
 28	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	29	case	29:case	LId=v-1
-29	historii	historie	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	27	obl	27:obl:v:loc	_
+29	historii	historie	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	27	nmod	27:nmod:v:loc	_
 30	mládežnického	mládežnický	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	31	amod	31:amod	_
 31	hnutí	hnutí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	29	nmod	29:nmod:gen	LGloss=(mysli,politické,...)
 32	odevzdali	odevzdat	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	advcl	18:advcl:aby	_
@@ -7189,15 +7189,15 @@
 2	mládež	mládež	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	_
 3	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	5	case	5:case|11:case|13:case	LId=k-1
 4	obětavému	obětavý	ADJ	AANS3----1A----	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
-5	plnění	plnění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	obl:arg	17:obl:arg:k:dat|24:obl:arg:k:dat	LDeriv=plnit
+5	plnění	plnění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	nmod	17:nmod:k:dat|24:nmod:k:dat	LDeriv=plnit
 6	úkolů	úkol	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	_
 7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=v-1
 8	budování	budování	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Vnoun	6	nmod	6:nmod:v:loc	LDeriv=budovat
 9	socialismu	socializmus	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:gen	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-11	poznání	poznání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	conj	5:conj|17:obl:arg:k:dat|24:obl:arg:k:dat	LDeriv=poznat
+11	poznání	poznání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	conj	5:conj|17:nmod:k:dat|24:nmod:k:dat	LDeriv=poznat
 12	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
-13	úctě	úcta	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing	5	conj	5:conj|17:obl:arg:k:dat|24:obl:arg:k:dat	SpaceAfter=No
+13	úctě	úcta	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing	5	conj	5:conj|17:nmod:k:dat|24:nmod:k:dat	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 15	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	17	case	17:case	LId=k-1
 16	revolučním	revoluční	ADJ	AAFP3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	17:amod	_
@@ -7984,7 +7984,7 @@
 4	poznatků	poznatek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	11:obl:na_základě:gen	_
 5	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	7	case	7:case	LId=z-1
 6	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	7:det	LId=svůj-1
-7	činnosti	činnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg:z:gen	LDeriv=činný
+7	činnosti	činnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod:z:gen	LDeriv=činný
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	LId=v-1
 9	uplynulém	uplynulý	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	období	období	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	7	nmod	7:nmod:v:loc	_
@@ -11695,7 +11695,7 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	týkají	týkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	hlavně	hlavně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	6:advmod:emph	LDeriv=hlavní
-6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl:arg	18:obl:arg:gen|21:obl:arg:gen|26:obl:arg:gen	_
+6	obsahu	obsah	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	18:nmod:gen|21:nmod:gen|26:nmod:gen	_
 7	vody	voda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod:gen|11:nsubj	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	7:ref	_

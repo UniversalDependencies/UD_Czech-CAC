@@ -1466,7 +1466,7 @@
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 5	nemá	mít	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	LId=na-1
-7	ně	on	PRON	P5XP4--3-------	Case=Acc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	8	obl:arg	8:obl:arg:na:acc	LId=on-1
+7	ně	on	PRON	P5XP4--3-------	Case=Acc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	8	nmod	8:nmod:na:acc	LId=on-1
 8	vliv	vliv	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	_
 9	sucho	sucho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	5:nsubj	_
 10	ani	ani	CCONJ	J^-------------	_	11	cc	11:cc	_
@@ -8448,7 +8448,7 @@
 9	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	LId=u-1
 10	parťáka	parťák	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	6:obl:u:gen	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	LId=v-1
-12	bytě	byt	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl:v:loc	SpaceAfter=No|LGloss=(místo_k_bydlení)
+12	bytě	byt	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	10:nmod:v:loc	SpaceAfter=No|LGloss=(místo_k_bydlení)
 13	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 14	měl	mít	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	conj	0:root|6:conj	_
 15	svátek	svátek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	14:obj	SpaceAfter=No
@@ -10993,9 +10993,9 @@
 4	obratně	obratně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	LDeriv=obratný
 5	využíváno	využívaný	ADJ	VsNS---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=využívat
 6	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	7	case	7:case|9:case	LId=k-1
-7	výběru	výběr	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	13:obl:k:dat	_
+7	výběru	výběr	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	13:nmod:k:dat	_
 8	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1
-9	řízení	řízení	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	7	conj	7:conj|13:obl:k:dat	LDeriv=řídit
+9	řízení	řízení	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	7	conj	7:conj|13:nmod:k:dat	LDeriv=řídit
 10	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:gen|9:nmod:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 12	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	13	case	13:case	LId=k-1

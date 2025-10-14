@@ -170,14 +170,14 @@
     <dep name="flat">1654</dep>
     <dep name="iobj">95</dep>
     <dep name="mark">8652</dep>
-    <dep name="nmod">54676</dep>
+    <dep name="nmod">54882</dep>
     <dep name="nsubj">24017</dep>
     <dep name="nsubj:pass">3454</dep>
     <dep name="nummod">4425</dep>
     <dep name="nummod:gov">1187</dep>
     <dep name="obj">16030</dep>
-    <dep name="obl">26703</dep>
-    <dep name="obl:arg">10890</dep>
+    <dep name="obl">26531</dep>
+    <dep name="obl:arg">10856</dep>
     <dep name="orphan">1159</dep>
     <dep name="parataxis">684</dep>
     <dep name="punct">60208</dep>
