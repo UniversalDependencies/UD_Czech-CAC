@@ -56,7 +56,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">1482</feat><!-- největší, nejlepší, nejméně, nejlépe, nejvíce, nejdříve, nejčastěji, nejvyšší, nejpozději, nejdůležitější -->
     <feat name="ExtPos" value="ADJ" upos="DET">1</feat><!-- Ty -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">1575</feat><!-- v, na, z, ve, vzhledem, spolu, s, bez, za, společně -->
-    <feat name="ExtPos" value="ADV" upos="ADV,NOUN,PART,VERB,X">156</feat><!-- více, přece, víc, co, a, nejen, rok, chtíc, de, in -->
+    <feat name="ExtPos" value="ADV" upos="ADV,NOUN,PART,VERB,X">155</feat><!-- více, přece, víc, co, a, nejen, rok, chtíc, de, in -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">273</feat><!-- a, to -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">182</feat><!-- i, zatím, zda -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB,X">527</feat><!-- de, luxe, in, a, la, online, sui, vitro, Combi, generis -->
@@ -143,9 +143,9 @@
   <deps unique="43">
     <dep name="acl">1812</dep>
     <dep name="acl:relcl">5558</dep>
-    <dep name="advcl">3611</dep>
+    <dep name="advcl">3612</dep>
     <dep name="advcl:pred">1583</dep>
-    <dep name="advmod">20891</dep>
+    <dep name="advmod">20890</dep>
     <dep name="advmod:emph">7306</dep>
     <dep name="amod">60722</dep>
     <dep name="appos">2159</dep>
@@ -166,10 +166,10 @@
     <dep name="discourse">104</dep>
     <dep name="expl:pass">2093</dep>
     <dep name="expl:pv">6066</dep>
-    <dep name="fixed">2585</dep>
+    <dep name="fixed">2584</dep>
     <dep name="flat">1654</dep>
     <dep name="iobj">113</dep>
-    <dep name="mark">8569</dep>
+    <dep name="mark">8570</dep>
     <dep name="nmod">54907</dep>
     <dep name="nsubj">24017</dep>
     <dep name="nsubj:pass">3454</dep>
