@@ -4695,8 +4695,8 @@
 3	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 4	ještě	ještě	ADV	Db-------------	_	9	advmod	9:advmod	_
 5	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	LId=na-1
-6	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	8	advmod:emph	8:advmod:emph	_
-7	než	než	SCONJ	J,-------------	_	6	cc	6:cc	LId=než-2
+6	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
+7	než	než	SCONJ	J,-------------	_	6	fixed	6:fixed	LId=než-2
 8	dvou	dva	NUM	ClXP6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	LNumValue=2
 9	pětinách	pětina	NUM	CyFP6----------	Case=Loc|Gender=Fem|Number=Plur|NumType=Frac	0	root	0:root	_
 10	ploch	plocha	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod:gen	SpaceAfter=No
