@@ -7449,11 +7449,11 @@
 29	ve	v	ADP	RV--4----------	AdpType=Voc|Case=Acc	30	case	30:case	LId=v-1
 30	prospěch	prospěch	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	28:obl:v:acc	_
 31	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	30	nmod	30:nmod:gen	LDeriv=společný
-32	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	28	obj	28:obj	_
-33	než	než	SCONJ	J,-------------	_	36	mark	36:mark	LId=než-2
+32	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	36	advmod	36:advmod	_
+33	než	než	SCONJ	J,-------------	_	32	fixed	32:fixed	LId=než-2
 34	své	svůj	DET	P8FP4---------1	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	36	det	36:det	LId=svůj-1
 35	běžné	běžný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	36	amod	36:amod	_
-36	povinnosti	povinnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	32	advcl	32:advcl:než	LDeriv=povinný
+36	povinnosti	povinnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	28	obj	28:obj	LDeriv=povinný
 37	a	a	CCONJ	J^-------------	_	40	cc	40:cc	LId=a-1
 38-39	aby	_	_	_	_	_	_	_	_
 38	aby	aby	SCONJ	J,-------------	_	40	mark	40:mark	_
@@ -8896,9 +8896,9 @@
 1	Takové	takový	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	2:det	_
 2	ticho	ticho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
 3	škodí	škodit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	3	advmod	3:advmod	_
-5	než	než	SCONJ	J,-------------	_	6	mark	6:mark	LId=než-2
-6	hluk	hluk	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	advcl	4:advcl:než	_
+4	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	6	advmod	6:advmod	_
+5	než	než	SCONJ	J,-------------	_	4	fixed	4:fixed	LId=než-2
+6	hluk	hluk	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	obl	3:obl	_
 7	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1
 8	zvláště	zvláště	ADV	Db-------------	_	9	advmod	9:advmod	_
 9	citlivé	citlivý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	10	amod	10:amod	_
