@@ -72,6 +72,8 @@ as well as the team responsible for the corpus' revival in 2008.
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Fixed annotation of "více než NUM".
 * 2025-11-15 v2.17
   * Changed annotation of "budoucí": VerbForm=Part, Voice=Act, Tense=Fut.
   * Optional depictives are now annotated with "advcl:pred" (previously "xcomp").
