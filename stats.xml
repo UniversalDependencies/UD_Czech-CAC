@@ -22,8 +22,8 @@
     <tag name="CCONJ">23996</tag><!-- a, i, nebo, ale, však, ani, či, neboť, jednak, avšak -->
     <tag name="DET">19810</tag><!-- ten, který, tento, jeho, svůj, můj, některý, každý, takový, samý -->
     <tag name="INTJ">15</tag><!-- běda, fajn, fí, budíčééék, haló, hej, ježišmarjá, panečku, vida -->
-    <tag name="NOUN">136182</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
-    <tag name="NUM">7307</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
+    <tag name="NOUN">136242</tag><!-- rok, práce, člověk, doba, úkol, pracovník, oblast, vztah, výroba, výsledek -->
+    <tag name="NUM">7247</tag><!-- &camount;, &cyear;, jeden, dva, &clabel;, &cdate;, &cother;, oba, tři, čtyři -->
     <tag name="PART">3429</tag><!-- jen, li, až, nejen, to, asi, ovšem, ne, jenom, přece -->
     <tag name="PRON">15986</tag><!-- se, on, všechno, já, jenž, co, což, ty, nízko, něco -->
     <tag name="PROPN">9819</tag><!-- Praha, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, Československo, Škoda -->
@@ -34,7 +34,7 @@
     <tag name="X">14</tag><!-- a, priori, de, facto, in, la, memoriam -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="103">
+  <feats unique="102">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44523</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
@@ -101,7 +101,6 @@
     <feat name="NumForm" value="Digit" upos="NUM">4836</feat><!-- # -->
     <feat name="NumForm" value="Word" upos="NUM">2411</feat><!-- dvou, jeden, dvě, tři, dva, obou, jedné, jednoho, jedním, dvěma -->
     <feat name="NumType" value="Card" upos="DET,NUM">7898</feat><!-- #, dvou, jeden, několik, mnoho, dvě, tři, dva, obou, jedné -->
-    <feat name="NumType" value="Frac" upos="NUM">60</feat><!-- třetinu, třetina, třetiny, čtvrtiny, dvanáctinu, třetinou, třetině, šestině, desetin, desetinu -->
     <feat name="NumType" value="Mult" upos="ADJ,ADV">153</feat><!-- několikrát, dvakrát, dvojí, nejednou, mnohokrát, třikrát, kolikrát, obojí, dvojím, desetkrát -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV,DET">871</feat><!-- první, prvním, třetí, prvních, poprvé, prvního, šedesátých, třetího, třicátých, dvacátých -->
     <feat name="NumType" value="Sets" upos="ADJ">10</feat><!-- jedněch, jedni, jedny -->

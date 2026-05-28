@@ -4698,7 +4698,7 @@
 6	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
 7	než	než	SCONJ	J,-------------	_	6	fixed	6:fixed	LId=než-2
 8	dvou	dva	NUM	ClXP6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	LNumValue=2
-9	pětinách	pětina	NUM	CyFP6----------	Case=Loc|Gender=Fem|Number=Plur|NumType=Frac	0	root	0:root	_
+9	pětinách	pětina	NOUN	CyFP6----------	Case=Loc|Gender=Fem|Number=Plur	0	root	0:root	_
 10	ploch	plocha	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 12	nejvážnější	vážný	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	_
@@ -4715,7 +4715,7 @@
 23	jen	jen	PART	TT-------------	_	26	advmod:emph	26:advmod:emph	LId=jen-1|LGloss=(pouze)
 24	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	26	case	26:case	LId=z-1
 25	necelé	celý	ADJ	AAFS2----1N----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	26	amod	26:amod	_
-26	třetiny	třetina	NUM	CyFS2----------	Case=Gen|Gender=Fem|Number=Sing|NumType=Frac	21	obl	21:obl:z:gen	_
+26	třetiny	třetina	NOUN	CyFS2----------	Case=Gen|Gender=Fem|Number=Sing	21	obl	21:obl:z:gen	_
 27	výměry	výměra	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	26	nmod	26:nmod:gen	SpaceAfter=No|LId=výměra-1|LGloss=(např._pozemku_[plocha])
 28	.	.	PUNCT	Z:-------------	_	9	punct	9:punct	_
 

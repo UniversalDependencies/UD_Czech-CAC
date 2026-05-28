@@ -2217,7 +2217,7 @@
 2	smažení	smažení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	1	nmod	1:nmod:gen	LDeriv=smažit
 3	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=o-1
-5	třetinu	třetina	NUM	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumType=Frac	6	obl	6:obl:o:acc	_
+5	třetinu	třetina	NOUN	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing	6	obl	6:obl:o:acc	_
 6	kratší	krátký	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
 7	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
 8	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	LId=u-1
@@ -7448,7 +7448,7 @@
 5	činit	činit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	3:xcomp	_
 6	nejméně	málo	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	7	advmod:emph	7:advmod:emph	LId=málo-3
 7	jednu	jeden	NUM	ClFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	8	nummod	8:nummod	LNumValue=1
-8	třetinu	třetina	NUM	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumType=Frac	5	obj	5:obj	_
+8	třetinu	třetina	NOUN	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj	_
 9	skutečné	skutečný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	škody	škoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	13	punct	22.1:punct	_
@@ -7469,7 +7469,7 @@
 25	rovnající	rovnající	ADJ	AGFS4-----A----	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	24:amod	LGloss=(něčemu)|LDeriv=rovnat
 26	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	25	expl:pv	25:expl:pv	LGloss=(zvr._zájmeno/částice)
 27	jedné	jeden	NUM	ClFS3----------	Case=Dat|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	28	nummod	28:nummod	LNumValue=1
-28	šestině	šestina	NUM	CyFS3----------	Case=Dat|Gender=Fem|Number=Sing|NumType=Frac	25	obl:arg	25:obl:arg:dat	LNumValue=6|LDeriv=šest
+28	šestině	šestina	NOUN	CyFS3----------	Case=Dat|Gender=Fem|Number=Sing	25	obl:arg	25:obl:arg:dat	LNumValue=6|LDeriv=šest
 29	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	31:det	LGloss=(přivlast.)
 30	měsíčního	měsíční	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	31	amod	31:amod	_
 31	výdělku	výdělek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	28:nmod:gen	SpaceAfter=No
@@ -7561,7 +7561,7 @@
 6	nižší	nízký	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	4	xcomp	4:xcomp	_
 7	než	než	SCONJ	J,-------------	_	9	mark	9:mark	LId=než-2
 8	jedna	jeden	NUM	ClFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	9	nummod	9:nummod	LNumValue=1
-9	třetina	třetina	NUM	CyFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Frac	6	advcl	6:advcl:než	_
+9	třetina	třetina	NOUN	CyFS1----------	Case=Nom|Gender=Fem|Number=Sing	6	advcl	6:advcl:než	_
 10	skutečné	skutečný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	11:amod	_
 11	škody	škoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -7623,7 +7623,7 @@
 14	rovnající	rovnající	ADJ	AGFS4-----A----	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	13:amod	LGloss=(něčemu)|LDeriv=rovnat
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	14	expl:pv	14:expl:pv	LGloss=(zvr._zájmeno/částice)
 16	jedné	jeden	NUM	ClFS3----------	Case=Dat|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	17	nummod	17:nummod	LNumValue=1
-17	šestině	šestina	NUM	CyFS3----------	Case=Dat|Gender=Fem|Number=Sing|NumType=Frac	14	obl:arg	14:obl:arg:dat	LNumValue=6|LDeriv=šest
+17	šestině	šestina	NOUN	CyFS3----------	Case=Dat|Gender=Fem|Number=Sing	14	obl:arg	14:obl:arg:dat	LNumValue=6|LDeriv=šest
 18	průměrného	průměrný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	19:amod	_
 19	výdělku	výdělek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod:gen	_
 20	pracovníka	pracovník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	19:nmod:gen	SpaceAfter=No
