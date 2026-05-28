@@ -6952,7 +6952,7 @@
 # text = A tak nakonec nelze než opakovat to, co už bylo tolikrát řečeno, ale co neztrácí nikdy nic ze své důslednosti.
 # orig_file_sentence n20w#92
 1	A	a	CCONJ	J^-------------	_	4	cc	4:cc	LId=a-1
-2	tak	tak	CCONJ	J^-------------	_	4	cc	4:cc	LId=tak-2
+2	tak	tak	ADV	J^-------------	PronType=Dem	4	cc	4:cc	LId=tak-2
 3	nakonec	nakonec	ADV	Db-------------	_	4	advmod	4:advmod	_
 4	nelze	lze	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	než	než	SCONJ	J,-------------	_	6	mark	6:mark	LId=než-2
@@ -9561,7 +9561,7 @@
 30	pojmový	pojmový	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	31	amod	31:amod	_
 31	aparát	aparát	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	27:obj	SpaceAfter=No
 32	,	,	PUNCT	Z:-------------	_	36	punct	36:punct	_
-33	tak	tak	CCONJ	J^-------------	_	36	cc	36:cc	LId=tak-2
+33	tak	tak	ADV	J^-------------	PronType=Dem	36	cc	36:cc	LId=tak-2
 34	i	i	CCONJ	J^-------------	_	36	cc	36:cc	LId=i-1
 35	určující	určující	ADJ	AGIS4-----A----	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	36	amod	36:amod	LDeriv=určovat
 36	rámec	rámec	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	conj	27:obj|31:conj	_
@@ -10676,7 +10676,7 @@
 12	této	tento	DET	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	13	det	13:det	_
 13	disciplíny	disciplína	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod:gen	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
-15	tak	tak	CCONJ	J^-------------	_	23	cc	23:cc	LId=tak-2
+15	tak	tak	ADV	J^-------------	PronType=Dem	23	cc	23:cc	LId=tak-2
 16	i	i	CCONJ	J^-------------	_	23	cc	23:cc	LId=i-1
 17	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	23	case	23:case	LId=z-1
 18	určité	určitý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	23	amod	23:amod	_
@@ -12077,7 +12077,7 @@
 33	mas	masa	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	29	obl	29:obl:v_zájmu:gen	SpaceAfter=No|LGloss=(velké_množství)
 34	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 35	a	a	CCONJ	J^-------------	_	38	cc	38:cc	LId=a-1
-36	tak	tak	CCONJ	J^-------------	_	38	cc	38:cc	LId=tak-2
+36	tak	tak	ADV	J^-------------	PronType=Dem	38	cc	38:cc	LId=tak-2
 37	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux:pass	38:aux:pass	_
 38	zpochybňován	zpochybňovaný	ADJ	VsYS---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	LDeriv=zpochybňovat
 39	osud	osud	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj:pass	38:nsubj:pass	_
