@@ -41,9 +41,9 @@
     <feat name="AdpType" value="Voc" upos="ADP">3832</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19828</feat><!-- kteří, pracovníků, lidí, člověka, člověk, lidé, vedoucí, pracovník, byli, každý -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78428</feat><!-- byly, které, co, roce, roku, úkolů, výsledky, jazyka, procesu, úkoly -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">44377</feat><!-- je, jsou, by, má, bylo, bude, byl, být, byla, není -->
-    <feat name="Aspect" value="Imp,Perf" upos="VERB">568</feat><!-- realizovat, charakterizuje, charakterizovat, informoval, organizovat, definovat, konstatovat, aplikovat, orientovat, realizuje -->
-    <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">14373</feat><!-- došlo, zajistit, říci, stojí, řekl, podařilo, použít, dosáhnout, stal, stát -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">45529</feat><!-- je, jsou, by, má, bylo, bude, byl, být, byla, není -->
+    <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">1088</feat><!-- realizovat, charakterizuje, charakterizovat, informoval, organizovat, definovat, specializovaných, charakterizována, konstatovat, aplikovat -->
+    <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">18907</feat><!-- došlo, zajistit, říci, stojí, uvedených, uvedené, řekl, podařilo, řečeno, použít -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60340</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
