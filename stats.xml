@@ -34,15 +34,16 @@
     <tag name="X">14</tag><!-- a, priori, de, facto, in, la, memoriam -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="102">
+  <feats unique="103">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,PUNCT,SYM">6528</feat><!-- *, KSČ, ROH, SSSR, ÚJČ, SSM, ČSAV, ČSSR, ÚV, ? -->
     <feat name="AdpType" value="Comprep" upos="ADP">111</feat><!-- vzhledem, nehledě -->
     <feat name="AdpType" value="Prep" upos="ADP">44523</feat><!-- v, na, s, z, o, k, pro, do, za, při -->
     <feat name="AdpType" value="Voc" upos="ADP">3832</feat><!-- ve, ze, se, ke, beze, ode, přede, ku, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19828</feat><!-- kteří, pracovníků, lidí, člověka, člověk, lidé, vedoucí, pracovník, byli, každý -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78428</feat><!-- byly, které, co, roce, roku, úkolů, výsledky, jazyka, procesu, úkoly -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">36309</feat><!-- je, jsou, by, bylo, bude, byl, být, byla, není, jsme -->
-    <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">9397</feat><!-- zajistit, podařilo, vytvořit, vyjádřit, vysvětlit, získat, stanoví, viz, splnit, odstranit -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,CCONJ,NOUN,VERB">44377</feat><!-- je, jsou, by, má, bylo, bude, byl, být, byla, není -->
+    <feat name="Aspect" value="Imp,Perf" upos="VERB">568</feat><!-- realizovat, charakterizuje, charakterizovat, informoval, organizovat, definovat, konstatovat, aplikovat, orientovat, realizuje -->
+    <feat name="Aspect" value="Perf" upos="ADJ,NOUN,VERB">14373</feat><!-- došlo, zajistit, říci, stojí, řekl, podařilo, použít, dosáhnout, stal, stát -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60340</feat><!-- se, na, pro, o, za, to, je, které, v, své -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14071</feat><!-- k, si, ke, tomu, proti, nám, jim, mu, mi, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- z, do, u, od, podle, ze, práce, let, bez, roku -->
